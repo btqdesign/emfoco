@@ -1,0 +1,300 @@
+/**
+ * Fallsky Fallback CSS for browsers don't support CSS Variables (aka CSS Custom Properties)
+*/
+$body-font:            'Roboto', sans-serif;
+$heading-font:         'Source Sans Pro', sans-serif;
+$primary-color:        #c09f68;
+$light-color:          #fff;
+$text-color:           #212121; 
+$content-color:        #515151;
+$dark-color:           #282828; 
+$dark-text-color:      #fff;
+$dark-content-color:   #e2e2e2;
+
+/* Typography
+   ========================================================================== */
+
+body,
+button,
+input,
+select,
+textarea,
+.ui-widget,
+.section-title,
+.widget-title,
+.related-posts .related-posts-title,
+.comments h2.comments-title,
+.comment-respond h3.comment-reply-title,
+.search-screen .shortcuts-cat span.counts,
+.error404 .page-404-page-header h1.page-title,
+blockquote cite,
+blockquote small,
+.widget.fallsky-widget_author_list ul li a .post-count {
+    font-family: $body-font;
+}
+
+.site-branding .site-title,
+.post-title,
+.cat-links,
+blockquote,
+.wp-caption-text,
+.fallsky-fullmenu .main-navigation,
+.fallsky-fullmenu .search input,
+.search-screen .search input,
+.search-screen .shortcuts-cat,
+.comments ol.comment-list li .comment-author b.fn,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-entry .dropcap:first-letter,
+.widget.widget_rss ul li a.rsswidget,
+.widget.widget_recent_entries a,
+.widget_recent_comments ul li > a {
+    font-family: $heading-font;
+}
+
+/* General Colors
+   ========================================================================== */
+
+.light-color {
+    background: $light-color;
+    color: $text-color;
+    
+    #page {
+        background-color: $light-color;
+    }
+}
+
+.dark-color {
+    background: $dark-color;
+    color: $dark-text-color;
+    
+    #page {
+        background-color: $dark-color;
+    }
+}
+
+.home-widget.light-color {
+    background-color: $light-color;
+    color: $text-color;
+}
+
+.home-widget.dark-color {
+    background-color: $dark-color;
+    color: $dark-text-color;
+}
+
+/* Text Colors
+   ========================================================================== */
+
+.post-entry {
+    color: $content-color;
+    
+    .dark-color & {
+        color: $dark-content-color;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    form,
+    blockquote,
+    .authors-list .author-social ul.social-nav li a {
+        color: $text-color;
+        
+        .dark-color & {
+            color: $dark-text-color;
+        }
+    }
+}
+
+.post-entry a.tweet-it {
+    &:before {
+        background: $text-color;
+        color: $light-color;
+        
+        .dark-color & {
+            background: $dark-text-color;
+            color: $dark-color;
+        }
+    }
+    
+    &:after {
+        border-top-color: $text-color;
+        
+        .dark-color & {
+            border-top-color: $dark-text-color;
+        }
+    }
+}
+
+.error404 {
+    .page-404-container p {
+        color: $content-color;
+    }
+    
+    &.dark-color .page-404-container p {
+        color: $dark-content-color;
+    }
+}
+
+.single.post-template-2 {
+    &.light-color .featured-media-section + .main #primary > article {
+        background: $light-color;
+    }
+    
+    &.dark-color .featured-media-section + .main #primary > article {
+        background: $dark-color;
+    }
+}
+
+.comments #respond p.comment-notes,
+.comments ol.comment-list li .comment-content p {
+    color: $content-color;
+            
+    .dark-color & {
+        color: $dark-content-color;
+    }
+}
+
+.single #primary .author-bio .author-bio-text {
+    color: $content-color;
+}
+
+.single.dark-color #primary .author-bio .author-bio-text {
+    color: $dark-content-color;
+}
+
+article .post-entry .gallery-slider.fullscreen,
+.loftocean-popup-sliders .popup-slider.gallery-slider.fullscreen {
+    background: $light-color;
+        
+    .dark-color & {
+        background: $dark-color;
+    }
+}
+
+.post-entry .highlight:not(.bottomline) {
+    background: $text-color;
+    color: #fff;
+}
+
+.dark-color .post-entry .highlight:not(.bottomline) {
+    background: $dark-text-color;
+    color: #000;
+}
+
+/* Primary Colors
+   ========================================================================== */
+
+.primary-color-enabled {
+    #page .button.lo-button,
+    a,
+    blockquote:before,
+    .no-touch & .author-social ul.social-nav li a:hover,
+    .comments ol.comment-list li .comment-metadata,
+    .no-touch & .comments ol.comment-list li a.comment-reply-link:hover,
+    .no-touch & .widget a:not(.button):hover,
+    .widget-area .widget .textwidget a:not(.button) {
+        color: $primary-color;
+    }
+    
+    .site-header nav ul.primary-menu > li.button > a,
+    #page .button,
+    #page input[type="submit"],
+    mark,
+    .cat-links a:before,
+    .pagination .page-numbers.current:after,
+    .no-touch & .widget.widget_calendar table#wp-calendar tbody a:hover,
+    #page .post-entry .highlight:not(.bottomline) {
+        background: $primary-color;
+    }
+}
+
+.no-touch .single.primary-color-enabled #primary > article .post-tag-cloud .tagcloud a:hover,
+.single.primary-color-enabled #primary > article .post-tag-cloud .tagcloud a:focus,
+.no-touch .primary-color-enabled .comments .click-to-reply:hover span,
+.primary-color-enabled .featured-section .top-slider.style-slider-3 .slick-dots li.slick-active:before {
+    border-bottom-color: $primary-color;
+}
+
+.post-entry,
+.comment-content,
+.custom-content {
+    ul,
+    ol {
+        li:before {
+            .primary-color-enabled & {
+                background: $primary-color;
+            }
+        }
+    }
+}
+
+/* Button & Submit Button Colors
+   ========================================================================== */
+
+body:not(.primary-color-enabled) {
+    &.light-color #page,
+    #page .home-widget.light-color,
+    #page .site-footer.light-color {
+        .button,
+        input[type="submit"] {
+            background: #000;
+            color: #fff;
+        }
+        
+        .button.lo-button {
+            color: #000;
+        
+            span {
+                color: #fff;
+            }
+        }
+    }
+    
+    &.dark-color #page,
+    #page .home-widget.dark-color,
+    #page .site-footer.dark-color {
+        .button,
+        input[type="submit"] {
+            background: #fff;
+            color: #000;
+        }
+        
+        .button.lo-button {
+            color: #fff;
+        
+            span {
+                color: #000;
+            }
+        }
+    }
+}
+
+.posts .post .more-btn .read-more-btn {
+    .light-color &,
+    .home-widget.light-color & {
+        background: #000;
+        color: #fff;
+    }
+    
+    .dark-color &,
+    .home-widget.dark-color & {
+        background: #fff;
+        color: #000;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .primary-color-enabled .site-header .site-header-menu .main-navigation ul.sub-menu li.current-menu-item > a, 
+    .primary-color-enabled .site-header .site-header-menu .main-navigation ul.sub-menu li.current-menu-ancestor > a {
+        color: $primary-color;
+    }
+}

@@ -1,0 +1,52 @@
+/*
+Theme Name: Fallsky
+Theme URI: http://demo.loftocean.com/fallsky
+Author: Loft.Ocean
+Author URI: http://www.loftocean.com
+Description: Fallsky is a lifestyle WordPress magazine theme.
+Version: 1.1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: full-width-template, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
+Text Domain: fallsky
+
+Elegant Icon font License: GPL v2.0 and MIT license
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Normalize 
+ * 2.0 - Elements
+ * 3.0 - Typography
+ * 4.0 - Header & Menu
+ * 5.0 - Main Content
+ * 6.0 - Single Page & Post
+ * 7.0 - Widgets
+ * 8.0 - Forms
+ * 9.0 - Media
+ */
+
+@import 'scss/variables';
+
+@import 'scss/mixins';
+
+@import 'scss/normalize';
+
+@import 'scss/elements';
+
+@import 'scss/typography';
+
+@import 'scss/menu';
+
+@import 'scss/main';
+
+@import 'scss/single';
+
+@import 'scss/widgets';
+
+@import 'scss/forms';
+
+@import 'scss/media';

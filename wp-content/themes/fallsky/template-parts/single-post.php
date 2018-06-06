@@ -1,0 +1,1 @@
+<?php fallsky_main_content('fallsky_single_post_main_content'); ?>

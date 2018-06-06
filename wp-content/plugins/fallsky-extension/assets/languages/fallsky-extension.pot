@@ -1,0 +1,837 @@
+# Copyright (C) 2018 Fallsky Extension
+# This file is distributed under the same license as the Fallsky Extension package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Fallsky Extension 1.1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/fallsky-extension\n"
+"POT-Creation-Date: 2018-05-29 15:52+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Suihai <cain@loftocean.com>\n"
+"Language-Team: Loft Ocean <cain@loftocean.com>\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#: inc/class-admin-meta-box.php:78
+msgid "Featured"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:140
+msgid "Theme Options"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:147
+msgid "Featured Post:"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:149
+msgid "Check to mark this post as featured post"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:171
+msgid "Add Co-Author(s):"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:210
+msgid "Post Format Content"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:212
+msgid "Choose Gallery"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:214 inc/class-admin-meta-box.php:223
+#: inc/class-admin-meta-box.php:231
+msgid "Or type manually:"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:218
+msgid "(gallery shortcode allowed only)"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:221
+msgid "Choose Audio"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:229
+msgid "Choose Video"
+msgstr ""
+
+#: inc/class-admin-meta-box.php:236
+msgid ""
+"%1$sNote:%2$s support %1$sYoutube/Vimeo Embed <iframe>%2$s or %1$sHTML5 "
+"<video>%2$s only."
+msgstr ""
+
+#: inc/class-post-meta.php:106
+msgid "Share the article:"
+msgstr ""
+
+#: inc/class-post-meta.php:110 inc/class-wp-core.php:47
+#: inc/shortcodes/class-shortcode-author.php:209
+msgid "Facebook"
+msgstr ""
+
+#: inc/class-post-meta.php:118 inc/class-wp-core.php:43
+#: inc/shortcodes/class-shortcode-author.php:208
+msgid "Twitter"
+msgstr ""
+
+#: inc/class-post-meta.php:126 inc/class-wp-core.php:55
+#: inc/shortcodes/class-shortcode-author.php:211
+msgid "Pinterest"
+msgstr ""
+
+#: inc/class-post-meta.php:134
+msgid "Google plus"
+msgstr ""
+
+#: inc/class-post-meta.php:147
+msgid "Like Counts: "
+msgstr ""
+
+#: inc/class-post-meta.php:148
+msgid "View Counts: "
+msgstr ""
+
+#: inc/class-post-meta.php:160
+msgid "Edit"
+msgstr ""
+
+#: inc/class-post-meta.php:161
+msgid "Cancel"
+msgstr ""
+
+#: inc/class-post-meta.php:162
+msgid "Done"
+msgstr ""
+
+#: inc/class-privacy.php:21
+msgid ""
+"When using Fallsky Extension (the required plugin for Fallsky theme) on your "
+"site, as the site administrator, you may need to include the following "
+"information into your Privacy Policy for GDPR complaint:\n"
+"\n"
+"\t%1$sWhat personal data we collect and why we collect it%2$s\n"
+"\n"
+"\t%3$sCookies%4$s\n"
+"\n"
+"\tWhen you click the “like” button (heart icon) to like a post, a post likes "
+"cookie will be saved in the browser on your computer. This cookie includes "
+"no personal data and simply indicates the post ID of the post you just "
+"liked. Those cookies last for 30 days. So you will not be able to click on "
+"the button again within 30 days to “like” the same post again.\n"
+"\n"
+"\tPost Likes cookies are those beginning with “loftocean_post_likes_post-“.\n"
+"\n"
+"\tTo find out more about cookies, including how to see what cookies have "
+"been set and how to block and delete cookies, please visit %5$shttps://www."
+"aboutcookies.org/%6$s.\n"
+"\n"
+"\t%3$sEmbedded content from other websites%4$s\n"
+"\n"
+"\t(To site administrator: you only need to include this information into "
+"your Privacy Policy when you display your Facebook page in a widget area "
+"(sidebar or site footer) by using the custom widget - Fallsky Facebook.)\n"
+"\n"
+"\tThe Facebook widget on this site is embedded content from another website "
+"- Facebook (https://facebook.com/). It behaves in the exact same way as if "
+"the visitor has visited the Facebook website.\n"
+"\n"
+"\tThe Facebook website may collect data about you, use cookies, embed "
+"additional third-party tracking, and monitor your interaction with that "
+"embedded content, including tracing your interaction with the embedded "
+"content if you have an account and are logged in to that website."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: inc/class-privacy.php:51
+msgid "Fallsky Extension"
+msgstr ""
+
+#: inc/class-shortcode-generator.php:157
+msgid "Add Shortcode"
+msgstr ""
+
+#: inc/class-shortcode-generator.php:189
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/class-shortcode-generator.php:198
+msgid "Close (Esc)"
+msgstr ""
+
+#: inc/class-shortcode-generator.php:204
+msgid "Click to return to the shortcodes list"
+msgstr ""
+
+#: inc/class-shortcode-generator.php:204
+msgid "All shortcodes"
+msgstr ""
+
+#: inc/class-shortcode-generator.php:211
+msgid "Insert shortcode"
+msgstr ""
+
+#: inc/class-taxonomy-editing-fields.php:13
+msgid "Choose Image"
+msgstr ""
+
+#: inc/class-taxonomy-editing-fields.php:14
+msgid "Remove Image"
+msgstr ""
+
+#: inc/class-taxonomy-editing-fields.php:16
+msgid "Category Image"
+msgstr ""
+
+#: inc/class-taxonomy-editing-fields.php:17
+msgid "Post Tag Image"
+msgstr ""
+
+#: inc/class-taxonomy-editing-fields.php:20
+msgid "Image for Category"
+msgstr ""
+
+#: inc/class-taxonomy-editing-fields.php:21
+msgid "Image for Post Tag"
+msgstr ""
+
+#: inc/class-wp-core.php:35 inc/shortcodes/class-shortcode-author.php:206
+msgid "Website"
+msgstr ""
+
+#: inc/class-wp-core.php:39 inc/shortcodes/class-shortcode-author.php:207
+msgid "Google Plus"
+msgstr ""
+
+#: inc/class-wp-core.php:51 inc/shortcodes/class-shortcode-author.php:210
+msgid "Instagram"
+msgstr ""
+
+#: inc/class-wp-core.php:79
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/class-wp-core.php:80
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/class-wp-core.php:81
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/class-wp-core.php:82
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/class-wp-core.php:83
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordion.php:34
+msgid "Accordion"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordion.php:43
+msgid ""
+"Please wrap tab shortcode with [lo_accordions][/lo_accordions] shortcode."
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordion.php:47
+msgid "Open this accordion item by default"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordion.php:51
+#: inc/shortcodes/class-shortcode-accordion.php:52
+msgid "Accordion Title"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordion.php:55
+#: inc/shortcodes/class-shortcode-accordion.php:56
+msgid "Accordion Content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordions.php:34
+msgid "Accordions"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordions.php:43
+msgid ""
+"You can insert the shortcode into content, then use [accordion] shortcode to "
+"add another accordion into the group."
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordions.php:46
+msgid "Accordion 1 Title"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordions.php:47
+msgid "Accordion 1"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordions.php:50
+#: inc/shortcodes/class-shortcode-accordions.php:51
+msgid "Accordion 1 Content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordions.php:54
+msgid "Accordion 2 Title"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordions.php:55
+msgid "Accordion 2"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-accordions.php:58
+#: inc/shortcodes/class-shortcode-accordions.php:59
+msgid "Accordion 2 Content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:34
+msgid "Author List"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:43
+msgid "Layout"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:45
+msgid "List"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:48
+msgid "Grid 1 Col"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:51
+msgid "Grid 2 Cols"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:54
+msgid "Grid 3 Cols"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:57
+msgid "Grid 4 Cols"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:63
+msgid "Hide Bio"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:69
+msgid "Hide Social Icons"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:75
+#: inc/widgets/class-widget-author.php:130
+msgid "Hide Post Count"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:79
+#: inc/widgets/class-widget-author.php:139
+msgid "Choose"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:81
+#: inc/widgets/class-widget-author.php:141
+msgid "All"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:82
+msgid "By Name"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:83
+msgid "By Role"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:171
+msgid "Articles"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-author.php:172
+msgid "Article"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:34
+msgid "Button"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:43
+#: inc/shortcodes/class-shortcode-button.php:44
+msgid "Button Text"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:47
+msgid "URL"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:52
+msgid "Open in a new tab"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:56
+#: inc/shortcodes/class-shortcode-column.php:46
+#: inc/shortcodes/class-shortcode-divider.php:55
+msgid "Size"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:58
+msgid "Small"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:61
+msgid "Medium"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:64
+msgid "Large"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:67
+msgid "Extra Large"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:71
+msgid "Background Color"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:73
+#: inc/shortcodes/class-shortcode-button.php:85
+msgid "Default"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:76
+#: inc/shortcodes/class-shortcode-button.php:88
+msgid "Custom"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-button.php:83
+msgid "Text Color"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:34
+msgid "Column"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:43
+msgid "Please wrap column shortcode with [lo_row][/lo_row] shortcode."
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:48
+msgid "1/2"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:51
+msgid "1/3"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:54
+msgid "2/3"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:57
+msgid "1/4"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:60
+msgid "3/4"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:63
+msgid "1/5"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:66
+msgid "2/5"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:69
+msgid "3/5"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:72
+msgid "4/5"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-column.php:76
+#: inc/shortcodes/class-shortcode-column.php:77
+msgid "Column Content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-divider.php:34
+msgid "Divider"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-divider.php:43
+#: inc/shortcodes/class-shortcode-drop-caps.php:43
+#: inc/shortcodes/class-shortcode-highlight.php:44
+#: inc/shortcodes/class-shortcode-tweet.php:42
+msgid "Style"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-divider.php:45
+msgid "Solid"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-divider.php:48
+msgid "Dashed"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-divider.php:51
+msgid "Dotted"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-divider.php:61
+msgid "Color"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-drop-caps.php:34
+msgid "Drop Caps"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-drop-caps.php:45
+#: inc/shortcodes/class-shortcode-highlight.php:46
+msgid "Normal"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-drop-caps.php:48
+msgid "Light"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-drop-caps.php:51
+msgid "Square"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-drop-caps.php:54
+msgid "Square Light Background"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-drop-caps.php:57
+msgid "Square Dark Background"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-drop-caps.php:61
+#: inc/shortcodes/class-shortcode-tweet.php:51
+msgid "Wrap Tag"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-highlight.php:35
+msgid "Highlights"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-highlight.php:49
+msgid "Bottom Line"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:17
+msgid "Grid"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:18
+msgid "Slider"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:19
+msgid "Justified Grid"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:70
+msgid "Type"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:78
+msgid "Ratio"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:80
+msgid "3:2"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:81
+msgid "1:1"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:82
+msgid "4:5"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:86
+msgid "Row Height"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:90
+msgid "Last Row"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:92
+msgid "No Justify"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:93
+msgid "Justify"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:94
+msgid "Hide"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:98
+msgid "Margin"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:105
+msgid "Image Container"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:107
+msgid "Within content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-media.php:108
+msgid "Stretch to fullwidth"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-row.php:34
+msgid "Row"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-row.php:43
+msgid ""
+"You can insert the shortcode into content, then use [column] shortcode to "
+"add another column into the group."
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-row.php:46
+#: inc/shortcodes/class-shortcode-row.php:47
+msgid "Column 1 Content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-row.php:50
+#: inc/shortcodes/class-shortcode-row.php:51
+msgid "Column 2 Content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tab.php:34
+msgid "Tab"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tab.php:43
+msgid "Please wrap tab shortcode with [lo_tabs][/lo_tabs] shortcode."
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tab.php:46
+#: inc/shortcodes/class-shortcode-tab.php:47
+msgid "Tab Title"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tab.php:50
+#: inc/shortcodes/class-shortcode-tab.php:51
+msgid "Tab Content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:34
+msgid "Tabs"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:43
+msgid ""
+"You can insert the shortcode into content, then use [tab] shortcode to add "
+"another tab into the group."
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:48
+msgid "Horizontal Tabs"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:51
+msgid "Vertical Tabs"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:55
+msgid "Tab 1 Title"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:56
+msgid "Tab 1"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:59
+#: inc/shortcodes/class-shortcode-tabs.php:60
+msgid "Tab 1 Content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:63
+msgid "Tab 2 Title"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:64
+msgid "Tab 2"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tabs.php:67
+#: inc/shortcodes/class-shortcode-tabs.php:68
+msgid "Tab 2 Content"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tweet.php:25
+msgid "Tweet It"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tweet.php:38
+msgid "Twitter Username (optional)"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tweet.php:39
+msgid "Twitter Username"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tweet.php:44
+msgid "Inline"
+msgstr ""
+
+#: inc/shortcodes/class-shortcode-tweet.php:47
+msgid "Paragraph"
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:6
+msgid "LoftOcean Author List"
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:9
+msgid "Show your author list."
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:23
+#: inc/widgets/class-widget-author.php:108
+msgid "Authors"
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:119
+#: inc/widgets/class-widget-facebook.php:85
+#: inc/widgets/class-widget-instagram.php:65
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:125
+msgid "Hide Photo"
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:135
+msgid "Hide Role"
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:142
+#: inc/widgets/class-widget-author.php:192
+msgid "Name"
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:143
+msgid "Role"
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:190
+msgid "Sort by"
+msgstr ""
+
+#: inc/widgets/class-widget-author.php:193
+msgid "Post Count"
+msgstr ""
+
+#: inc/widgets/class-widget-facebook.php:16
+msgid "LoftOcean Facebook"
+msgstr ""
+
+#: inc/widgets/class-widget-facebook.php:19
+msgid "Show your Facebook Page."
+msgstr ""
+
+#: inc/widgets/class-widget-facebook.php:34
+#: inc/widgets/class-widget-facebook.php:80
+msgid "Like on Facebook"
+msgstr ""
+
+#: inc/widgets/class-widget-facebook.php:82
+msgid "Facebook Username:"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:6
+msgid "LoftOcean Instagram"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:9
+msgid "Show your Instagram images."
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:62
+msgid "Instagram Username:"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:68
+msgid "Number of photos to show:"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:96
+msgid "Instagram API"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:152
+msgid "Sign in with Instagram."
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:154
+msgid "Remove Token"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:156
+msgid "Access Token"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:157
+msgid "User ID"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:158
+msgid "Username"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:161
+msgid "Instagram Access Token"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:168
+msgid ""
+"You need Access Token for using Instagram API. Click Sign in with Instagram "
+"button above to get yours."
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:191
+msgid "Failed to remove Instagram Access Token, please try again late."
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:192
+msgid "Are you sure to remove your Instagram Tokens?"
+msgstr ""
+
+#: inc/widgets/class-widget-instagram.php:322
+msgid "Instagram Image"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.loftocean.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fallsky Theme function extension - Post like, post sharing, gallery slider, "
+"Instagram feed and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Loft.Ocean"
+msgstr ""

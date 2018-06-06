@@ -1,0 +1,89 @@
+/**
+ * Fallsky WooCommerce Fallback CSS for browsers don't support CSS Variables (aka CSS Custom Properties)
+*/
+/* Typography
+   ========================================================================== */
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta .woocommerce-review__author,
+.woocommerce-page.woocommerce-cart .cart-empty {
+  font-family: "Source Sans Pro", sans-serif; }
+
+/* Text Colors
+   ========================================================================== */
+.woocommerce #reviews #comments ol.commentlist li .comment-text .description p {
+  color: #515151; }
+.woocommerce.dark-color .woocommerce #reviews #comments ol.commentlist li .comment-text .description p {
+  color: #e2e2e2; }
+
+.woocommerce-page #primary .woocommerce-product-details__short-description,
+.woocommerce-page #primary .entry-content {
+  color: #515151; }
+  .woocommerce-page #primary .woocommerce-product-details__short-description h1,
+  .woocommerce-page #primary .woocommerce-product-details__short-description h2,
+  .woocommerce-page #primary .woocommerce-product-details__short-description h3,
+  .woocommerce-page #primary .woocommerce-product-details__short-description h4,
+  .woocommerce-page #primary .woocommerce-product-details__short-description h5,
+  .woocommerce-page #primary .woocommerce-product-details__short-description h6,
+  .woocommerce-page #primary .woocommerce-product-details__short-description form,
+  .woocommerce-page #primary .entry-content h1,
+  .woocommerce-page #primary .entry-content h2,
+  .woocommerce-page #primary .entry-content h3,
+  .woocommerce-page #primary .entry-content h4,
+  .woocommerce-page #primary .entry-content h5,
+  .woocommerce-page #primary .entry-content h6,
+  .woocommerce-page #primary .entry-content form {
+    color: #212121; }
+.woocommerce-page.dark-color #primary .woocommerce-product-details__short-description,
+.woocommerce-page.dark-color #primary .entry-content {
+  color: #e2e2e2; }
+  .woocommerce-page.dark-color #primary .woocommerce-product-details__short-description h1,
+  .woocommerce-page.dark-color #primary .woocommerce-product-details__short-description h2,
+  .woocommerce-page.dark-color #primary .woocommerce-product-details__short-description h3,
+  .woocommerce-page.dark-color #primary .woocommerce-product-details__short-description h4,
+  .woocommerce-page.dark-color #primary .woocommerce-product-details__short-description h5,
+  .woocommerce-page.dark-color #primary .woocommerce-product-details__short-description h6,
+  .woocommerce-page.dark-color #primary .woocommerce-product-details__short-description form,
+  .woocommerce-page.dark-color #primary .entry-content h1,
+  .woocommerce-page.dark-color #primary .entry-content h2,
+  .woocommerce-page.dark-color #primary .entry-content h3,
+  .woocommerce-page.dark-color #primary .entry-content h4,
+  .woocommerce-page.dark-color #primary .entry-content h5,
+  .woocommerce-page.dark-color #primary .entry-content h6,
+  .woocommerce-page.dark-color #primary .entry-content form {
+    color: #fff; }
+
+/* Button Colors
+   ========================================================================== */
+body:not(.primary-color-enabled).light-color #page #respond input#submit, body:not(.primary-color-enabled).light-color #page #respond input#submit.alt {
+  background: #000;
+  color: #fff; }
+body:not(.primary-color-enabled).dark-color #page #respond input#submit, body:not(.primary-color-enabled).dark-color #page #respond input#submit.alt {
+  background: #fff;
+  color: #000; }
+
+body.primary-color-enabled #page #respond input#submit,
+body.primary-color-enabled #page #respond input#submit.alt {
+  background: #c09f68;
+  color: #fff; }
+
+/* Primary Colors
+   ========================================================================== */
+.primary-color-enabled .price ins,
+.primary-color-enabled .woocommerce-error:before,
+.primary-color-enabled .woocommerce-info:before,
+.primary-color-enabled .woocommerce-message:before, .primary-color-enabled.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta time {
+  color: #c09f68; }
+.primary-color-enabled .woocommerce-error,
+.primary-color-enabled .woocommerce-info,
+.primary-color-enabled .woocommerce-message {
+  border-color: #c09f68; }
+.primary-color-enabled .woocommerce.widget.widget_price_filter .price_slider_wrapper .ui-widget-content:before,
+.primary-color-enabled .woocommerce.widget.widget_price_filter .ui-slider .ui-slider-range,
+.primary-color-enabled .woocommerce.widget.widget_price_filter .ui-slider .ui-slider-handle {
+  background: #c09f68; }
+
+.no-touch .woocommerce-page.woocommerce-cart.primary-color-enabled #page .site-content .woocommerce a.button.checkout-button:hover,
+.no-touch .woocommerce.primary-color-enabled #payment #place_order:hover,
+.no-touch .woocommerce-page.primary-color-enabled #payment #place_order:hover {
+  background: #c09f68; }
+
+/*# sourceMappingURL=fallsky-woocommerce-fallback.css.map */

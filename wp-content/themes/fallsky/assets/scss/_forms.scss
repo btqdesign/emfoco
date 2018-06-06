@@ -1,0 +1,179 @@
+/* ==========================================================================
+   8.0 Forms
+   ========================================================================== */
+
+::-webkit-input-placeholder {
+    @include input-placeholder;
+}
+
+:-moz-placeholder {
+    @include input-placeholder;
+}
+
+:-ms-input-placeholder {
+    @include input-placeholder;
+}
+
+form {
+    * {
+        outline: 0;
+    }
+    
+    ul {
+        position: relative;
+        margin: 0 auto;
+        list-style: none;
+        
+        > li > label {
+            display: block;
+            margin-bottom: 0;
+            @include fontsize(13);
+            line-height: 2;
+        }
+    }
+    
+    li fieldset {
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="file"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="search"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    height: 42px;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    -webkit-appearance: none !important;
+    @include fontsize(13);
+	line-height: 2;
+    font-weight: 400;
+    
+    &:focus {
+        outline: 0;
+    }
+    
+    .post-entry & {
+        opacity: 0.5;
+        
+        &:focus {
+            opacity: 1;
+        }
+    }
+}
+
+textarea {
+    min-height: 125px;
+	resize: vertical;
+}
+
+#page input[type="submit"] {
+    @include button;
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 35px;
+    @include fontsize(12);
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+select {
+    height: 32px;
+    padding: 2px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    color: $text-color;
+    outline: 0;
+    line-height: 32px;
+    vertical-align: middle;
+    @include fontsize(12, !important);
+    letter-spacing: 0.05em;
+    text-transform: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#page form.post-password-form {
+    input[type="password"] {
+        padding: 5px 10px;
+        border: 1px solid;
+    }
+    
+    input[type="submit"] {
+        margin-top: $spacing-base/2;
+    }
+}
+
+form.search-form {
+    position: relative;
+    max-width: 420px;
+    
+    input[type="search"] {
+        height: 50px;
+        padding: 0 30px 0 0;
+        background: none;
+        border: none;
+        border-bottom: 2px solid;
+        border-radius: 0;
+        color: inherit;
+        font-weight: 400;
+    }
+    
+    ::-webkit-input-placeholder {
+        opacity: 1;
+    }
+    
+    :-moz-placeholder {
+        opacity: 1;
+    }
+    
+    :-ms-input-placeholder {
+        opacity: 1;
+    }
+    
+    button.search-submit {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: auto;
+        height: 50px;
+        background: none;
+        border: none;
+        box-shadow: none;
+        @include fontElegant;
+        @include fontsize(18);
+        line-height: 35px;
+        
+        &:before {
+            content: "\55";
+        }
+    }
+}
+
+.wpcf7 {
+    .wpcf7-acceptance .wpcf7-list-item {
+        margin-left: 0;
+    }
+}
+
+.no-touch #page {
+    button[disabled]:hover,
+    input[disabled]:hover {
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,472 @@
+/* ==========================================================================
+   9.0 Media
+   ========================================================================== */
+
+.site .avatar {
+	border-radius: 50%;
+}
+
+.post-entry,
+.comment-content,
+.textwidget {
+    .wp-smiley {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        border: none;
+    }
+}
+
+.comment-content,
+.textwidget {
+	a img {
+        display: block;
+    }
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object,
+video {
+	margin-bottom: $spacing-base;
+	max-width: 100%;
+	border: none;
+	vertical-align: middle;
+    
+    p > & {
+        margin-bottom: 0;
+    }
+}
+
+.fluid-width-video-wrapper {
+	margin-bottom: $spacing-base;
+	
+	iframe {
+		margin-bottom: 0;
+	}
+}
+
+.wp-video-shortcode {
+	margin-bottom: $spacing-base;
+}
+
+#page .wp-playlist {
+    margin: 0 0 $spacing-base;
+    padding: 30px 30px 10px;
+	
+	.wp-playlist-tracks {
+		margin-top: 0;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+}
+
+.wp-playlist-item .wp-playlist-caption {
+	padding: $spacing-base/2 0;
+    margin-left: 0;
+    color: inherit !important;
+}
+
+.wp-playlist-item .wp-playlist-item-length {
+    top: 50%;
+    @include translateY(-50%);
+}
+
+.mejs-container a {
+	padding-bottom: 0;
+	border-bottom: none;
+	text-decoration: none;
+}
+
+/**
+ * Captions
+ */
+
+.wp-caption {
+    margin: $spacing-base 0;
+    max-width: 100%;
+	clear: both;
+    
+    &.aligncenter {
+        text-align: center;
+    }
+	
+	.post-entry > &:first-child {
+		margin-top: 0;
+	}
+}
+    
+.wp-caption-text {
+	display: block;
+	padding: $spacing-base/3 0;
+    @include fontsize(14);
+    text-align: center;
+    line-height: 1.5;
+	opacity: 0.75;
+}
+
+img[class*="wp-image-"] {
+    display: inline-block;
+	
+	p &.aligncenter {
+		display: block;
+	}
+}
+
+.post-entry figure > a {
+	padding-bottom: 0;
+	border: none;
+	text-decoration: none;
+}
+
+/**
+ * Galleries
+ */
+
+.gallery {
+	margin: 0 -2px $spacing-base;
+    
+    .gallery-item {
+		float: left;
+        display: inline-block;
+		width: 100%;
+        max-width: 33.33%;
+        text-align: center;
+        vertical-align: top;
+        
+        .gallery-icon {
+            font-size: 0;
+			padding: 0 2px 4px;
+            
+            a {
+                transition: 0s;
+            }
+            
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+    
+    &.gallery-columns-1 {
+        .gallery-item {
+            max-width: 100%;
+        }
+    }
+    
+    &.gallery-columns-2 {
+        .gallery-item {
+            max-width: 50%;
+        }
+    }
+    
+    &.gallery-columns-4 {
+        .gallery-item {
+            max-width: 25%;
+        }
+    }
+    
+    &.gallery-columns-5 {
+        .gallery-item {
+            max-width: 20%;
+        }
+    }
+    
+    &.gallery-columns-6 {
+        .gallery-item {
+            max-width: 16.66%;
+        }
+    }
+    
+    &.gallery-columns-7 {
+        .gallery-item {
+            max-width: 14.28%;
+        }
+    }
+    
+    &.gallery-columns-8 {
+        .gallery-item {
+            max-width: 12.5%;
+        }
+    }
+    
+    &.gallery-columns-9 {
+        .gallery-item {
+            max-width: 11.11%;
+        }
+    }
+	
+	&.gallery-columns-1 .gallery-item,
+	&.gallery-columns-2 .gallery-item:nth-child(2n+1),
+	&.gallery-columns-3 .gallery-item:nth-child(3n+1),
+	&.gallery-columns-4 .gallery-item:nth-child(4n+1),
+	&.gallery-columns-5 .gallery-item:nth-child(5n+1),
+	&.gallery-columns-6 .gallery-item:nth-child(6n+1),
+	&.gallery-columns-7 .gallery-item:nth-child(7n+1),
+	&.gallery-columns-8 .gallery-item:nth-child(8n+1),
+	&.gallery-columns-9 .gallery-item:nth-child(9n+1) {
+		clear: left;
+	}
+}
+
+.gallery-columns-6,
+.gallery-columns-7,
+.gallery-columns-8,
+.gallery-columns-9 {
+    .gallery-caption {
+        display: none;
+    }
+}
+
+/**
+ * Embeded Twitter Tweet
+ */
+
+.post-entry .twitter-tweet.twitter-tweet-rendered {
+	margin-left: 0;
+}
+
+/**
+ * Fullscreen Video
+ */
+
+.fallsky-media-wrapper.fallsky-media-fullscreen-playing {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	
+	.close-button {
+		position: absolute;
+		top: 20px;
+		right: 10px;
+		z-index: 9;
+		width: 36px;
+		height: 36px;
+		background: #fff;
+		border-radius: 50%;
+		color: #000;
+		font-size: 0;
+		line-height: 36px;
+		text-align: center;
+		cursor: pointer;
+		
+		&:before {
+			display: block;
+			@include fontElegant;
+			font-size: 30px;
+			line-height: 36px;
+			@include translateX(-1px);
+			content: "\4d";
+		}
+	}
+	
+	embed,
+	iframe,
+	object,
+	video {
+		max-height: 100%;
+	}
+	
+	&.show {
+		display: block;
+	}
+	
+	.logged-in.admin-bar & {
+        @media screen and (max-width: 782px) and (min-width: 601px) {
+            & {
+                top: 46px;
+				height: calc(100% - 46px);
+            }
+        }
+        
+        @media screen and (min-width: 783px) {
+            & {
+                top: 32px;
+				height: calc(100% - 32px);
+            }
+        }
+    }
+}
+
+/**
+ * Wide Image - only works when there is no sidebar
+ */
+
+.site-content:not([class*="with-sidebar"]) .wide-image {
+    position: relative;
+    left: 50%;
+    @include translateX(-50%);
+	width: 100vw;
+	text-align: center;
+	
+	> img {
+		margin: 0 auto $spacing-base;
+	}
+	
+	> .wp-caption {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	@include screen(handheld-m) {
+		.site-layout-boxed & {
+			width: calc(100% + 60px);
+		}
+	}
+	
+	@include screen(handheld-l) {
+		.site-layout-frame & {
+			width: calc(100vw - 70px);
+		}
+		
+		.site-layout-boxed.single.side-share-enabled & {
+			width: calc(100% + 160px);
+		}
+	}
+}
+
+/**
+ * Show justified gallery after initialization
+ */
+
+.post-content-gallery.gallery-justified {
+	opacity: 0;
+	
+	&.justified-gallery-initialized {
+		opacity: 1;
+		transition: opacity 0.4s;
+	}
+	
+	img {
+		cursor: zoom-in;
+	}
+}
+
+.loftocean-popup-sliders {
+	.popup-slider.gallery-slider.fullscreen {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		width: 100vw;
+		height: 100vh;
+		padding: 0;
+		background: var(--bg-color);
+		
+		.image-gallery {
+			top: $spacing-large;
+			
+			&,
+			.slick-list,
+			.slick-track {
+				height: 100%;
+				
+				.slick-slide {
+					height: auto;
+				}
+			}
+		}
+		
+		.gallery-item div {
+			height: calc(100vh - 200px);
+			padding: 0;
+			background: {
+				size: contain;
+				repeat: no-repeat;
+				position: center;
+			}
+		}
+		
+		.wp-caption-text {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			@include translateY(100%);
+			z-index: 9;
+			display: block;
+			width: 100%;
+			max-height: 50px;
+			overflow: auto;
+			padding: 10px 30px;
+			text-align: center;
+			opacity: 1;
+		}
+		
+		.slider-arrows {
+			position: absolute;
+			top: auto;
+			left: 50%;
+			bottom: 30px;
+			width: 320px;
+			@include translateX(-50%);
+			
+			.slick-arrow {
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				
+				&.slick-prev {
+					left: 0;
+				}
+				
+				&.slick-next {
+					right: 0;
+				}
+				
+				&:before {
+					@include fontsize(21);
+				}
+			}
+		}
+		
+		.loftocean-popup-gallery-close {
+			position: absolute;
+			right: auto;
+			bottom: 30px;
+			left: 50%;
+			@include translateX(-50%);
+			z-index: 9;
+			display: block;
+			width: 50px;
+			height: 50px;
+			background: none;
+			line-height: 50px;
+			text-align: center;
+			cursor: pointer;
+			
+			&:after {
+				@include fontElegant;
+				content: "\4d";
+				@include fontsize(21);
+				line-height: inherit;
+			}
+		}
+		
+		.light-color & .slider-arrows .slick-arrow {
+			color: #000;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .logged-in.admin-bar {
+		.fallsky-media-wrapper.fallsky-media-fullscreen-playing .close-button {
+			top: 70px;
+		}
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.gallery:not(.gallery-columns-1) .gallery-item .gallery-caption {
+		display: none;
+	}
+}

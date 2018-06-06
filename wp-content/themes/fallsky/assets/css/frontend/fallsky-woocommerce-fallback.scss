@@ -1,0 +1,128 @@
+/**
+ * Fallsky WooCommerce Fallback CSS for browsers don't support CSS Variables (aka CSS Custom Properties)
+*/
+$heading-font:        'Source Sans Pro', sans-serif;
+$primary-color:        #c09f68;
+$light-color:          #fff;
+$text-color:           #212121; 
+$content-color:        #515151;
+$dark-color:           #282828; 
+$dark-text-color:      #fff;
+$dark-content-color:   #e2e2e2;
+
+/* Typography
+   ========================================================================== */
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta .woocommerce-review__author,
+.woocommerce-page.woocommerce-cart .cart-empty {
+    font-family: $heading-font;
+}
+
+/* Text Colors
+   ========================================================================== */
+
+.woocommerce {
+    #reviews #comments ol.commentlist li .comment-text .description p {
+        color: $content-color;
+    }
+    
+    &.dark-color & #reviews #comments ol.commentlist li .comment-text .description p {
+        color: $dark-content-color;
+    }
+}
+
+.woocommerce-page {
+    #primary {
+        .woocommerce-product-details__short-description,
+        .entry-content {
+            color: $content-color;
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            form {
+                color: $text-color;
+            }
+        }
+    }
+    
+    &.dark-color {
+        #primary {
+            .woocommerce-product-details__short-description,
+            .entry-content {
+                color: $dark-content-color;
+                
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                form {
+                    color: $dark-text-color;
+                }
+            }
+        }
+    }
+}
+
+/* Button Colors
+   ========================================================================== */
+
+body:not(.primary-color-enabled) {
+    &.light-color #page #respond input#submit,
+    &.light-color #page #respond input#submit.alt {
+        background: #000;
+        color: #fff;
+    }
+    
+    &.dark-color #page #respond input#submit,
+    &.dark-color #page #respond input#submit.alt {
+        background: #fff;
+        color: #000;
+    }
+}
+
+body.primary-color-enabled #page {
+    #respond input#submit,
+    #respond input#submit.alt {
+        background: $primary-color;
+        color: #fff;
+    }
+}
+
+/* Primary Colors
+   ========================================================================== */
+
+.primary-color-enabled {
+    .price ins,
+    .woocommerce-error:before,
+    .woocommerce-info:before,
+    .woocommerce-message:before,
+    &.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta time {
+        color: $primary-color;
+    }
+    
+    .woocommerce-error,
+    .woocommerce-info,
+    .woocommerce-message {
+        border-color: $primary-color;
+    }
+    
+    .woocommerce.widget.widget_price_filter {
+        .price_slider_wrapper .ui-widget-content:before,
+        .ui-slider .ui-slider-range,
+        .ui-slider .ui-slider-handle {
+            background: $primary-color;
+        }
+    }
+}
+
+.no-touch .woocommerce-page.woocommerce-cart.primary-color-enabled #page .site-content .woocommerce a.button.checkout-button:hover,
+.no-touch .woocommerce.primary-color-enabled #payment #place_order:hover,
+.no-touch .woocommerce-page.primary-color-enabled #payment #place_order:hover {
+    background: $primary-color;
+}
