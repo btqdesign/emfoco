@@ -89,14 +89,6 @@ function btq_import_admin_menu() {
         'dashicons-admin-generic',
         100
     );
-    add_submenu_page(
-    	'btq_import', 
-    	__('Import', 'btq-booking-tc'), 
-    	__('Import', 'btq-booking-tc'), 
-    	'manage_options', 
-    	'btq_import_admin_page',
-    	'btq_import_admin_page'
-    );
 }
 add_action( 'admin_menu', 'btq_import_admin_menu' );
 
