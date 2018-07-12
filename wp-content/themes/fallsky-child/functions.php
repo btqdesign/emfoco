@@ -1,13 +1,4 @@
 <?php
-
-add_filter('final_output', function($output) {
-	// Soporte HTTPS
-	$output = str_replace('http:', 'https:', $output);
-	$output = str_replace('https://schemas.xmlsoap.org', 'http://schemas.xmlsoap.org', $output);
-	$output = str_replace('https://docs.oasisopen.org', 'http://docs.oasisopen.org', $output);
-	return $output;
-});
-
 	add_action('wp_enqueue_scripts', 'fallsky_child_enqueue_scripts');
 	function fallsky_child_enqueue_scripts(){
 		wp_enqueue_style('fallsky-child-theme-style', get_stylesheet_uri(), array('fallsky-theme-style'));
