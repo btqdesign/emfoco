@@ -4,6 +4,7 @@
 
 .container {
     position: relative;
+    z-index: 1;
     max-width: $site-width;
     padding: 0 30px;
 }
@@ -849,7 +850,7 @@
         }
     }
     
-    &.ad-banner {
+    &.fallsky-bannr {
         .container {
             overflow: hidden;
         }
@@ -860,11 +861,12 @@
             
             a {
                 display: inline-block;
+                max-width: 100%;
             }
             
             img {
                 display: block;
-                width: 100%;
+                width: auto;
             }
         }
     }
@@ -1049,6 +1051,19 @@
         
         .post-excerpt {
             @include fontsize(14);
+            
+            p {
+                margin-bottom: $spacing-base/2;
+                font: inherit;
+                
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            
+            > *:last-child {
+                margin-bottom: 0;
+            }
         }
         
         .featured-img {
@@ -1328,6 +1343,15 @@
                 .slider-arrows {
                     @include centered-vertical;
                     @include verticalSlickArrow;
+                    
+                    .touch &.display-on-mobile {
+                        .slick-arrow {
+                            &.slick-prev,
+                            &.slick-next {
+                                @include translateX(0);
+                            }
+                        }
+                    }
                 }
                 
                 .featured-img:hover {
@@ -1420,6 +1444,10 @@
         color: #fff;
         text-align: center;
         pointer-events: none;
+        
+        .post-header {
+            max-width: 100%;
+        }
         
         .post-title {
             margin-bottom: 0;
@@ -2656,7 +2684,7 @@
     }
     
     .home-widget {
-        &.ad-banner.large-banner-special {
+        &.fallsky-bannr.large-banner-special {
             .section-content {
                 height: 400px;
                 background: {
@@ -2665,6 +2693,7 @@
                     position: center;
                     size: cover;
                 }
+                will-change: transform;
                 
                 a {
                     @include fullblock;
@@ -2862,6 +2891,12 @@
         .post-nav {
             .container {
                 max-width: calc(100% - 20px);
+            }
+        }
+        
+        .home-widget.fullwidth {
+            .container {
+                max-width: 100%;
             }
         }
         

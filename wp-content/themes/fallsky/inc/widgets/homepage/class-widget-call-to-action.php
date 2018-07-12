@@ -43,13 +43,13 @@ if(!class_exists('Fallsky_Homepage_Widget_Call_Action')){
 			return sprintf(
 				'%s<div class="cta-text">%s%s%s</div>',
 				$media_html,
-				empty($heading) 	? '' : sprintf('<h2>%s</h2>', $heading),
+				empty($heading) 	? '' : sprintf( '<h2>%s</h2>', apply_filters( 'fallsky_multilingual_text', $heading ) ),
 				empty($description) ? '' : apply_filters('widget_text_content', $description),
 				empty($button_text) || empty($button_url) ? '' : sprintf(
 					'<a href="%s"%s class="button">%s</a>', 
 					$button_url, 
 					$target ? ' target="_blank"' : '',
-					$button_text
+					apply_filters( 'fallsky_multilingual_text', $button_text )
 				)
 			);
 		}

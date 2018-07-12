@@ -18,10 +18,10 @@ if(!class_exists('Fallsky_Customize_Manager')){
 			$this->assets_uri 		= FALLSKY_ASSETS_URI;
 			$this->assets_version 	= FALLSKY_ASSETS_VERSION;
 
-			add_action('customize_controls_enqueue_scripts', 		array($this, 'customize_scripts'));
-			add_action('customize_preview_init',					array($this, 'preview_scripts'));
-			add_action('customize_controls_print_footer_scripts', 	array($this, 'footer_scripts'), 9999);
-			add_action('customize_save_after',						array($this, 'generate_fallback_css')); 
+			add_action( 'customize_controls_enqueue_scripts', 		array( $this, 'customize_scripts' ), 9999 );
+			add_action( 'customize_preview_init',					array( $this, 'preview_scripts' ) );
+			add_action( 'customize_controls_print_footer_scripts', 	array( $this, 'footer_scripts' ), 9999 );
+			add_action( 'customize_save_after',						array( $this, 'generate_fallback_css' ) ); 
 
 			$this->includes(); // Import theme customize option configs
 		}
@@ -101,5 +101,5 @@ if(!class_exists('Fallsky_Customize_Manager')){
 			set_theme_mod('fallsky_fallback_customize_css', $css);
 		}
 	}
-	add_action('after_setup_theme', function(){ new Fallsky_Customize_Manager(); });
+	add_action( 'after_setup_theme', function(){ new Fallsky_Customize_Manager(); } );
 }

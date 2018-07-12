@@ -664,6 +664,7 @@
                 
                 .cat-meta {
                     z-index: 3;
+                    width: 100%;
                 }
                 
                 .cat-meta-wrapper {
@@ -673,8 +674,10 @@
                 }
                 
                 span.category-name {
-                    display: block;
+                    display: inline-block;
+                    max-width: calc(100% - 40px);
                     padding: 12px;
+                    margin-left: 0;
                     @include fontsize(14);
                     font-weight: 500;
                     line-height: 1;
@@ -684,13 +687,16 @@
                 }
                 
                 span.counts {
-                    position: absolute;
-                    top: 6px;
-                    right: -8px;
-                    display: block;
+                    position: relative;
+                    display: inline-block;
                     width: 16px;
+                    margin-top: 6px;
+                    margin-left: -8px;
                     text-align: left;
+                    vertical-align: top;
                     @include fontsize(10);
+                    white-space: nowrap;
+                    word-wrap: normal;
                 }
                 
                 .no-touch &:hover {
@@ -715,7 +721,6 @@
                         position: absolute;
                         bottom: 0;
                         left: 0;
-                        max-width: calc(100% - 10px);
                     }
                 }
             }
@@ -737,11 +742,6 @@
                         overflow: hidden;
                     }
                     
-                    span.category-name {
-                        padding: 0;
-                        text-align: center;
-                    }
-                    
                     .cat-meta {
                         @include fullblock;
                         @include flexVMiddle;
@@ -749,11 +749,23 @@
                         width: calc(100% - 20px);
                     }
                     
+                    .cat-meta-wrapper {
+                        width: 100%;
+                    }
+                    
+                    span.category-name {
+                        display: block;
+                        padding: 0;
+                        margin-left: auto;
+                        text-align: center;
+                    }
+                    
                     span.counts {
+                        position: absolute;
                         top: auto;
-                        right: auto;
                         display: block;
                         width: 100%;
+                        margin: 0 auto;
                         text-align: center;
                     }
                 }
@@ -788,10 +800,15 @@
                         max-width: none;
                     }
                     
+                    .cat-meta-wrapper {
+                        text-align: center;
+                    }
+                    
                     span.category-name {
                         font-weight: 800;
                         @include fontsize(18);
                         text-shadow: 0 0 10px rgba(#000, 0.3);
+                        margin-left: auto;
                     }
                 }
             }
@@ -813,7 +830,7 @@
                 
                 .no-touch &:hover {
                     .feed-bg {
-                        @include transform(scale(1.05));
+                        @include transform(scale(1.06));
                     }
                 }
             }
@@ -827,6 +844,7 @@
                 @include bgImgCover;
                 transition: transform 0.4s ease-out;
                 will-change: transform;
+                @include transform(scale(1.02));
             }
         }
     }
@@ -1124,7 +1142,7 @@
     
     &.with-border {
         .widget {
-            border: 1px solid #E6E6E6;
+            border: 1px solid #e6e6e6;
             
             .dark-color & {
                 border-color: #333;

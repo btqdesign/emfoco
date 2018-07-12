@@ -18,6 +18,14 @@ nav ul {
         max-width: 50%;
     }
     
+    &.invisible {
+        .site-title,
+        .site-description {
+            position: absolute;
+            clip: rect(1px, 1px, 1px, 1px);
+        }
+    }
+    
     p {
         margin-bottom: 0;
     }
@@ -237,6 +245,10 @@ nav ul {
                 }
             }
         }
+    }
+      
+    .social-navigation {
+        display: none;
     }
     
     &.site-header-color-light {
@@ -560,6 +572,10 @@ ul.social-nav {
             
             &[href*="reddit"]:before {
                 content: "\f281";
+            }
+            
+            &[href*="apple"]:before {
+                content: "\f179";
             }
         }
     }
@@ -1041,6 +1057,40 @@ ul.social-nav {
             width: calc(100% - 70px);
         }
     }
+    
+    .site-header {
+        .social-navigation {
+            display: block;
+            margin: 0;
+            
+            ul.social-nav li a {
+                width: 34px;
+                height: 34px;
+            }
+        }
+        
+        &.site-header-layout-3,
+        &.site-header-layout-4,
+        &.site-header-layout-6 {
+            .misc-wrapper {
+                .social-navigation {
+                    margin-left: auto;
+                }
+            }
+        }
+        
+        &.site-header-layout-3,
+        &.site-header-layout-5,
+        &.site-header-layout-6 {
+            .misc-wrapper {
+                @include flexNoWrap;
+                
+                .social-navigation ul.social-nav {
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
 }
 
 @include screen(desktop) {
@@ -1078,7 +1128,7 @@ ul.social-nav {
                     min-width: 200px;
                     padding: 20px 0;
                     margin: 0;
-                    background: #F9F9F9;
+                    background: #f9f9f9;
                     box-shadow: 0 10px 40px rgba(#000, 0.15);
                     color: #000;
                     text-align: left;
@@ -1401,7 +1451,7 @@ ul.social-nav {
             
             &.menu-btn-show {
                 .menu-toggle {
-                    position: absolute;
+                    @include centered-vertical;
                     right: 30px;
                 }
                 

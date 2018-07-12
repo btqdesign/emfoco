@@ -52,7 +52,7 @@ if(!class_exists('Fallsky_Homepage_Widget_Products') && class_exists('WooCommerc
 					$title = sprintf(
 						'%s%s%s',
 						sprintf($args['before_title'], $title_class),
-						empty($category_link) ? $title : sprintf('<a href="%s">%s</a>', $category_link, $title),
+						empty($category_link) ? $title : sprintf( '<a href="%s">%s</a>', $category_link, apply_filters( 'widget_title', $title ) ),
 						$args['after_title']
 					);
 				}

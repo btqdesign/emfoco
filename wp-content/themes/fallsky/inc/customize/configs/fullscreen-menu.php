@@ -343,8 +343,8 @@ if(!class_exists('Fallsky_Customize_Menu')){
 			$copyright_hide		= $fallsky_is_preview && empty($copyright) 	? ' hide' : '';
 
 			// Show main menu in fullscreen site header
-			if(has_nav_menu('primary')){
-				wp_nav_menu(array(
+			if ( has_nav_menu( 'primary' ) ) {
+				wp_nav_menu( array(
 					'theme_location' 	=> 'primary',
 					'container' 		=> 'nav',
 					'container_id' 		=> '',
@@ -353,29 +353,29 @@ if(!class_exists('Fallsky_Customize_Menu')){
 					'menu_class' 		=> 'primary-menu',
 					'depth' 			=> 3,
 					'walker' 			=> new Fallsky_Walker_Fullscreen_Nav_Menu()
-				));
+				) );
 			}
 			// Show search form in fullscreen site header
-			if($fallsky_is_preview || $show_search_form){
+			if ( $fallsky_is_preview || $show_search_form ) {
 				printf(
 					'<div class="search%s">%s</div>',
 					$search_hide,
-					get_search_form(false)
+					get_search_form( false )
 				);
 			}
 			// Show secondary menu in fullscreen site header
-			if(has_nav_menu('secondary')){ 
-				fallsky_secondary_nav(array(
+			if ( has_nav_menu( 'secondary' ) ) { 
+				fallsky_secondary_nav( array(
 					'menu_id' 		=> 'fullscreen-menu-secondary',
 					'container_id' 	=> '',
-				)); 
+				) ); 
 			} 
 			// Show social menu in fullscreen site header
-			if($fallsky_is_preview || $show_social_menu){
-				fallsky_social_menu(array(
+			if ( $fallsky_is_preview || $show_social_menu ) {
+				fallsky_social_menu( array(
 					'menu_id' 			=> 'fullscreen-menu-social', 
 					'container_class'	=> sprintf('social-navigation%s', $social_hide)
-				));
+				) );
 			}
 			// Show copyright text in fullscreen site header
 			if($fallsky_is_preview || !empty($copyright)){

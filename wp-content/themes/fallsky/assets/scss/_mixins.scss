@@ -363,14 +363,24 @@
         &.column-3 {
             .cat a {
                 span.category-name {
-                    padding: 20px;
                     @include fontsize(18);
                 }
                 
                 span.counts {
-                    top: 10px;
-                    right: 0;
                     @include fontsize(12);
+                }
+            }
+            
+            &.style-rectangle {
+                .cat a {
+                    span.category-name {
+                        padding: 20px;
+                    }
+                    
+                    span.counts {
+                        margin-top: 14px;
+                        margin-left: -14px;
+                    }
                 }
             }
         }
@@ -568,6 +578,15 @@
     .slider-arrows {
         @include centered-vertical;
         @include verticalSlickArrow;
+        
+        .touch &.display-on-mobile {
+            .slick-arrow {
+                &.slick-prev,
+                &.slick-next {
+                    @include translateX(0);
+                }
+            }
+        }
     }
     
     &:hover {

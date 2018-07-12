@@ -1,0 +1,12 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_fallsky">
+			<key name="fallsky_read_more_text" />
+			<key name="fallsky_fullscreen_menu_copyright_text" />
+			<key name="fallsky_site_footer_instagram_title" />
+			<key name="fallsky_site_footer_bottom_text" />
+			<key name="fallsky_home_custom_content_editor" />
+			<key name="fallsky_single_post_related_posts_title" />
+		</key>
+	</admin-texts>
+</wpml-config>

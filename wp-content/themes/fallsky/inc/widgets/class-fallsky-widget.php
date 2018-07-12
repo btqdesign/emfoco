@@ -486,7 +486,7 @@ if(!class_exists('Fallsky_Widget')){
 				$title = sprintf(
 					'%s%s%s',
 					sprintf($args['before_title'], $title_class),
-					$title,
+					apply_filters( 'widget_title', $title ),
 					$args['after_title']
 				);
 			}

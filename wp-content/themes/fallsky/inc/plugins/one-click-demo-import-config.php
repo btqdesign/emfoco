@@ -1,7 +1,8 @@
 <?php
 function fallsky_ocdi_import_files () {
 	$dir 		= trailingslashit( get_template_directory() ) . 'inc/ocdi/';
-	$image 		= get_template_directory_uri() . '/inc/ocdi/%s/screenshot.jpg';
+	$theme_uri 	= get_template_directory_uri();
+	$image 		= '/inc/ocdi/%s/screenshot.jpg';
 	$configs 	= array(
 		array('name' => 'Default Demo 1', 	'content' => 'demo1', 			'path' => 'demo1'),
 		array('name' => 'Default Demo 2', 	'content' => 'demo2', 			'path' => 'demo2'),
@@ -15,7 +16,7 @@ function fallsky_ocdi_import_files () {
 		$content 	= $dir . $config[ 'content' ] . '/content.xml';
 		$widgets 	= $dir . $config[ 'content' ] . '/widgets.wie';
 		$customize 	= $dir . $config[ 'path' ] 	. '/customization.dat';
-		$screenshot = sprintf( $image, $config[ 'path' ] );
+		$screenshot = sprintf( '%s%s', $theme_uri, sprintf( $image, $config[ 'path' ] ) );
 		$demos[] = array(
 			'import_file_name'             => $config[ 'name' ],
 			'local_import_file'            => $content,

@@ -80,7 +80,7 @@ if(!class_exists('Fallsky_Customize_Homepage_Featured_Frontend_Render')){
 				$content_class 	= 'post-content';
 				$arrows 		= $style == 'style-slider-3' ? '' : '<div class="slider-arrows"></div>';
 				$item_list 		= array();
-				$main_tmpl 		=  '<div class="top-slider %s"%s><div class="slider-wrapper">%s</div>%s</div>';
+				$main_tmpl 		=  '<div class="top-slider %s"%s data-slider-number="%s"><div class="slider-wrapper">%s</div>%s</div>';
 				$bg_tmpl  		= '<div class="post-bg"><a class="post-link" href="%s">%s</a></div>';
 				$item_tmpl 		= '<article class="post"%s>%s<div class="%s"><h2 class="post-title"><a href="%s">%s</a></h2>%s%s</div></article>';
 
@@ -118,6 +118,7 @@ if(!class_exists('Fallsky_Customize_Homepage_Featured_Frontend_Render')){
 					$main_tmpl,
 					$style,
 					$fallsky_is_preview ? sprintf(' data-style="%s"', $style) : '',
+					$posts->post_count,
 					implode('', $item_list),
 					$arrows
 				);
@@ -308,7 +309,8 @@ if(!class_exists('Fallsky_Customize_Homepage_Featured_Frontend_Render')){
 			$args 	= array(
 				'autoplay' 		=> fallsky_module_enabled('fallsky_home_posts_slider_auto_play'),
 				'autoplaySpeed' => empty($pause) ? 5000 : $pause * 1000,
-				'pauseOnHover'	=> fallsky_module_enabled( 'fallsky_home_posts_slider_pause_on_hover' )
+				'pauseOnHover'	=> fallsky_module_enabled( 'fallsky_home_posts_slider_pause_on_hover' ),
+				'rtl' 			=> is_rtl()
 			);
 			if($fallsky_is_preview){
 				$vars['featured_slider_customize'] = array(				
@@ -341,7 +343,7 @@ if(!class_exists('Fallsky_Customize_Homepage_Featured_Frontend_Render')){
 			}
 			if(($show && in_array($type, array('posts-slider'))) || $fallsky_is_preview){
 				$args = array_merge($args, array(
-					'dots' 		=> in_array($style, array('style-slider-1', 'style-slider-3')),
+					'dots' 		=> in_array( $style, array( 'style-slider-1', 'style-slider-3' ) ),
 					'infinite' 	=> true,
 					'speed' 	=> 500,
 					'fade' 		=> true,

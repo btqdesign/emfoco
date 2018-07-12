@@ -13,7 +13,7 @@ if(!class_exists('Fallsky_Homepage_Widget_Banner')){
 		private static $filter_added 		= false;
 		public function __construct(){
 			$widget_ops = array(
-				'classname' 					=> 'ad-banner',
+				'classname' 					=> 'fallsky-bannr',
 				'description' 					=> esc_html__('Add Ad banner to your homepage.', 'fallsky'),
 				'customize_selective_refresh' 	=> false
 			);

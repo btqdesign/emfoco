@@ -3,7 +3,7 @@
 * http://www.loftocean.com
 */
 
-(function(api, $){
+( function( api, $ ) {
 	"use strict";
 
 	/** Add theme special class to control wrap */
@@ -839,7 +839,7 @@
 	/**
 	* Register event handlers after wp.customize ready
 	*/
-	api.bind('ready', function(e){ 
+	api.bind( 'ready', function( e ) { 
 		var $widgets_available 	= $('#available-widgets-list'), 
 			$homepage_widgets 	= $('div[data-widget-id^="fallsky-homepage-widget"]'),
 			$reorder_btn 		= $('.customize-control-sidebar_widgets .button-link.reorder-toggle');
@@ -894,30 +894,42 @@
 			handleChange.call(showOnFront); //, showOnFront()); // Make sure initial notification is added after loading existing changeset.
 		});
 
-		$('body').on('click', 'a.show-control', function(e){
+		$( 'body' ).on( 'click', 'a.show-control', function( e ) {
 			e.preventDefault();
 			var targetID = $(this).data('control-id');
-			if(targetID){
-				api.previewer.trigger('focus-control-for-setting', targetID);
+			if ( targetID ) {
+				api.previewer.trigger( 'focus-control-for-setting', targetID );
 			}
-		})
-		.on('click', 'a.show-panel, a.show-section', function(e){
+		} )
+		.on( 'click', 'a.show-panel, a.show-section', function( e ) {
 			e.preventDefault();
-			var targetID = $(this).data('section-id');
-			if(targetID && $('#' + targetID).length){
+			var targetID = $( this ).data( 'section-id' );
+			if ( targetID && $( '#' + targetID ).length ) {
 				$('#' + targetID).find('.accordion-section-title').trigger('click');
 			}
-		})
-		.on('click', 'a.redirect-preview-url', function(e){
+		} )
+		.on( 'click', 'a.redirect-preview-url', function( e ) {
 			e.preventDefault();
-			var param = $(this).attr('href');
-			if($(this).hasClass('static-home')){
+			var param = $( this ).attr( 'href' );
+			if ( $( this ).hasClass( 'static-home' ) ) {
 				var home_id = api.get().page_for_posts ? api.get().page_for_posts : false;
 				param = home_id ? '?page_id=' + home_id : '';
 			}
-			if(param && (param != '#')){
-				api.previewer.previewUrl.set(api.settings.url.home + param);
+			if ( param && ( param != '#' ) ) {
+				api.previewer.previewUrl.set( api.settings.url.home + param );
 			}
-		});
-	});
-})(wp.customize, jQuery);
+		} )
+		.on( 'click', '#customize-control-fallsky_instagram_clear_cache input[type=button]', function( e ){
+			e.preventDefault();
+			if ( wpApiSettings && wpApiSettings.root ) {
+				var $self = $( this );
+				$self.val( fallsky_customize['clear-instagram-cache']['sending'] ).attr( 'disabled', 'disabled' );
+				var cache = {}, url = wpApiSettings.root + 'loftocean/v1/clear-instagram-cache/';
+				$.get( url )
+					.done( function(){
+						$self.val( fallsky_customize[ 'clear-instagram-cache' ][ 'done' ] ).removeAttr( 'disabled' );
+					});
+			}
+		} );
+	} );
+} ) ( wp.customize, jQuery );

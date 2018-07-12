@@ -3,7 +3,7 @@
 * Customize section home page configuration files.
 */
 
-if(!class_exists('Fallsky_Customize_Homepage')){
+if ( ! class_exists( 'Fallsky_Customize_Homepage' ) ) {
 	class Fallsky_Customize_Homepage extends Fallsky_Customize_Base {
 		private $featured_render 						= null;
 		private $main_area_render						= null;
@@ -15,14 +15,14 @@ if(!class_exists('Fallsky_Customize_Homepage')){
 			$this->includes();
 			$this->static_homepage_content_from_default = 'page';
 			$this->static_homepage_content_from_options = array(
-				'page' 		=> esc_html__('From Page Content', 'fallsky'),
-				'customize' => esc_html__('From Customizer > Homepage Section', 'fallsky')
+				'page' 		=> esc_html__( 'From Page Content', 'fallsky' ),
+				'customize' => esc_html__( 'From Customizer > Homepage Section', 'fallsky' )
 			);
-			add_filter('tiny_mce_before_init', 								array($this, 'mce_editor_settings'), 999, 2);
-			add_filter('admin_init', 										array($this, 'settings_api_init'));
-			add_filter('fallsky_is_static_homepage_content_from_customize', array($this, 'is_homepage_content_from_customize'));
+			add_filter( 'tiny_mce_before_init', array( $this, 'mce_editor_settings' ), 999, 2);
+			add_filter( 'admin_init', 			array( $this, 'settings_api_init' ) );
+			add_filter( 'fallsky_is_static_homepage_content_from_customize', array( $this, 'is_homepage_content_from_customize' ) );
 		}
-		private function includes(){
+		private function includes() {
 			$dir = FALLSKY_THEME_INC . 'customize/frontend-render/';
 
 			require_once $dir . 'class-homepage-featured-area.php';
@@ -31,76 +31,80 @@ if(!class_exists('Fallsky_Customize_Homepage')){
 			$this->main_area_render = new Fallsky_Customize_Homepage_Main_Area_Frontend_Render();
 
 			global $wp_customize;
-			if(!empty($wp_customize)){
-				$components = apply_filters('customize_loaded_components', array('widgets', 'nav_menus'), $wp_customize);
-				if(in_array('widgets', $components)){
+			if ( ! empty( $wp_customize ) ) {
+				$components = apply_filters( 'customize_loaded_components', array( 'widgets', 'nav_menus' ), $wp_customize );
+				if ( in_array( 'widgets', $components ) ) {
 					require_once  FALLSKY_THEME_INC . 'customize/class-customize-homepage-area.php';		
-					new Fallsky_Customize_Homepage_Area($wp_customize, 'fallsky_section_home_main_area_1', 'fallsky_homepage_main_area');
+					new Fallsky_Customize_Homepage_Area( $wp_customize, 'fallsky_section_home_main_area_1', 'fallsky_homepage_main_area' );
 				}
 			}
 		}
-		public function settings_api_init(){
+		public function settings_api_init() {
 			add_settings_field(
 				'fallsky_static_homepage_content',
-				esc_html__('Static Homepage Content', 'fallsky'),
-				array($this, 'render_static_homepage_content'),
+				esc_html__( 'Static Homepage Content', 'fallsky' ),
+				array( $this, 'render_static_homepage_content' ),
 				'reading'
 			);
-		 	register_setting('reading', 'fallsky_static_homepage_content', array('sanitize_callback' => array($this, 'sanitize_static_homepage_content')));
+		 	register_setting(
+		 		'reading', 
+		 		'fallsky_static_homepage_content', 
+		 		array( 'sanitize_callback' => array( $this, 'sanitize_static_homepage_content' ) )
+		 	);
 		}
-		public function render_static_homepage_content(){
-			$from 			= get_option('fallsky_static_homepage_content', $this->static_homepage_content_from_default);
-			$page_on_front 	= get_option('page_on_front');
-			$front 			= get_option('show_on_front');
+		public function render_static_homepage_content() {
+			$from 			= get_option( 'fallsky_static_homepage_content', $this->static_homepage_content_from_default );
+			$page_on_front 	= get_option( 'page_on_front' );
+			$front 			= get_option( 'show_on_front' );
 			$options 		= array();
-			foreach($this->static_homepage_content_from_options as $v => $l){
-				$options[] = sprintf( '<option value="%s" %s>%s</option>', $v, selected($from, $v, false), $l );
+			foreach( $this->static_homepage_content_from_options as $v => $l ) {
+				$options[] = sprintf( '<option value="%s" %s>%s</option>', $v, selected( $from, $v, false ), $l );
 			}
 			printf(
 				'<select name="%1$s" id="%1$s"%2$s>%3$s</select>%4$s',
 				'fallsky_static_homepage_content',
-				empty($page_on_front) || ('posts' == $front) ? ' disabled' : '',
-				implode('', $options),
-				sprintf('<p class="description">%s</p>', esc_html__('For static homepage only', 'fallsky'))
+				empty( $page_on_front ) || ( 'posts' == $front ) ? ' disabled' : '',
+				implode( '', $options ),
+				sprintf( '<p class="description">%s</p>', esc_html__( 'For static homepage only', 'fallsky' ) )
 			);
 		}
-		public function sanitize_static_homepage_content($value){
-			$keys = array_keys($this->static_homepage_content_from_options);
-			return in_array($value, $keys) ? $value : $this->static_homepage_content_from_default;
+		public function sanitize_static_homepage_content( $value ) {
+			$keys = array_keys( $this->static_homepage_content_from_options );
+			return in_array( $value, $keys ) ? $value : $this->static_homepage_content_from_default;
 		}
-		public function is_homepage_content_from_customize($from){
-			if(!isset($this->is_homepage_content_from_customize)){
-				$this->is_homepage_content_from_customize = ('customize' == get_option('fallsky_static_homepage_content', $this->static_homepage_content_from_default));
+		public function is_homepage_content_from_customize( $from ) {
+			if ( ! isset( $this->is_homepage_content_from_customize ) ) {
+				$this->is_homepage_content_from_customize = ( 'customize' == get_option( 'fallsky_static_homepage_content', $this->static_homepage_content_from_default ) );
 			}
 			return $this->is_homepage_content_from_customize;
 		}
-		public function show_front_sections(){
-			$front_page_id 		= get_option('page_on_front');
-			$posts_page_id 		= get_option('page_for_posts');
-			$is_static_page 	= ('page' == get_option('show_on_front'));
-			$is_static_front   	= $is_static_page && !empty($front_page_id);
-			$is_static_blog 	= $is_static_page && empty( $front_page_id ) && !empty( $posts_page_id );
-			$is_from_customize 	= apply_filters('fallsky_is_static_homepage_content_from_customize', false);
-			return ($is_static_front && $is_from_customize) || !$is_static_page || $is_static_blog;
+		public function show_front_sections() {
+			$front_page_id 		= get_option( 'page_on_front' );
+			$posts_page_id 		= get_option( 'page_for_posts' );
+			$is_static_page 	= ( 'page' == get_option( 'show_on_front' ) );
+			$is_static_front   	= $is_static_page && ! empty( $front_page_id );
+			$is_static_blog 	= $is_static_page && empty( $front_page_id ) && ! empty( $posts_page_id );
+			$is_from_customize 	= apply_filters( 'fallsky_is_static_homepage_content_from_customize', false );
+			return ( $is_static_front && $is_from_customize ) || !$is_static_page || $is_static_blog;
 		}
-		public function show_static_homepage_content_from_options(){
-			$page_on_front = get_option('page_on_front');
-			return !empty($page_on_front);
+		public function show_static_homepage_content_from_options() {
+			$page_on_front = get_option( 'page_on_front' );
+			return ! empty( $page_on_front );
 		}
-		public function register_controls($wp_customize){
+		public function register_controls( $wp_customize ) {
 			global $fallsky_default_settings;
 
 			$panel_description = sprintf(
-				esc_html__('For static front page, the sections "Fullwidth Featured Area" and "Home Main Content Area" only work when choosing the content from "Customize". You can %sclick here%s to change the setting.', 'fallsky'),
+				esc_html__( 'For static front page, the sections "Fullwidth Featured Area" and "Home Main Content Area" only work when choosing the content from "Customize". You can %sclick here%s to change the setting.', 'fallsky' ),
 				'<a href="#" data-control-id="fallsky_static_homepage_content" class="show-control">', 
 				'</a>'
 			);
 			// Panel
-			$wp_customize->add_panel(new WP_Customize_Panel($wp_customize, 'fallsky_panel_home', array(
-				'title' 		=> esc_html__('Home Page', 'fallsky'),
+			$wp_customize->add_panel( new WP_Customize_Panel( $wp_customize, 'fallsky_panel_home', array(
+				'title' 		=> esc_html__( 'Home Page', 'fallsky' ),
 				'priority' 		=> 35,
 				'description' 	=> $panel_description
-			)));
+			) ) );
 
 			// Sections
 			$wp_customize->add_section('fallsky_section_fullwidth_featured_area', array(

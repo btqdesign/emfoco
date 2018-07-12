@@ -52,12 +52,20 @@ $fallsky_default_settings = apply_filters('fallsky_default_settings', array(
 	'fallsky_dark_color_scheme_custom_text'						=> '#FFFFFF',
 	'fallsky_dark_color_scheme_custom_content'					=> '#E2E2E2',
 
+	/** section general image slider **/
+	'fallsky_mobile_image_slider_arrows_style'					=> '', 
+
+	/** section general instagram **/
+	'fallsky_instagram_clear_cache'								=> '',
+	'fallsky_instagram_render_type'								=> '',
+
 	/** section site header layout **/
 	'fallsky_site_header_layout'								=> 'site-header-layout-1',
 	'fallsky_enable_hamburge_menu_button'						=> 'on',
 	'fallsky_hamburge_menu_button_style'						=> 'icon-only',	
 	'fallsky_sticky_site_header'								=> 'sticky-scroll-up',	
 	'fallsky_no_space_between_site_header_and_content'			=> '',
+	'fallsky_site_header_show_social_menu'						=> '',
 	'fallsky_show_search_button'								=> 'on',
 	'fallsky_search_button_style'								=> 'icon-only',
 
@@ -114,6 +122,7 @@ $fallsky_default_settings = apply_filters('fallsky_default_settings', array(
 	'fallsky_site_footer_instagram_columns'						=> 6,
 	'fallsky_site_footer_instagram_fullwidth'					=> 'on',
 	'fallsky_site_footer_instagram_space'						=> 0,
+	'fallsky_site_footer_instagram_new_tab'						=> '',
 	'fallsky_site_footer_bottom_layout'							=> '',
 	'fallsky_site_footer_bottom_enable_menu'					=> '',
 	'fallsky_site_footer_bottom_menu_type'						=> 'social',

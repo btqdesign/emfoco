@@ -3,9 +3,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Fallsky 1.1.3\n"
+"Project-Id-Version: Fallsky 1.1.7\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/fallsky\n"
-"POT-Creation-Date: 2018-05-29 15:59+0800\n"
+"POT-Creation-Date: 2018-07-07 13:26+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -82,7 +82,7 @@ msgid "Layout 2"
 msgstr ""
 
 #: inc/class-meta-box.php:27 inc/class-meta-box.php:34
-#: inc/customize/configs/footer.php:268 inc/customize/configs/sidebar.php:79
+#: inc/customize/configs/footer.php:276 inc/customize/configs/sidebar.php:79
 #: inc/customize/configs/typography.php:534
 #: inc/customize/configs/typography.php:609
 #: inc/customize/configs/typography.php:688
@@ -100,7 +100,7 @@ msgid "Default"
 msgstr ""
 
 #. Template Name of the plugin/theme
-#: inc/class-meta-box.php:28 inc/customize/configs/home-page.php:741
+#: inc/class-meta-box.php:28 inc/customize/configs/home-page.php:745
 #: inc/customize/configs/woocommerce.php:149
 #: inc/customize/configs/woocommerce.php:160
 msgid "No Sidebar"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: inc/class-meta-box.php:29 inc/customize/configs/archive-pages.php:376
 #: inc/customize/configs/category-index-page.php:122
-#: inc/customize/configs/home-page.php:742
+#: inc/customize/configs/home-page.php:746
 #: inc/customize/configs/woocommerce.php:151
 #: inc/customize/configs/woocommerce.php:162
 msgid "Left Sidebar"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: inc/class-meta-box.php:30 inc/customize/configs/archive-pages.php:375
 #: inc/customize/configs/category-index-page.php:121
-#: inc/customize/configs/home-page.php:743
+#: inc/customize/configs/home-page.php:747
 #: inc/customize/configs/woocommerce.php:150
 #: inc/customize/configs/woocommerce.php:161
 msgid "Right Sidebar"
@@ -214,7 +214,7 @@ msgstr ""
 msgid "Latest Articles"
 msgstr ""
 
-#: inc/class-walker-menu.php:85 inc/customize/class-customize-custom.php:596
+#: inc/class-walker-menu.php:85 inc/customize/class-customize-custom.php:590
 #: inc/customize/frontend-render/class-archive.php:349
 msgid "All"
 msgstr ""
@@ -231,7 +231,7 @@ msgstr ""
 msgid "Secondary Menu"
 msgstr ""
 
-#: inc/class-wp-core.php:105 inc/customize/configs/footer.php:334
+#: inc/class-wp-core.php:105 inc/customize/configs/footer.php:350
 msgid "Social Menu"
 msgstr ""
 
@@ -255,32 +255,32 @@ msgstr ""
 msgid "Footer Column 3"
 msgstr ""
 
-#: inc/customize/class-customize-custom.php:334
+#: inc/customize/class-customize-custom.php:330
 #: inc/widgets/class-fallsky-widget.php:271
 msgid "No image selected"
 msgstr ""
 
-#: inc/customize/class-customize-custom.php:337
+#: inc/customize/class-customize-custom.php:333
 msgid "Remove"
 msgstr ""
 
-#: inc/customize/class-customize-custom.php:338
+#: inc/customize/class-customize-custom.php:334
 msgid "Select Image"
 msgstr ""
 
-#: inc/customize/class-customize-custom.php:391
+#: inc/customize/class-customize-custom.php:387
 msgid "Add a Widget"
 msgstr ""
 
-#: inc/customize/class-customize-custom.php:615
+#: inc/customize/class-customize-custom.php:609
 msgid "Choose a Menu"
 msgstr ""
 
-#: inc/customize/class-customize-custom.php:621
+#: inc/customize/class-customize-custom.php:614
 msgid "No Menu set yet"
 msgstr ""
 
-#: inc/customize/class-customize-custom.php:638
+#: inc/customize/class-customize-custom.php:631
 msgid "Choose Form"
 msgstr ""
 
@@ -404,7 +404,7 @@ msgid "Enable parallax effect while scrolling for ZigZag post archive"
 msgstr ""
 
 #: inc/customize/configs/archive-pages.php:28
-#: inc/customize/configs/header.php:285
+#: inc/customize/configs/header.php:302
 msgid "Archive Pages"
 msgstr ""
 
@@ -436,7 +436,7 @@ msgid ""
 msgstr ""
 
 #: inc/customize/configs/archive-pages.php:44
-#: inc/customize/configs/header.php:199 inc/customize/configs/header.php:386
+#: inc/customize/configs/header.php:216 inc/customize/configs/header.php:412
 #: inc/customize/frontend-render/class-single-post.php:128 searchform.php:8
 #: searchform.php:10
 msgid "Search"
@@ -537,7 +537,7 @@ msgstr ""
 
 #: inc/customize/configs/archive-pages.php:192
 #: inc/customize/configs/category-index-page.php:151
-#: inc/customize/configs/footer.php:318
+#: inc/customize/configs/footer.php:334
 #: inc/widgets/homepage/class-widget-featured-category.php:152
 #: inc/widgets/homepage/class-widget-posts.php:316
 #: inc/widgets/homepage/class-widget-posts.php:340
@@ -598,7 +598,7 @@ msgstr ""
 
 #: inc/customize/configs/archive-pages.php:370
 #: inc/customize/configs/category-index-page.php:116
-#: inc/customize/configs/home-page.php:735
+#: inc/customize/configs/home-page.php:739
 msgid "Sidebar Layout"
 msgstr ""
 
@@ -614,7 +614,7 @@ msgid "Posts Layout"
 msgstr ""
 
 #: inc/customize/configs/archive-pages.php:385
-#: inc/customize/configs/general.php:11
+#: inc/customize/configs/general.php:15
 #: inc/widgets/homepage/class-widget-posts.php:298
 msgid "Masonry"
 msgstr ""
@@ -630,20 +630,20 @@ msgid "ZigZag"
 msgstr ""
 
 #: inc/customize/configs/archive-pages.php:388
-#: inc/customize/configs/general.php:15
+#: inc/customize/configs/general.php:19
 #: inc/widgets/homepage/class-widget-posts.php:301
 #: inc/widgets/homepage/class-widget-products.php:308
 msgid "Grid"
 msgstr ""
 
 #: inc/customize/configs/archive-pages.php:389
-#: inc/customize/configs/general.php:16
+#: inc/customize/configs/general.php:20
 #: inc/widgets/homepage/class-widget-posts.php:302
 msgid "Card"
 msgstr ""
 
 #: inc/customize/configs/archive-pages.php:390
-#: inc/customize/configs/footer.php:269
+#: inc/customize/configs/footer.php:277
 #: inc/customize/configs/woocommerce.php:202
 #: inc/widgets/homepage/class-widget-posts.php:303
 #: inc/widgets/homepage/class-widget-products.php:349
@@ -706,8 +706,8 @@ msgid "Card Color"
 msgstr ""
 
 #: inc/customize/configs/archive-pages.php:436
-#: inc/customize/configs/footer.php:407 inc/customize/configs/general.php:377
-#: inc/customize/configs/header.php:241
+#: inc/customize/configs/footer.php:423 inc/customize/configs/general.php:390
+#: inc/customize/configs/header.php:258
 #: inc/customize/configs/single-post.php:254
 #: inc/customize/configs/woocommerce.php:212
 #: inc/widgets/homepage/class-widget-banner.php:168
@@ -724,8 +724,8 @@ msgid "Light"
 msgstr ""
 
 #: inc/customize/configs/archive-pages.php:437
-#: inc/customize/configs/footer.php:408 inc/customize/configs/general.php:378
-#: inc/customize/configs/header.php:242
+#: inc/customize/configs/footer.php:424 inc/customize/configs/general.php:391
+#: inc/customize/configs/header.php:259
 #: inc/customize/configs/single-post.php:255
 #: inc/customize/configs/woocommerce.php:213
 #: inc/widgets/homepage/class-widget-banner.php:169
@@ -850,7 +850,7 @@ msgid "Please %sclick here%s to pick your category index page."
 msgstr ""
 
 #: inc/customize/configs/category-index-page.php:127
-#: inc/customize/configs/home-page.php:602
+#: inc/customize/configs/home-page.php:606
 #: inc/widgets/homepage/class-widget-featured-category.php:130
 #: inc/widgets/homepage/class-widget-product-category.php:135
 #: inc/widgets/normal/class-widget-category.php:97
@@ -882,123 +882,127 @@ msgstr ""
 msgid "Category Index Page must be different from Homepage/Posts page ."
 msgstr ""
 
-#: inc/customize/configs/footer.php:13
+#: inc/customize/configs/footer.php:14
 msgid "Site Footer"
 msgstr ""
 
-#: inc/customize/configs/footer.php:19
+#: inc/customize/configs/footer.php:20
 #: inc/customize/configs/fullscreen-menu.php:19
-#: inc/customize/configs/home-page.php:537
-#: inc/customize/configs/home-page.php:563
+#: inc/customize/configs/home-page.php:541
+#: inc/customize/configs/home-page.php:567
 #: inc/customize/configs/search-screen.php:24
 msgid "Content Options"
 msgstr ""
 
-#: inc/customize/configs/footer.php:23
+#: inc/customize/configs/footer.php:24
 #: inc/customize/configs/fullscreen-menu.php:23
-#: inc/customize/configs/header.php:32 inc/customize/configs/home-page.php:628
+#: inc/customize/configs/header.php:32 inc/customize/configs/home-page.php:632
 #: inc/customize/configs/search-screen.php:28
 #: inc/customize/configs/sidebar.php:69
 msgid "Design Options"
 msgstr ""
 
-#: inc/customize/configs/footer.php:230
+#: inc/customize/configs/footer.php:238 inc/customize/configs/general.php:673
 msgid "Instagram"
 msgstr ""
 
-#: inc/customize/configs/footer.php:237
+#: inc/customize/configs/footer.php:245
 msgid "Display Instagram Feed"
 msgstr ""
 
-#: inc/customize/configs/footer.php:243
+#: inc/customize/configs/footer.php:251
 msgid "Instagram Account"
 msgstr ""
 
-#: inc/customize/configs/footer.php:248
+#: inc/customize/configs/footer.php:256
 msgid "Enter your Instagram Account"
 msgstr ""
 
-#: inc/customize/configs/footer.php:253 inc/customize/configs/footer.php:258
+#: inc/customize/configs/footer.php:261 inc/customize/configs/footer.php:266
 msgid "Title (optional)"
 msgstr ""
 
-#: inc/customize/configs/footer.php:263
+#: inc/customize/configs/footer.php:271
 msgid "Title Layout"
 msgstr ""
 
-#: inc/customize/configs/footer.php:274
+#: inc/customize/configs/footer.php:282
 msgid "Display x photos (4 to 8)"
 msgstr ""
 
-#: inc/customize/configs/footer.php:283
+#: inc/customize/configs/footer.php:291
 msgid "Make it fullwidth"
 msgstr ""
 
-#: inc/customize/configs/footer.php:290
+#: inc/customize/configs/footer.php:298
 msgid "Space around each photo"
 msgstr ""
 
-#: inc/customize/configs/footer.php:294 inc/customize/configs/home-page.php:725
+#: inc/customize/configs/footer.php:302 inc/customize/configs/home-page.php:729
 msgid "px"
 msgstr ""
 
-#: inc/customize/configs/footer.php:307
+#: inc/customize/configs/footer.php:312
+msgid "Open links in new tab"
+msgstr ""
+
+#: inc/customize/configs/footer.php:323
 msgid "Footer Bottom"
 msgstr ""
 
-#: inc/customize/configs/footer.php:313
+#: inc/customize/configs/footer.php:329
 #: inc/widgets/homepage/class-widget-call-to-action.php:248
 msgid "Layout"
 msgstr ""
 
-#: inc/customize/configs/footer.php:317
+#: inc/customize/configs/footer.php:333
 #: inc/widgets/homepage/class-widget-posts.php:315
 #: inc/widgets/homepage/class-widget-posts.php:339
 #: inc/widgets/homepage/class-widget-posts.php:378
 msgid "1 Column"
 msgstr ""
 
-#: inc/customize/configs/footer.php:324
+#: inc/customize/configs/footer.php:340
 msgid "Display a menu"
 msgstr ""
 
-#: inc/customize/configs/footer.php:335
+#: inc/customize/configs/footer.php:351
 msgid "Navigation Menu"
 msgstr ""
 
-#: inc/customize/configs/footer.php:338
+#: inc/customize/configs/footer.php:354
 msgid ""
 "You can choose your social menu to display social icons here. %sClick here%s "
 "to know how to setup the social menu."
 msgstr ""
 
-#: inc/customize/configs/footer.php:352
+#: inc/customize/configs/footer.php:368
 msgid "Footer Text"
 msgstr ""
 
-#: inc/customize/configs/footer.php:362
+#: inc/customize/configs/footer.php:378
 msgid "Footer Background Image"
 msgstr ""
 
-#: inc/customize/configs/footer.php:367
+#: inc/customize/configs/footer.php:383
 #: inc/customize/configs/fullscreen-menu.php:187
-#: inc/customize/configs/general.php:217
-#: inc/customize/configs/home-page.php:647
+#: inc/customize/configs/general.php:230
+#: inc/customize/configs/home-page.php:651
 #: inc/customize/configs/search-screen.php:179
 msgid "Image Position"
 msgstr ""
 
-#: inc/customize/configs/footer.php:377
+#: inc/customize/configs/footer.php:393
 #: inc/customize/configs/fullscreen-menu.php:197
-#: inc/customize/configs/home-page.php:657
+#: inc/customize/configs/home-page.php:661
 #: inc/customize/configs/search-screen.php:189
 msgid "Size"
 msgstr ""
 
-#: inc/customize/configs/footer.php:382
+#: inc/customize/configs/footer.php:398
 #: inc/customize/configs/fullscreen-menu.php:202
-#: inc/customize/configs/general.php:234
-#: inc/customize/configs/home-page.php:662
+#: inc/customize/configs/general.php:247
+#: inc/customize/configs/home-page.php:666
 #: inc/customize/configs/search-screen.php:194
 #: inc/widgets/homepage/class-widget-call-to-action.php:199
 #: inc/widgets/homepage/class-widget-custom-content.php:174
@@ -1006,10 +1010,10 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
-#: inc/customize/configs/footer.php:383
+#: inc/customize/configs/footer.php:399
 #: inc/customize/configs/fullscreen-menu.php:203
-#: inc/customize/configs/general.php:235
-#: inc/customize/configs/home-page.php:663
+#: inc/customize/configs/general.php:248
+#: inc/customize/configs/home-page.php:667
 #: inc/customize/configs/search-screen.php:195
 #: inc/widgets/homepage/class-widget-call-to-action.php:200
 #: inc/widgets/homepage/class-widget-custom-content.php:175
@@ -1017,10 +1021,10 @@ msgstr ""
 msgid "Fit to Screen"
 msgstr ""
 
-#: inc/customize/configs/footer.php:384
+#: inc/customize/configs/footer.php:400
 #: inc/customize/configs/fullscreen-menu.php:204
-#: inc/customize/configs/general.php:236
-#: inc/customize/configs/home-page.php:664
+#: inc/customize/configs/general.php:249
+#: inc/customize/configs/home-page.php:668
 #: inc/customize/configs/search-screen.php:196
 #: inc/widgets/homepage/class-widget-call-to-action.php:201
 #: inc/widgets/homepage/class-widget-custom-content.php:176
@@ -1028,22 +1032,22 @@ msgstr ""
 msgid "Fill Screen"
 msgstr ""
 
-#: inc/customize/configs/footer.php:389
+#: inc/customize/configs/footer.php:405
 #: inc/customize/configs/fullscreen-menu.php:209
-#: inc/customize/configs/home-page.php:669
+#: inc/customize/configs/home-page.php:673
 #: inc/customize/configs/search-screen.php:201
 msgid "Repeat"
 msgstr ""
 
-#: inc/customize/configs/footer.php:396 inc/customize/configs/general.php:249
-#: inc/customize/configs/home-page.php:676
+#: inc/customize/configs/footer.php:412 inc/customize/configs/general.php:262
+#: inc/customize/configs/home-page.php:680
 #: inc/widgets/homepage/class-widget-call-to-action.php:220
 #: inc/widgets/homepage/class-widget-custom-content.php:195
 #: inc/widgets/homepage/class-widget-mc4wp-signup.php:199
 msgid "Scroll with Page"
 msgstr ""
 
-#: inc/customize/configs/footer.php:403 inc/customize/configs/header.php:237
+#: inc/customize/configs/footer.php:419 inc/customize/configs/header.php:254
 #: inc/customize/configs/single-post.php:249
 #: inc/widgets/homepage/class-widget-banner.php:164
 #: inc/widgets/homepage/class-widget-call-to-action.php:142
@@ -1056,31 +1060,31 @@ msgstr ""
 msgid "Color Scheme"
 msgstr ""
 
-#: inc/customize/configs/footer.php:412
+#: inc/customize/configs/footer.php:428
 #: inc/customize/configs/fullscreen-menu.php:171
-#: inc/customize/configs/header.php:246 inc/customize/configs/home-page.php:634
+#: inc/customize/configs/header.php:263 inc/customize/configs/home-page.php:638
 #: inc/customize/configs/search-screen.php:163
 #: inc/customize/configs/single-post.php:259
 msgid "Background Color"
 msgstr ""
 
-#: inc/customize/configs/footer.php:417
+#: inc/customize/configs/footer.php:433
 #: inc/customize/configs/fullscreen-menu.php:176
-#: inc/customize/configs/home-page.php:705
+#: inc/customize/configs/home-page.php:709
 #: inc/customize/configs/search-screen.php:168
 #: inc/customize/configs/typography.php:1059
 msgid "Text Color"
 msgstr ""
 
-#: inc/customize/configs/footer.php:423
+#: inc/customize/configs/footer.php:439
 msgid "Footer Bottom Color"
 msgstr ""
 
-#: inc/customize/configs/footer.php:427
+#: inc/customize/configs/footer.php:443
 msgid "Inherit"
 msgstr ""
 
-#: inc/customize/configs/footer.php:428 inc/customize/configs/home-page.php:718
+#: inc/customize/configs/footer.php:444 inc/customize/configs/home-page.php:722
 #: inc/customize/configs/typography.php:610
 #: inc/customize/configs/typography.php:689
 #: inc/customize/configs/typography.php:768
@@ -1096,11 +1100,11 @@ msgstr ""
 msgid "Custom"
 msgstr ""
 
-#: inc/customize/configs/footer.php:432
+#: inc/customize/configs/footer.php:448
 msgid "Footer Bottom Background Color"
 msgstr ""
 
-#: inc/customize/configs/footer.php:438
+#: inc/customize/configs/footer.php:454
 msgid "Footer Bottom Text Color"
 msgstr ""
 
@@ -1118,10 +1122,12 @@ msgid "Display Search Form"
 msgstr ""
 
 #: inc/customize/configs/fullscreen-menu.php:148
+#: inc/customize/configs/header.php:205
 msgid "Display Social Menu"
 msgstr ""
 
 #: inc/customize/configs/fullscreen-menu.php:152
+#: inc/customize/configs/header.php:209
 msgid "%sClick here%s to know how to setup the social menu."
 msgstr ""
 
@@ -1130,7 +1136,7 @@ msgid "Copyright Text"
 msgstr ""
 
 #: inc/customize/configs/fullscreen-menu.php:182
-#: inc/customize/configs/home-page.php:641
+#: inc/customize/configs/home-page.php:645
 #: inc/customize/configs/search-screen.php:174
 #: inc/widgets/homepage/class-widget-call-to-action.php:164
 #: inc/widgets/homepage/class-widget-custom-content.php:137
@@ -1164,77 +1170,81 @@ msgstr ""
 msgid "Remove border"
 msgstr ""
 
-#: inc/customize/configs/general.php:12
+#: inc/customize/configs/general.php:16
 msgid "List 1 Column"
 msgstr ""
 
-#: inc/customize/configs/general.php:13
+#: inc/customize/configs/general.php:17
 msgid "List 2 Columns"
 msgstr ""
 
-#: inc/customize/configs/general.php:14
+#: inc/customize/configs/general.php:18
 msgid "Zigzag"
 msgstr ""
 
-#: inc/customize/configs/general.php:21
+#: inc/customize/configs/general.php:25
 msgid "General"
 msgstr ""
 
-#: inc/customize/configs/general.php:26 inc/customize/configs/general.php:259
+#: inc/customize/configs/general.php:30 inc/customize/configs/general.php:272
 msgid "Site Layout"
 msgstr ""
 
-#: inc/customize/configs/general.php:30
+#: inc/customize/configs/general.php:34
 msgid "Posts General Options"
 msgstr ""
 
-#: inc/customize/configs/general.php:34
+#: inc/customize/configs/general.php:38
 msgid "General Colors"
 msgstr ""
 
-#: inc/customize/configs/general.php:204 inc/customize/configs/general.php:211
+#: inc/customize/configs/general.php:42
+msgid "Image Sliders"
+msgstr ""
+
+#: inc/customize/configs/general.php:217 inc/customize/configs/general.php:224
 msgid "Site Background Image"
 msgstr ""
 
-#: inc/customize/configs/general.php:228
+#: inc/customize/configs/general.php:241
 msgid "Image Size"
 msgstr ""
 
-#: inc/customize/configs/general.php:241
+#: inc/customize/configs/general.php:254
 #: inc/widgets/homepage/class-widget-call-to-action.php:209
 #: inc/widgets/homepage/class-widget-custom-content.php:184
 #: inc/widgets/homepage/class-widget-mc4wp-signup.php:188
 msgid "Repeat Background Image"
 msgstr ""
 
-#: inc/customize/configs/general.php:264
+#: inc/customize/configs/general.php:277
 msgid "Fullwidth"
 msgstr ""
 
-#: inc/customize/configs/general.php:265
+#: inc/customize/configs/general.php:278
 msgid "Boxed"
 msgstr ""
 
-#: inc/customize/configs/general.php:266
+#: inc/customize/configs/general.php:279
 msgid "Frame"
 msgstr ""
 
-#: inc/customize/configs/general.php:271
+#: inc/customize/configs/general.php:284
 msgid "Options"
 msgstr ""
 
-#: inc/customize/configs/general.php:281
+#: inc/customize/configs/general.php:294
 msgid "Inner Container Width"
 msgstr ""
 
-#: inc/customize/configs/general.php:283
+#: inc/customize/configs/general.php:296
 msgid ""
 "This option determines the maximum width of the inner content area when the "
 "screen is narrower than 1440 pixels. For more information, please %sclick "
 "here%s."
 msgstr ""
 
-#: inc/customize/configs/general.php:290
+#: inc/customize/configs/general.php:303
 #: inc/customize/configs/typography.php:432
 #: inc/customize/configs/typography.php:590
 #: inc/customize/configs/typography.php:669
@@ -1248,165 +1258,204 @@ msgstr ""
 msgid "Normal"
 msgstr ""
 
-#: inc/customize/configs/general.php:291
+#: inc/customize/configs/general.php:304
 msgid "Wide"
 msgstr ""
 
-#: inc/customize/configs/general.php:297
+#: inc/customize/configs/general.php:310
 msgid "Read More Button text"
 msgstr ""
 
-#: inc/customize/configs/general.php:303
+#: inc/customize/configs/general.php:316
 msgid "Pagination Style"
 msgstr ""
 
-#: inc/customize/configs/general.php:307
+#: inc/customize/configs/general.php:320
 msgid "Next/Prev Links"
 msgstr ""
 
-#: inc/customize/configs/general.php:308
+#: inc/customize/configs/general.php:321
 msgid "With Page Number"
 msgstr ""
 
-#: inc/customize/configs/general.php:309
+#: inc/customize/configs/general.php:322
 msgid "Load More Button"
 msgstr ""
 
-#: inc/customize/configs/general.php:310
+#: inc/customize/configs/general.php:323
 msgid "Infinite Scroll"
 msgstr ""
 
-#: inc/customize/configs/general.php:316
+#: inc/customize/configs/general.php:329
 msgid "Comments Options"
 msgstr ""
 
-#: inc/customize/configs/general.php:323
+#: inc/customize/configs/general.php:336
 msgid "Fold the reply form by default"
 msgstr ""
 
-#: inc/customize/configs/general.php:329
+#: inc/customize/configs/general.php:342
 msgid "Comments location on single post"
 msgstr ""
 
-#: inc/customize/configs/general.php:333
+#: inc/customize/configs/general.php:346
 msgid "After post content"
 msgstr ""
 
-#: inc/customize/configs/general.php:334
+#: inc/customize/configs/general.php:347
 msgid "After posts pagination & related posts"
 msgstr ""
 
-#: inc/customize/configs/general.php:351
+#: inc/customize/configs/general.php:364
 msgid "words"
 msgstr ""
 
-#: inc/customize/configs/general.php:364
+#: inc/customize/configs/general.php:377
 msgid "Post Excerpt Length"
 msgstr ""
 
-#: inc/customize/configs/general.php:365
+#: inc/customize/configs/general.php:378
 msgid ""
 "When choosing \"Overlay\" or \"Overlay Mix\", post excerpt will not display."
 msgstr ""
 
-#: inc/customize/configs/general.php:373
+#: inc/customize/configs/general.php:386
 msgid "Site Color Scheme"
 msgstr ""
 
-#: inc/customize/configs/general.php:383
+#: inc/customize/configs/general.php:396
 #: inc/customize/configs/typography.php:1060
 msgid "Accent Color"
 msgstr ""
 
-#: inc/customize/configs/general.php:387
+#: inc/customize/configs/general.php:400
 msgid "None, just black & white"
 msgstr ""
 
-#: inc/customize/configs/general.php:388
+#: inc/customize/configs/general.php:401
 msgid "Yes, I want to choose an accent color"
 msgstr ""
 
-#: inc/customize/configs/general.php:402
+#: inc/customize/configs/general.php:415
 msgid ""
 "To change site header/footer/homepage/sidebar's colors, please go to their "
 "sections and find \"Design Options\". For more details please check %sthis "
 "article%s."
 msgstr ""
 
-#: inc/customize/configs/general.php:409
+#: inc/customize/configs/general.php:422
 msgid "Tweak Colors"
 msgstr ""
 
-#: inc/customize/configs/general.php:414
+#: inc/customize/configs/general.php:427
 msgid "Light Scheme Background Color"
 msgstr ""
 
-#: inc/customize/configs/general.php:419
+#: inc/customize/configs/general.php:432
 msgid "Light Scheme Text Color"
 msgstr ""
 
-#: inc/customize/configs/general.php:424
+#: inc/customize/configs/general.php:437
 msgid "Light Scheme Content Color"
 msgstr ""
 
-#: inc/customize/configs/general.php:427 inc/customize/configs/general.php:443
+#: inc/customize/configs/general.php:440 inc/customize/configs/general.php:456
 msgid "For post/page main content text, except headings"
 msgstr ""
 
-#: inc/customize/configs/general.php:430
+#: inc/customize/configs/general.php:443
 msgid "Dark Scheme Background Color"
 msgstr ""
 
-#: inc/customize/configs/general.php:435
+#: inc/customize/configs/general.php:448
 msgid "Dark Scheme Text Color"
 msgstr ""
 
-#: inc/customize/configs/general.php:440
+#: inc/customize/configs/general.php:453
 msgid "Dark Scheme Content Color"
 msgstr ""
 
-#: inc/customize/configs/general.php:461
+#: inc/customize/configs/general.php:463
+msgid "Slider Arrows - Mobile"
+msgstr ""
+
+#: inc/customize/configs/general.php:467
+msgid "Hide slider arrows on mobile devices"
+msgstr ""
+
+#: inc/customize/configs/general.php:468
+msgid "Display slider arrows on mobile devices"
+msgstr ""
+
+#: inc/customize/configs/general.php:487
 msgid "Site Max Width"
 msgstr ""
 
-#: inc/customize/configs/general.php:645
+#: inc/customize/configs/general.php:678 inc/customize/configs/general.php:725
+msgid "Clear Cache"
+msgstr ""
+
+#: inc/customize/configs/general.php:690
+msgid "Clear Instagram Cache"
+msgstr ""
+
+#: inc/customize/configs/general.php:691
+msgid ""
+"By default, the Instagram cache will exist for up to 2 hours. To manually "
+"clear the cache, please click the button below."
+msgstr ""
+
+#: inc/customize/configs/general.php:698
+msgid "Load Instagram pictures dynamically with AJAX"
+msgstr ""
+
+#: inc/customize/configs/general.php:699
+msgid ""
+"Recommend enabling this option if any caching plugins are used on your site."
+msgstr ""
+
+#: inc/customize/configs/general.php:708
 msgid "Boxed Layout Options"
 msgstr ""
 
-#: inc/customize/configs/general.php:646
+#: inc/customize/configs/general.php:709
 msgid "Outer Area Background Image"
 msgstr ""
 
-#: inc/customize/configs/general.php:647 inc/customize/configs/general.php:648
+#: inc/customize/configs/general.php:710 inc/customize/configs/general.php:711
 msgid "Outer Area Background Image Position"
 msgstr ""
 
-#: inc/customize/configs/general.php:649
+#: inc/customize/configs/general.php:712
 msgid "Outer Area Background Image Size"
 msgstr ""
 
-#: inc/customize/configs/general.php:650
+#: inc/customize/configs/general.php:713
 msgid "Outer Area Background Color"
 msgstr ""
 
-#: inc/customize/configs/general.php:653
+#: inc/customize/configs/general.php:716
 msgid "Frame Layout Options"
 msgstr ""
 
-#: inc/customize/configs/general.php:654
+#: inc/customize/configs/general.php:717
 msgid "Frame Background Image"
 msgstr ""
 
-#: inc/customize/configs/general.php:655 inc/customize/configs/general.php:656
+#: inc/customize/configs/general.php:718 inc/customize/configs/general.php:719
 msgid "Frame Background Image Position"
 msgstr ""
 
-#: inc/customize/configs/general.php:657
+#: inc/customize/configs/general.php:720
 msgid "Frame Background Image Size"
 msgstr ""
 
-#: inc/customize/configs/general.php:658
+#: inc/customize/configs/general.php:721
 msgid "Frame Background Color"
+msgstr ""
+
+#: inc/customize/configs/general.php:724
+msgid "Request Sending ..."
 msgstr ""
 
 #: inc/customize/configs/header.php:22
@@ -1422,107 +1471,107 @@ msgstr ""
 msgid "Transparent Site Header"
 msgstr ""
 
-#: inc/customize/configs/header.php:143
+#: inc/customize/configs/header.php:148
 msgid "Site Header Layout"
 msgstr ""
 
-#: inc/customize/configs/header.php:147
+#: inc/customize/configs/header.php:152
 msgid "Header Layout 1"
 msgstr ""
 
-#: inc/customize/configs/header.php:148
+#: inc/customize/configs/header.php:153
 msgid "Header Layout 2"
 msgstr ""
 
-#: inc/customize/configs/header.php:149
+#: inc/customize/configs/header.php:154
 msgid "Header Layout 3"
 msgstr ""
 
-#: inc/customize/configs/header.php:150
+#: inc/customize/configs/header.php:155
 msgid "Header Layout 4"
 msgstr ""
 
-#: inc/customize/configs/header.php:151
+#: inc/customize/configs/header.php:156
 msgid "Header Layout 5"
 msgstr ""
 
-#: inc/customize/configs/header.php:152
+#: inc/customize/configs/header.php:157
 msgid "Header Layout 6"
 msgstr ""
 
-#: inc/customize/configs/header.php:158
+#: inc/customize/configs/header.php:163
 msgid "Also Show Hamburger Menu Button"
 msgstr ""
 
-#: inc/customize/configs/header.php:165
+#: inc/customize/configs/header.php:170
 msgid "Hamburger Menu Button Style"
 msgstr ""
 
-#: inc/customize/configs/header.php:169
+#: inc/customize/configs/header.php:174
 msgid "With Text"
 msgstr ""
 
-#: inc/customize/configs/header.php:170
+#: inc/customize/configs/header.php:175
 msgid "Icon Only"
 msgstr ""
 
-#: inc/customize/configs/header.php:173
+#: inc/customize/configs/header.php:178
 msgid ""
 "To edit the Fullscreen Menu's style, please go to %sFullscreen Menu%s "
 "section."
 msgstr ""
 
-#: inc/customize/configs/header.php:180
+#: inc/customize/configs/header.php:185
 msgid "Sticky Header"
 msgstr ""
 
-#: inc/customize/configs/header.php:184
+#: inc/customize/configs/header.php:189
 msgid "No"
 msgstr ""
 
-#: inc/customize/configs/header.php:185
+#: inc/customize/configs/header.php:190
 msgid "Always sticky"
 msgstr ""
 
-#: inc/customize/configs/header.php:186
+#: inc/customize/configs/header.php:191
 msgid "Sticky when scroll up"
 msgstr ""
 
-#: inc/customize/configs/header.php:192
+#: inc/customize/configs/header.php:197
 msgid "Remove the space between site header and main content "
 msgstr ""
 
-#: inc/customize/configs/header.php:193
+#: inc/customize/configs/header.php:198
 msgid ""
 "Please don't tick this option when site header has a background image or a "
 "different background color from page."
 msgstr ""
 
-#: inc/customize/configs/header.php:206
+#: inc/customize/configs/header.php:223
 msgid "Show Search Button"
 msgstr ""
 
-#: inc/customize/configs/header.php:212
+#: inc/customize/configs/header.php:229
 msgid "Search Button Style"
 msgstr ""
 
-#: inc/customize/configs/header.php:217
+#: inc/customize/configs/header.php:234
 #: inc/customize/configs/woocommerce.php:131
 msgid "Icon"
 msgstr ""
 
-#: inc/customize/configs/header.php:218
+#: inc/customize/configs/header.php:235
 #: inc/customize/configs/woocommerce.php:130
 #: inc/widgets/class-fallsky-widget.php:613
 msgid "Text"
 msgstr ""
 
-#: inc/customize/configs/header.php:227
+#: inc/customize/configs/header.php:244
 msgid ""
 "To edit the Search Screen's style, please go to %sSearch Screen%s section."
 msgstr ""
 
-#: inc/customize/configs/header.php:254
+#: inc/customize/configs/header.php:271
 msgid ""
 "In this section, you can choose to enable Transparent Absolute Header for "
 "different pages. When the option is enabled on a page, the site header "
@@ -1530,47 +1579,47 @@ msgid ""
 "site header position will be absolute."
 msgstr ""
 
-#: inc/customize/configs/header.php:261
+#: inc/customize/configs/header.php:278
 msgid "On Home Page"
 msgstr ""
 
-#: inc/customize/configs/header.php:262
+#: inc/customize/configs/header.php:279
 msgid ""
 "For best results, we recommend enabling it only when the first part of the "
 "home page is full width with background."
 msgstr ""
 
-#: inc/customize/configs/header.php:269
+#: inc/customize/configs/header.php:286
 msgid "Single Post - for Single Post Template 1"
 msgstr ""
 
-#: inc/customize/configs/header.php:270
+#: inc/customize/configs/header.php:287
 msgid "Only works when the post has a featured image."
 msgstr ""
 
-#: inc/customize/configs/header.php:277
+#: inc/customize/configs/header.php:294
 msgid "Single Page - for Page Header Layout 2"
 msgstr ""
 
-#: inc/customize/configs/header.php:278
+#: inc/customize/configs/header.php:295
 msgid "Only works when the page has a featured image."
 msgstr ""
 
-#: inc/customize/configs/header.php:286
+#: inc/customize/configs/header.php:303
 msgid ""
 "Including category/tag/shop/category index archive. Only works when the "
 "archive page has a page header background image."
 msgstr ""
 
-#: inc/customize/configs/header.php:368
+#: inc/customize/configs/header.php:387
 msgid "Menu"
 msgstr ""
 
-#: inc/customize/configs/header.php:387
+#: inc/customize/configs/header.php:413
 msgid "%sSearch%s"
 msgstr ""
 
-#: inc/customize/configs/header.php:427
+#: inc/customize/configs/header.php:453
 msgid "Header Background Image"
 msgstr ""
 
@@ -1583,183 +1632,183 @@ msgid "From Customizer > Homepage Section"
 msgstr ""
 
 #: inc/customize/configs/home-page.php:45
-#: inc/customize/configs/home-page.php:768
+#: inc/customize/configs/home-page.php:772
 msgid "Static Homepage Content"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:64
+#: inc/customize/configs/home-page.php:68
 msgid "For static homepage only"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:94
+#: inc/customize/configs/home-page.php:98
 msgid ""
 "For static front page, the sections \"Fullwidth Featured Area\" and \"Home "
 "Main Content Area\" only work when choosing the content from \"Customize\". "
 "You can %sclick here%s to change the setting."
 msgstr ""
 
-#: inc/customize/configs/home-page.php:100
+#: inc/customize/configs/home-page.php:104
 msgid "Home Page"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:107
+#: inc/customize/configs/home-page.php:111
 #: inc/customize/configs/typography.php:599
 msgid "Fullwidth Featured Area"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:112
+#: inc/customize/configs/home-page.php:116
 msgid "Home Main Content Area"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:451
+#: inc/customize/configs/home-page.php:455
 msgid "Display Featured Content"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:457
+#: inc/customize/configs/home-page.php:461
 #: inc/plugins/class-tgm-plugin-activation.php:2540
 msgid "Type"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:462
+#: inc/customize/configs/home-page.php:466
 msgid "Posts Slider"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:463
+#: inc/customize/configs/home-page.php:467
 msgid "Posts Blocks"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:464
+#: inc/customize/configs/home-page.php:468
 #: inc/widgets/homepage/class-widget-custom-content.php:14
 msgid "Custom Content"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:472
+#: inc/customize/configs/home-page.php:476
 msgid "Slider Style"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:477
+#: inc/customize/configs/home-page.php:481
 msgid "Slider 1"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:478
+#: inc/customize/configs/home-page.php:482
 msgid "Slider 2"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:479
+#: inc/customize/configs/home-page.php:483
 msgid "Slider 3"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:484
+#: inc/customize/configs/home-page.php:488
 msgid "Show at most x posts in slider"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:493
+#: inc/customize/configs/home-page.php:497
 msgid "Auto play the slider"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:500
+#: inc/customize/configs/home-page.php:504
 msgid "Autoplay pause duration"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:501
+#: inc/customize/configs/home-page.php:505
 msgid "second(s)"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:514
+#: inc/customize/configs/home-page.php:518
 msgid "Pause on hover"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:524
+#: inc/customize/configs/home-page.php:528
 msgid "Blocks Style"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:529
+#: inc/customize/configs/home-page.php:533
 msgid "Blocks 1"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:530
+#: inc/customize/configs/home-page.php:534
 msgid "Blocks 2"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:531
+#: inc/customize/configs/home-page.php:535
 msgid "Blocks 3"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:545
-#: inc/customize/configs/home-page.php:571
+#: inc/customize/configs/home-page.php:549
+#: inc/customize/configs/home-page.php:575
 msgid "Hide categories"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:553
+#: inc/customize/configs/home-page.php:557
 msgid "Hide post excerpt"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:581
+#: inc/customize/configs/home-page.php:585
 msgid "Pick Posts"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:593
+#: inc/customize/configs/home-page.php:597
 msgid "By Category"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:594
+#: inc/customize/configs/home-page.php:598
 msgid "Featured Posts"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:595
+#: inc/customize/configs/home-page.php:599
 msgid "Most Liked"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:596
+#: inc/customize/configs/home-page.php:600
 msgid "Most Viewed"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:597
+#: inc/customize/configs/home-page.php:601
 msgid "Most Commented"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:611
+#: inc/customize/configs/home-page.php:615
 msgid ""
 "Exclude the posts from Latest Posts Archive in Homepage Main Content Area"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:621
+#: inc/customize/configs/home-page.php:625
 #: inc/widgets/homepage/class-widget-custom-content.php:264
 msgid "Add content"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:681
+#: inc/customize/configs/home-page.php:685
 msgid ""
 "Please tick this option when you have enabled %s\"parallax effect while "
 "scrolling for Homepage Fullwidth Featured Section\"%s."
 msgstr ""
 
-#: inc/customize/configs/home-page.php:687
+#: inc/customize/configs/home-page.php:691
 msgid "Background Video"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:689
+#: inc/customize/configs/home-page.php:693
 msgid ""
 "Upload your video in %1$s format and minimize its file size for best results."
 msgstr ""
 
-#: inc/customize/configs/home-page.php:699
+#: inc/customize/configs/home-page.php:703
 msgid "Or, enter a YouTube URL:"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:712
+#: inc/customize/configs/home-page.php:716
 msgid "Height Option"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:717
+#: inc/customize/configs/home-page.php:721
 msgid "Screen Height"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:723
+#: inc/customize/configs/home-page.php:727
 msgid "Custom Height"
 msgstr ""
 
-#: inc/customize/configs/home-page.php:749
+#: inc/customize/configs/home-page.php:753
 msgid "Home Widgets"
 msgstr ""
 
@@ -2325,15 +2374,15 @@ msgstr ""
 msgid "Read More"
 msgstr ""
 
-#: inc/customize/default-settings.php:77
+#: inc/customize/default-settings.php:85
 msgid "Your custom text &copy; Copyright 2018. All rights reserved."
 msgstr ""
 
-#: inc/customize/default-settings.php:121
+#: inc/customize/default-settings.php:130
 msgid "Footer text &copy; Copyright 2018. All rights reserved."
 msgstr ""
 
-#: inc/customize/default-settings.php:368
+#: inc/customize/default-settings.php:377
 msgid "You May Also Like"
 msgstr ""
 
@@ -2374,27 +2423,27 @@ msgid "F j, Y"
 msgstr ""
 
 #: inc/customize/frontend-render/class-page.php:156
-#: inc/customize/frontend-render/class-single-post.php:300
+#: inc/customize/frontend-render/class-single-post.php:299
 msgid "Pages:"
 msgstr ""
 
-#: inc/customize/frontend-render/class-single-post.php:379
+#: inc/customize/frontend-render/class-single-post.php:378
 msgid "Home"
 msgstr ""
 
-#: inc/customize/frontend-render/class-single-post.php:454
+#: inc/customize/frontend-render/class-single-post.php:453
 msgid "Next Article"
 msgstr ""
 
-#: inc/customize/frontend-render/class-single-post.php:455
+#: inc/customize/frontend-render/class-single-post.php:454
 msgid "Next post:"
 msgstr ""
 
-#: inc/customize/frontend-render/class-single-post.php:457
+#: inc/customize/frontend-render/class-single-post.php:456
 msgid "Previous Article"
 msgstr ""
 
-#: inc/customize/frontend-render/class-single-post.php:458
+#: inc/customize/frontend-render/class-single-post.php:457
 msgid "Previous post:"
 msgstr ""
 
@@ -2418,42 +2467,62 @@ msgstr ""
 msgid "Out of Stock"
 msgstr ""
 
-#: inc/function-templates.php:351
+#: inc/function-templates.php:348
 msgid "by %s"
 msgstr ""
 
-#: inc/function-templates.php:393 inc/function-templates.php:415
+#: inc/function-templates.php:389 inc/function-templates.php:411
 msgid "%s %s"
 msgstr ""
 
-#: inc/function-templates.php:395
+#: inc/function-templates.php:391
 msgid "Views"
 msgstr ""
 
-#: inc/function-templates.php:395
+#: inc/function-templates.php:391
 msgid "View"
 msgstr ""
 
-#: inc/function-templates.php:417
+#: inc/function-templates.php:413
 msgid "Likes"
 msgstr ""
 
-#: inc/function-templates.php:417
+#: inc/function-templates.php:413
 msgid "Like"
 msgstr ""
 
-#: inc/function-templates.php:441
+#: inc/function-templates.php:436
 msgid "Leave a comment"
 msgstr ""
 
-#: inc/function-templates.php:447 inc/widgets/normal/class-widget-post.php:100
+#: inc/function-templates.php:441 inc/widgets/normal/class-widget-post.php:100
 msgid "%s Comment"
 msgid_plural "%s Comments"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/function-templates.php:465
+#: inc/function-templates.php:459
 msgid "Edit"
+msgstr ""
+
+#: inc/multilingual/class-polylang.php:16
+msgid "Widget title"
+msgstr ""
+
+#: inc/multilingual/class-polylang.php:17
+msgid "Widget Custom Content text"
+msgstr ""
+
+#: inc/multilingual/class-polylang.php:18
+msgid "Widget Call to Action button text"
+msgstr ""
+
+#: inc/multilingual/class-polylang.php:19
+msgid "Widget Call to Action heading text"
+msgstr ""
+
+#: inc/multilingual/class-polylang.php:20
+msgid "Widget Call to Action description text"
 msgstr ""
 
 #: inc/plugins/class-tgm-plugin-activation.php:324

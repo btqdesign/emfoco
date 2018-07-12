@@ -169,7 +169,7 @@ if(!class_exists('Fallsky_Customize_Advertisement')){
 				if( !empty( $content ) ) {
 					printf(
 						'<div class="%s">%s</div>',
-						'site_top' == $id ? 'sitetop-ad hide' : 'ad-banner', 
+						'site_top' == $id ? 'sitetop-ad hide' : 'fallsky-bannr', 
 						$content
 					);
 				}

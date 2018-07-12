@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="<?php echo wp_is_mobile() ? 'mobile ' : ''; ?>no-js no-svg">
 	<head>
-		<meta charset="<?php bloginfo('charset'); ?>">
+		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="//gmpg.org/xfn/11">
 		<?php if( is_singular() && pings_open( get_queried_object() ) ) : ?>

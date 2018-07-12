@@ -2,7 +2,7 @@
 Author: loftocean
 Requires at least: WordPress 4.7
 Tested up to: WordPress 4.9
-Version: 1.1.3
+Version: 1.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: full-width-template, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
@@ -48,6 +48,34 @@ Images used in screenshot.jpg:
 All photos are licensed under The Unsplash License (https://unsplash.com/license)
 
 == Changelog ==
+= 1.1.7 =
+* New: Support for RTL languages
+* New: Option to manually clear cache of Instagram feed (customizer > General > Instagram)
+* New: Option to enable loading Instagram pictures dynamically with AJAX (customizer > General > Instagram)
+* New: Social/brand icon added: Apple
+* Fixed: When saving customizer changes as draft, the just added Home widgets will be invisible after refreshing the customizer page.
+* Fixed: Minor CSS issues
+
+= 1.1.6 =
+* New: Option to display social menu in site header
+* Improved: Instagram Feed now can get video posts
+* Improved: Added filter 'the_excerpt’ to Posts Lists on archive pages
+* Fixed: Minor CSS issues
+
+= 1.1.5 =
+* Fixed: Home widget background image (with “background-attachment:fixed” property) cannot display in Chrome v67.x
+* Fixed: Header Layout 5 - Hamburger Button vertical position issue in Safari
+* Fixed: Other minor CSS issues
+
+= 1.1.4 =
+* New: Added options to open Instagram feed links in new tab
+* New: wpml-config.xml file included
+* New: Added an option to hide/display Image Sliders arrows on mobile devices (customizer > General > Image Sliders)
+* Improved: Homepage Fullwidth Featured Area - slider arrows and slider dots will be removed when there is only 1 post in the slider
+* Improved: Improved HTML and CSS when hiding site title and tagline
+* Changed: Home Widget “Ad Banner” & ads in single post/page - class name “ad-banner” changed to “fallsky-bannr” to prevent the ad banners from being blocked by browsers’ AdBlock feature or extensions
+* Fixed: Minor CSS issues
+
 = 1.1.3 =
 * New: Option to enable/disable "Pause on hover" feature for homepage featured slider
 * Improved: Image of Ad Banner can be displayed without URL

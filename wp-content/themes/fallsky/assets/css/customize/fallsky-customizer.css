@@ -6,7 +6,7 @@
  * Author: Kaylolo Yinxi Chen @Loft.Ocean
  * Author URI: http://www.loftocean.com
  * Description: Fallsky is a lifestyle WordPress magazine theme.
- * Version: 1.1.3
+ * Version: 1.1.7
 */
 .hide {
   display: none !important;
@@ -82,6 +82,16 @@
         #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"]:checked:before,
         #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"]:checked:before {
           margin: 0 0 0 -8px; } }
+    .rtl #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"], .rtl
+    #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"] {
+      float: left; }
+      .rtl #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"]:checked:before, .rtl
+      #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"]:checked:before {
+        margin: 0 -3px 0 0; }
+        @media screen and (max-width: 782px) {
+          .rtl #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"]:checked:before, .rtl
+          #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"]:checked:before {
+            margin: 0 -8px 0 0; } }
 #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content {
   padding: 0; }
   #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content:before {
@@ -475,5 +485,3 @@
     height: 87px; }
     #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn + span.thumbnail:after {
       background-image: url(images/featured-blocks-all.jpg); }
-
-/*# sourceMappingURL=fallsky-customizer.css.map */

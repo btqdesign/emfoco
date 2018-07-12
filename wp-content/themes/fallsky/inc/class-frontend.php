@@ -26,10 +26,10 @@ if(!class_exists('Fallsky_Frontend')){
 			add_filter('fallsky_frontend_js_vars', 			array($this, 'frontend_js_vars'));
 			add_filter('fallsky_custom_styles', 			array($this, 'custom_styles'), 1);
 
-			add_action('wp_enqueue_scripts', 	array($this, 'enqueue_scripts'), 1);
-			add_action('wp_enqueue_scripts', 	array($this, 'enqueue_custom_styles'), 1000);
+			add_action( 'wp_enqueue_scripts', 	array($this, 'enqueue_scripts'), 1);
+			add_action( 'wp_enqueue_scripts', 	array($this, 'enqueue_custom_styles'), 1000);
 			add_action( 'wp_footer', 			array( $this, 'output_fallback_styles' ) );
-			add_action('fallsky_site_header_main_elements', array($this, 'site_header_main_elements'), 10);
+			add_action( 'fallsky_site_header_main_elements', array($this, 'site_header_main_elements'), 10);
 		}
 		/**
 		* @description define global variables
@@ -114,7 +114,7 @@ if(!class_exists('Fallsky_Frontend')){
 					if(apply_filters('loftocean_has_vimeo_bg_video', false, $pid)){
 						wp_enqueue_script('vimeo-api', 'https://player.vimeo.com/api/player.js');
 					}
-					wp_enqueue_script('fallsky-single-video', $asset_uri . 'js/frontend/fallsky-single-post-video.js', array('jquery'));
+					wp_enqueue_script('fallsky-single-video', $asset_uri . 'js/frontend/fallsky-single-post-video.min.js', array('jquery'));
 					$theme_js_deps = array_merge($theme_js_deps, array('fallsky-single-video'));
 				}
 			}
@@ -136,7 +136,7 @@ if(!class_exists('Fallsky_Frontend')){
 			}
 
 			wp_register_script('fallsky-bg-video', $asset_uri . 'js/frontend/fallsky-renderVideo.min.js', array('jquery'), $asset_version, true);
-			wp_register_script('fallsky-theme-script', $asset_uri . 'js/frontend/fallsky-main.js', $theme_js_deps, $asset_version, true);
+			wp_register_script('fallsky-theme-script', $asset_uri . 'js/frontend/fallsky-main.min.js', $theme_js_deps, $asset_version, true);
 			wp_localize_script('fallsky-theme-script', 'fallsky', apply_filters('fallsky_frontend_js_vars', array()));
 			wp_enqueue_script('fallsky-theme-script');
 		}
@@ -214,7 +214,7 @@ if(!class_exists('Fallsky_Frontend')){
 				),
 				apply_filters( 'fallsky_fallback_styles', ''),
 				sprintf(
-					'<style id="fallsky-theme-fallback-custom-style" type="text/css">%s</div>',
+					'<style id="fallsky-theme-fallback-custom-style" type="text/css">%s</style>',
 					$fallsky_is_preview ? apply_filters('fallsky_get_fallback_css', '') : fallsky_get_theme_mod('fallsky_fallback_customize_css')
 				)
 			);

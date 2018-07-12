@@ -28,8 +28,8 @@ final class Fallsky_Customize_Homepage_Area {
 		$this->section_id 	= $section;
 		$this->area_id 		= $area;
 
-		add_action('customize_register', 		array($this, 'schedule_customize_register'), 1);
-		add_filter('fallsky_customize_js_vars', array($this, 'homepage_widget_controls'));
+		add_action( 'customize_register', array( $this, 'schedule_customize_register' ), 9999 );
+		add_filter( 'fallsky_customize_js_vars', array( $this, 'homepage_widget_controls' ) );
 	}
 	/**
 	* List whether each registered widget can be use selective refresh.
@@ -39,15 +39,15 @@ final class Fallsky_Customize_Homepage_Area {
 	* @return array Mapping of id_base to support. If theme doesn't support
 	*               selective refresh, an empty array is returned.
 	*/
-	public function get_selective_refreshable_widgets(){
+	public function get_selective_refreshable_widgets() {
 		global $wp_widget_factory;
-		if(!current_theme_supports('customize-selective-refresh-widgets')){
+		if ( ! current_theme_supports( 'customize-selective-refresh-widgets' ) ) {
 			return array();
 		}
-		if(!isset($this->selective_refreshable_widgets)){
+		if ( !isset( $this->selective_refreshable_widgets ) ) {
 			$this->selective_refreshable_widgets = array();
-			foreach($wp_widget_factory->widgets as $wp_widget){
-				$this->selective_refreshable_widgets[$wp_widget->id_base] = !empty($wp_widget->widget_options['customize_selective_refresh']);
+			foreach ( $wp_widget_factory->widgets as $wp_widget ) {
+				$this->selective_refreshable_widgets[ $wp_widget->id_base ] = ! empty( $wp_widget->widget_options['customize_selective_refresh'] );
 			}
 		}
 		return $this->selective_refreshable_widgets;
@@ -59,9 +59,9 @@ final class Fallsky_Customize_Homepage_Area {
 	* @param string $id_base Widget ID Base.
 	* @return bool Whether the widget can be selective refreshed.
 	*/
-	public function is_widget_selective_refreshable($id_base){
+	public function is_widget_selective_refreshable( $id_base ) {
 		$selective_refreshable_widgets = $this->get_selective_refreshable_widgets();
-		return !empty($selective_refreshable_widgets[$id_base]);
+		return ! empty( $selective_refreshable_widgets[ $id_base ] );
 	}
 	/**
 	* Ensures widgets are available for all types of previews.
@@ -70,7 +70,11 @@ final class Fallsky_Customize_Homepage_Area {
 	* so that all filters have been initialized (e.g. Widget Visibility).
 	*/
 	public function schedule_customize_register() {
-		is_admin() ? $this->customize_register() : add_action('wp', array($this, 'customize_register'));
+		if ( is_admin() ) {
+			add_action( 'customize_controls_init', array( $this, 'customize_register' ) );
+		} else {
+			add_action( 'wp', array( $this, 'customize_register' ) );
+		}
 	}
 	/**
 	* Registers Customizer controls for all homepage area.
@@ -81,47 +85,47 @@ final class Fallsky_Customize_Homepage_Area {
 		global $wp_registered_widgets, $wp_registered_widget_controls;
 		$new_setting_ids = array();
 
-		if(!empty($this->section_id) && !empty($this->area_id)){
+		if ( ! empty( $this->section_id ) && ! empty( $this->area_id ) ) {
 			$area_widgets 	= array();
-			$widget_ids 	= get_theme_mod($this->area_id);
-			if(empty($widget_ids)){
+			$widget_ids 	= get_theme_mod( $this->area_id );
+			if ( empty( $widget_ids ) ) {
 				$widget_ids = array();
 			}
 
 			$section_id = $this->section_id;
 			// Add a control for each active widget (located in a sidebar).
-			foreach($widget_ids as $i => $widget_id){
+			foreach ( $widget_ids as $i => $widget_id ) { 
 				// Skip widgets that may have gone away due to a plugin being deactivated.
-				if(!isset($wp_registered_widgets[$widget_id])){
+				if ( ! isset( $wp_registered_widgets[ $widget_id ] ) ) {
 					continue; 
 				}
 
-				$registered_widget 	= $wp_registered_widgets[$widget_id];
-				$setting_id 		= $this->get_setting_id($widget_id);
-				$id_base 			= $wp_registered_widget_controls[$widget_id]['id_base'];
-				$setting_args 		= $this->get_setting_args($setting_id);
-				if(!$this->manager->get_setting($setting_id)){
-					$this->manager->add_setting($setting_id, $setting_args);
+				$registered_widget 	= $wp_registered_widgets[ $widget_id ];
+				$setting_id 		= $this->get_setting_id( $widget_id );
+				$id_base 			= $wp_registered_widget_controls[ $widget_id ]['id_base'];
+				$setting_args 		= $this->get_setting_args( $setting_id );
+				if ( ! $this->manager->get_setting( $setting_id ) ) {
+					$this->manager->add_setting( $setting_id, $setting_args );
 				}
 				$new_setting_ids[] = $setting_id;
 
-				$control = new WP_Widget_Form_Customize_Control($this->manager, $setting_id, array(
+				$control = new WP_Widget_Form_Customize_Control( $this->manager, $setting_id, array(
 					'label'          => $registered_widget['name'],
 					'section'        => $section_id,
 					'sidebar_id'     => $section_id,
 					'widget_id'      => $widget_id,
 					'widget_id_base' => $id_base,
 					'priority'       => $i,
-					'width'          => $wp_registered_widget_controls[$widget_id]['width'],
-					'height'         => $wp_registered_widget_controls[$widget_id]['height'],
+					'width'          => $wp_registered_widget_controls[ $widget_id ]['width'],
+					'height'         => $wp_registered_widget_controls[ $widget_id ]['height'],
 					'is_wide'        => $this->is_wide_widget( $widget_id ),
 				) );
-				$area_widgets[$setting_id] = $control;
+				$area_widgets[ $setting_id ] = $control;
 			}
-			$this->homepage_widgets[$this->area_id] = $area_widgets;
+			$this->homepage_widgets[ $this->area_id ] = $area_widgets;
 		}
-		if($this->manager->settings_previewed()){
-			foreach($new_setting_ids as $new_setting_id){
+		if ( $this->manager->settings_previewed() ) {
+			foreach ( $new_setting_ids as $new_setting_id ) {
 				$this->manager->get_setting( $new_setting_id )->preview();
 			}
 		}
@@ -132,7 +136,7 @@ final class Fallsky_Customize_Homepage_Area {
 	* @param string $widget_id Widget ID.
 	* @return string Maybe-parsed widget ID.
 	*/
-	public function get_setting_id($widget_id){
+	public function get_setting_id( $widget_id ) {
 		$parsed_widget_id = $this->parse_widget_id($widget_id);
 		$setting_id       = sprintf('widget_%s', $parsed_widget_id['id_base']);
 

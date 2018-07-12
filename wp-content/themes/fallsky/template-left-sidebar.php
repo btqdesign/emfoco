@@ -7,4 +7,4 @@
  * @since 1.0.0
 */
 
-get_template_part('page');
+get_template_part( 'page' );
