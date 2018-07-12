@@ -100,7 +100,8 @@ function btq_import_admin_page(){
 	
 	foreach ( $results as $row ) 
 	{
-		echo $row->titulo . '<br>';
+		echo $row->titulo . '<br><br>';
+		echo $row->nota_completa . '<br><br><br><br>';
 	}
 	
 	$dbcn->print_error();
