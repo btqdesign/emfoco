@@ -96,11 +96,11 @@ function btq_import_admin_page(){
 	//global $wpdb;
 	$dbcn = new wpdb(DB_USER, DB_PASSWORD, 'emfocoyd_fip', DB_HOST);
 	$dbcn->show_errors();
-	$results = $dbcn->get_results('SHOW TABLES;');
+	$results = $dbcn->get_results('SELECT * FROM noticias');
 	
 	foreach ( $results as $row ) 
 	{
-		echo $row->Tables_in_wpemf_db;
+		echo $row->titulo . '<br>';
 	}
 	
 	$dbcn->print_error();
