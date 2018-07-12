@@ -93,9 +93,10 @@ function btq_import_admin_menu() {
 add_action( 'admin_menu', 'btq_import_admin_menu' );
 
 function btq_import_admin_page(){
-	global $wpdb;
+	//global $wpdb;
 	$dbcn = new wpdb(DB_USER, DB_PASSWORD, 'emfocoyd_fip', DB_HOST);
-	$results = $dbcn->get_results('SHOW TABLES');
+	$dbcn->show_errors();
+	$results = $dbcn->get_results('SHOW TABLES;');
 	
 	foreach ( $results as $row ) 
 	{
