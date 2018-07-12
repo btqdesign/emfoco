@@ -103,4 +103,6 @@ function btq_import_admin_page(){
 		echo $row->Tables_in_wpemf_db;
 	}
 	
+	$dbcn->print_error();
+	
 }
