@@ -111,7 +111,7 @@ function btq_import_admin_page(){
 			'post_category' => 4
 		);
 		
-		echo var_export($post, TRUE);
+		echo '<pre style="font-family: Courier; background-color: white; padding:10px;">' . var_export($post, TRUE) . '<pre>';
 	}
 	
 	$dbcn->print_error();
