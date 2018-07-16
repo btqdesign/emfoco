@@ -100,8 +100,18 @@ function btq_import_admin_page(){
 	
 	foreach ( $results as $row ) 
 	{
-		echo sanitize_title($row->titulo) . "\n<br>\n";
-		echo wp_strip_all_tags($row->nota_completa) . "\n<br><br><br><br>\n";
+		$post = array(
+			'post_author' => 2,
+			'post_date' => $row->fecha . ' 10:00:00',
+			'post_date_gmt' => get_gmt_from_date($row->fecha . ' 10:00:00'),
+			'post_content' => wp_strip_all_tags($row->nota_completa),
+			'post_title' => $row->titulo,
+			'comment_status' => 'closed',
+			'post_name' => sanitize_title($row->titulo),
+			'post_category' => 4
+		);
+		
+		echo var_export($post, TRUE);
 	}
 	
 	$dbcn->print_error();
