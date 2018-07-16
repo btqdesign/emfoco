@@ -113,7 +113,7 @@ function btq_import_admin_page(){
 			'post_category' => 4
 		);
 		
-		wp_insert_post($post);
+		//wp_insert_post($post);
 		
 		echo '<pre style="font-family: Courier; background-color: white; padding:10px;">' . var_export($post, TRUE) . '<pre>';
 	}
