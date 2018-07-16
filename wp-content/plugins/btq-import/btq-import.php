@@ -100,8 +100,8 @@ function btq_import_admin_page(){
 	
 	foreach ( $results as $row ) 
 	{
-		echo sanitize_text_field($row->titulo) . '<br>';
-		echo sanitize_text_field($row->nota_completa) . '<br><br><br><br>';
+		echo sanitize_title($row->titulo) . '<br>';
+		echo wp_strip_all_tags($row->nota_completa) . '<br><br><br><br>';
 	}
 	
 	$dbcn->print_error();
