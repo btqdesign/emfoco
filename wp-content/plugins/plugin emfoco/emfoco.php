@@ -39,13 +39,6 @@ function btq_emfoco_VC() {
 add_action( 'vc_before_init', 'btq_emfoco_VC' );
 
 
-function get_taxonomies( $args = array(), $output = 'names', $operator = 'and' ) {
-    global $wp_taxonomies;
- 
-    $field = ('names' == $output) ? 'name' : false;
- 
-    return wp_filter_object_list($wp_taxonomies, $args, $operator, $field);
-}
 
 function create_posttype() {
 
