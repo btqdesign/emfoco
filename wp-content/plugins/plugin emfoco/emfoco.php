@@ -58,7 +58,7 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
     add_action( 'init', 'create_posttype' );
      
 
-    function people_init() {
+    function sectores_init() {
         // create a new taxonomy
         register_taxonomy(
             'Sectores',
@@ -73,4 +73,4 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
             )
         );
     }
-    add_action( 'init', 'people_init' );
+    add_action( 'init', 'sectores_init' );
