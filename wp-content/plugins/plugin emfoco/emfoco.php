@@ -127,13 +127,14 @@ $args = array(
   '_builtin' => false
    
 ); 
-$output = 'names'; // or objects
-$operator = 'and'; // 'and' or 'or'
-$taxonomies = get_taxonomies( $args, $output, $operator ); 
+
+$args = array(
+    'name' => 'genre'
+);
+$output = 'objects'; // or names
+$taxonomies= get_taxonomies( $args, $output ); 
 if ( $taxonomies ) {
-    echo '<ul>';
-    foreach ( $taxonomies  as $taxonomy ) {
-        echo '<li>' . $taxonomy . '</li>';
+    foreach ( $taxonomies as $taxonomy ) {
+        echo '<div>' . $taxonomy->labels->name . '</div>';
     }
-    echo '</ul>'; 
-}
+} 
