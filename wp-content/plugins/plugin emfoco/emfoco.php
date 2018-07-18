@@ -63,6 +63,7 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
         register_taxonomy(
             'Sectores',
             'post',
+            'prueba',
             array(
                 'label' => __( 'Sectores' ),
                 'rewrite' => array( 'slug' => 'Sector' ),
