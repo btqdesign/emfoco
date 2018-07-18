@@ -37,23 +37,10 @@ function btq_emfoco_VC() {
 	));
 }
 add_action( 'vc_before_init', 'btq_emfoco_VC' );
-
-
-    function create_posttype() {
  
-        register_post_type( 'Sectores',
-        // CPT Options
-            array(
-                'labels' => array(
-                    'name' => __( 'Sectores' ),
-                    'singular_name' => __( 'Sector' )
-                ),
-                'public' => true,
-                'has_archive' => true,
-                'rewrite' => array('slug' => 'Sectores'),
-            )
-        );
-    }
+//create a custom taxonomy name it topics for your posts
+ 
+function create_topics_hierarchical_taxonomy() {
     // Hooking up our function to theme setup
     add_action( 'init', 'create_posttype' );
      
@@ -73,26 +60,7 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
             )
         );
     }
-    add_action( 'init', 'sectores_init' );
-
-
-
-    //hook into the init action and call create_book_taxonomies when it fires
-add_action( 'init', 'create_topics_hierarchical_taxonomy', 0 );
- 
-//create a custom taxonomy name it topics for your posts
- 
-function create_topics_hierarchical_taxonomy() {
-
-// Now register the taxonomy
- 
-  register_taxonomy('topics',array('post'), array(
-    'hierarchical' => true,
-    'labels' => $labels,
-    'show_ui' => true,
-    'show_admin_column' => true,
-    'query_var' => true,
-    'rewrite' => array( 'slug' => 'topic' ),
-  ));
- 
 }
+add_action( 'init', 'sectores_init' );
+
+
