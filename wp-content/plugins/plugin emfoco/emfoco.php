@@ -58,3 +58,19 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
     add_action( 'init', 'create_posttype' );
      
 
+    function people_init() {
+        // create a new taxonomy
+        register_taxonomy(
+            'people',
+            'post',
+            array(
+                'label' => __( 'People' ),
+                'rewrite' => array( 'slug' => 'person' ),
+                'capabilities' => array(
+                    'assign_terms' => 'edit_guides',
+                    'edit_terms' => 'publish_guides'
+                )
+            )
+        );
+    }
+    add_action( 'init', 'people_init' );
