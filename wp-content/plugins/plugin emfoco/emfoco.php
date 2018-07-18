@@ -41,6 +41,23 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
 
 
 function create_posttype() {
+
+    $labels = array(
+        'name'                => _x( 'Productores', 'Post Type General Name', 'twentythirteen' ),
+        'singular_name'       => _x( 'Productor', 'Post Type Singular Name', 'twentythirteen' ),
+        'menu_name'           => __( 'Productores', 'twentythirteen' ),
+        'parent_item_colon'   => __( 'Prodcutor padre', 'twentythirteen' ),
+        'all_items'           => __( 'Todos los productores', 'twentythirteen' ),
+        'view_item'           => __( 'Ver productor', 'twentythirteen' ),
+        'add_new_item'        => __( 'Añadir nuevo productor', 'twentythirteen' ),
+        'add_new'             => __( 'Añadir nuevo', 'twentythirteen' ),
+        'edit_item'           => __( 'Editar productor', 'twentythirteen' ),
+        'update_item'         => __( 'Actualizar productor', 'twentythirteen' ),
+        'search_items'        => __( 'Buscar productor', 'twentythirteen' ),
+        'not_found'           => __( 'No se encontro', 'twentythirteen' ),
+        'not_found_in_trash'  => __( 'No se encontro en la papelera', 'twentythirteen' ),
+    );
+
     register_post_type( 'Productores',
             // CPT Options
                 array(
@@ -104,3 +121,4 @@ function create_topics_hierarchical_taxonomy() {
   ));
  
 }
+
