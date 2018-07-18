@@ -61,11 +61,11 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
     function people_init() {
         // create a new taxonomy
         register_taxonomy(
-            'people',
+            'Sectores',
             'post',
             array(
-                'label' => __( 'People' ),
-                'rewrite' => array( 'slug' => 'person' ),
+                'label' => __( 'Sectores' ),
+                'rewrite' => array( 'slug' => 'Sector' ),
                 'capabilities' => array(
                     'assign_terms' => 'edit_guides',
                     'edit_terms' => 'publish_guides'
