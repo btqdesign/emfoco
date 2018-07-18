@@ -43,6 +43,7 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
 function create_posttype() {
 
     get_taxonomies( $args, $output, $operator );
+    get_post_type();
 
     $labels = array(
         'name'                => _x( 'Productores', 'Post Type General Name', 'twentythirteen' ),
