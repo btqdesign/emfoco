@@ -42,7 +42,7 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
 
 
     //hook into the init action and call create_book_taxonomies when it fires
-    add_action( 'init', 'create_topics_hierarchical_taxonomy', 0 );
+add_action( 'init', 'create_topics_hierarchical_taxonomy', 0 );
  
 //create a custom taxonomy name it topics for your posts
  
@@ -52,35 +52,28 @@ function create_topics_hierarchical_taxonomy() {
 //first do the translations part for GUI
  
   $labels = array(
-    'name' => _x( 'Topics', 'taxonomy general name' ),
-    'singular_name' => _x( 'Topic', 'taxonomy singular name' ),
-    'search_items' =>  __( 'Search Topics' ),
-    'all_items' => __( 'All Topics' ),
-    'parent_item' => __( 'Parent Topic' ),
-    'parent_item_colon' => __( 'Parent Topic:' ),
-    'edit_item' => __( 'Edit Topic' ), 
-    'update_item' => __( 'Update Topic' ),
-    'add_new_item' => __( 'Add New Topic' ),
-    'new_item_name' => __( 'New Topic Name' ),
-    'menu_name' => __( 'Topics' ),
+    'name' => _x( 'Sectores', 'taxonomy general name' ),
+    'singular_name' => _x( 'Sector', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Buscar en: sectores' ),
+    'all_items' => __( 'Todos los sectores' ),
+    'parent_item' => __( 'Sector padre' ),
+    'parent_item_colon' => __( 'Sector padre:' ),
+    'edit_item' => __( 'Editar Sector' ), 
+    'update_item' => __( 'Actualizar Sector' ),
+    'add_new_item' => __( 'Añadir Sector' ),
+    'new_item_name' => __( 'Nuevo nombres del Sector' ),
+    'menu_name' => __( 'Sectores' ),
   );    
  
-
-  function sectores_init() {
-    // create a new taxonomy
-    register_taxonomy(
-        'Sectores',
-        'post',
-        array(
-            'label' => __( 'Sectores' ),
-            'rewrite' => array( 'slug' => 'Sector' ),
-            'capabilities' => array(
-                'assign_terms' => 'edit_guides',
-                'edit_terms' => 'publish_guides'
-            )
-        )
-    );
-}
-add_action( 'init', 'sectores_init' );
+// Now register the taxonomy
+ 
+  register_taxonomy('topics',array('post'), array(
+    'hierarchical' => true,
+    'labels' => $labels,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'Sector' ),
+  ));
  
 }
