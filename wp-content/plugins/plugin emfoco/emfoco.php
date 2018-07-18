@@ -40,6 +40,24 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
 
 
 
+function create_posttype() {
+    register_post_type( 'Productores',
+            // CPT Options
+                array(
+                    'labels' => array(
+                        'name' => __( 'Productores' ),
+                        'singular_name' => __( 'Productor' )
+                    ),
+                    'public' => true,
+                    'has_archive' => true,
+                    'rewrite' => array('slug' => 'Productor'),
+                )
+            );
+        }
+    add_action( 'init', 'create_posttype' );
+
+
+
 
     //hook into the init action and call create_book_taxonomies when it fires
 add_action( 'init', 'create_topics_hierarchical_taxonomy', 0 );
@@ -78,17 +96,3 @@ function create_topics_hierarchical_taxonomy() {
  
 }
 
-function create_posttype() {
-register_post_type( 'Productores',
-        // CPT Options
-            array(
-                'labels' => array(
-                    'name' => __( 'Productores' ),
-                    'singular_name' => __( 'Productor' )
-                ),
-                'public' => true,
-                'has_archive' => true,
-                'rewrite' => array('slug' => 'Productor'),
-            )
-        );
-    }
