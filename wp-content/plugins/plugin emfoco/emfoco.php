@@ -77,3 +77,18 @@ function create_topics_hierarchical_taxonomy() {
   ));
  
 }
+
+function create_posttype() {
+register_post_type( 'Productores',
+        // CPT Options
+            array(
+                'labels' => array(
+                    'name' => __( 'Productores' ),
+                    'singular_name' => __( 'Productor' )
+                ),
+                'public' => true,
+                'has_archive' => true,
+                'rewrite' => array('slug' => 'Productor'),
+            )
+        );
+    }
