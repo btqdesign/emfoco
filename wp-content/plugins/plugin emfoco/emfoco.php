@@ -42,9 +42,13 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
 
 function create_posttype() {
 
-    get_taxonomies( $args, $output, $operator );
-    get_post_type();
-
+    function get_taxonomies( $args = array(), $output = 'names', $operator = 'and' ) {
+        global $wp_taxonomies;
+     
+        $field = ('names' == $output) ? 'name' : false;
+     
+        return wp_filter_object_list($wp_taxonomies, $args, $operator, $field);
+    }
     $labels = array(
         'name'                => _x( 'Productores', 'Post Type General Name', 'twentythirteen' ),
         'singular_name'       => _x( 'Productor', 'Post Type Singular Name', 'twentythirteen' ),
