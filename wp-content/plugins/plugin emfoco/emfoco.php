@@ -121,3 +121,19 @@ function create_topics_hierarchical_taxonomy() {
   ));
  
 }
+
+$args = array(
+  'public'   => true,
+  '_builtin' => false
+   
+); 
+$output = 'names'; // or objects
+$operator = 'and'; // 'and' or 'or'
+$taxonomies = get_taxonomies( $args, $output, $operator ); 
+if ( $taxonomies ) {
+    echo '<ul>';
+    foreach ( $taxonomies  as $taxonomy ) {
+        echo '<li>' . $taxonomy . '</li>';
+    }
+    echo '</ul>'; 
+}
