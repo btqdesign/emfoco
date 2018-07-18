@@ -127,14 +127,3 @@ $args = array(
   '_builtin' => false
    
 ); 
-
-$args = array(
-    'name' => 'genre'
-);
-$output = 'objects'; // or names
-$taxonomies= get_taxonomies( $args, $output ); 
-if ( $taxonomies ) {
-    foreach ( $taxonomies as $taxonomy ) {
-        echo '<div>' . $taxonomy->labels->name . '</div>';
-    }
-} 
