@@ -62,6 +62,7 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
         // create a new taxonomy
         register_taxonomy(
             'Sectores',
+            'post',
             array(
                 'label' => __( 'Sectores' ),
                 'rewrite' => array( 'slug' => 'Sector' ),
