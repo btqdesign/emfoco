@@ -42,6 +42,13 @@ add_action( 'vc_before_init', 'btq_emfoco_VC' );
 
 function create_posttype() {
 
+    function get_post_type( $post = null ) {
+        if ( $post = get_post( $post ) )
+            return $post->post_type;
+     
+        return false;
+    }
+
     $labels = array(
         'name'                => _x( 'Productores', 'Post Type General Name', 'twentythirteen' ),
         'singular_name'       => _x( 'Productor', 'Post Type Singular Name', 'twentythirteen' ),
