@@ -84,7 +84,7 @@
  
  // Now register the taxonomy
  
- register_taxonomy('Sectores',array('post'), array(
+ register_taxonomy('Sectores',array('Productores'), array(
 	 'hierarchical' => true,
 	 'labels' => $labels,
 	 'show_ui' => true,
