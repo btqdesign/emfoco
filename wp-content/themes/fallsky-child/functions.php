@@ -44,14 +44,13 @@ function my_custom_init() {
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
     );
  
-    register_post_type( 'libro', $args ); /* Registramos y a funcionar */
+    register_post_type( 'productor', $args ); /* Registramos y a funcionar */
 }
 
 
 // Lo enganchamos en la acción init y llamamos a la función create_book_taxonomies() cuando arranque
 add_action( 'init', 'create_book_taxonomies', 0 );
  
-// Creamos dos taxonomías, género y autor para el custom post type "libro"
 function create_book_taxonomies() {
 	// Añadimos nueva taxonomía y la hacemos jerárquica (como las categorías por defecto)
 	$labels = array(
