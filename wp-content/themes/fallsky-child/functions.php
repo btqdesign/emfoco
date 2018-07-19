@@ -62,7 +62,7 @@ function create_book_taxonomies() {
 );
 register_taxonomy( 'sector', array( 'productor' ), array(
 	'hierarchical' => true,
-	'labels' => $labels, /* ADVERTENCIA: Aquí es donde se utiliza la variable $labels */
+	'labels' => $labels, 
 	'show_ui' => true,
 	'query_var' => true,
 	'rewrite' => array( 'slug' => 'Sector' ),
