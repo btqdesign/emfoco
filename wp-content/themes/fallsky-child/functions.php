@@ -16,16 +16,16 @@ add_action( 'init', 'my_custom_init' );
 /* Here's how to create your customized labels */
 function my_custom_init() {
 	$labels = array(
-	'name' => _x( 'Libros', 'post type general name' ),
-        'singular_name' => _x( 'Libro', 'post type singular name' ),
+	'name' => _x( 'Productores', 'post type general name' ),
+        'singular_name' => _x( 'Productor', 'post type singular name' ),
         'add_new' => _x( 'Añadir nuevo', 'book' ),
         'add_new_item' => __( 'Añadir nuevo Libro' ),
-        'edit_item' => __( 'Editar Libro' ),
-        'new_item' => __( 'Nuevo Libro' ),
-        'view_item' => __( 'Ver Libro' ),
-        'search_items' => __( 'Buscar Libros' ),
-        'not_found' =>  __( 'No se han encontrado Libros' ),
-        'not_found_in_trash' => __( 'No se han encontrado Libros en la papelera' ),
+        'edit_item' => __( 'Editar Productor' ),
+        'new_item' => __( 'Nuevo Productor' ),
+        'view_item' => __( 'Ver Productor' ),
+        'search_items' => __( 'Buscar Productores' ),
+        'not_found' =>  __( 'No se han encontrado Productores' ),
+        'not_found_in_trash' => __( 'No se han encontrado Productores en la papelera' ),
         'parent_item_colon' => ''
     );
  
@@ -42,34 +42,31 @@ function my_custom_init() {
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
     );
  
-    register_post_type( 'libro', $args ); /* Registramos y a funcionar */
+    register_post_type( 'Productor', $args ); 
 }
 
-
-
-// Lo enganchamos en la acción init y llamamos a la función create_book_taxonomies() cuando arranque
 add_action( 'init', 'create_book_taxonomies', 0 );
  
-// Creamos dos taxonomías, género y autor para el custom post type "libro"
+
 function create_book_taxonomies() {
-	// Añadimos nueva taxonomía y la hacemos jerárquica (como las categorías por defecto)
+	// Añadimos nueva taxonomía y la hacemos jerárquica
 	$labels = array(
-	'name' => _x( 'Géneros', 'taxonomy general name' ),
-	'singular_name' => _x( 'Género', 'taxonomy singular name' ),
-	'search_items' =>  __( 'Buscar por Género' ),
-	'all_items' => __( 'Todos los Géneros' ),
-	'parent_item' => __( 'Género padre' ),
-	'parent_item_colon' => __( 'Género padre:' ),
-	'edit_item' => __( 'Editar Género' ),
-	'update_item' => __( 'Actualizar Género' ),
-	'add_new_item' => __( 'Añadir nuevo Género' ),
-	'new_item_name' => __( 'Nombre del nuevo Género' ),
+	'name' => _x( 'Sectores', 'taxonomy general name' ),
+	'singular_name' => _x( 'Sector', 'taxonomy singular name' ),
+	'search_items' =>  __( 'Buscar por Sector' ),
+	'all_items' => __( 'Todos los Sectores' ),
+	'parent_item' => __( 'Sector padre' ),
+	'parent_item_colon' => __( 'Sector padre:' ),
+	'edit_item' => __( 'Editar Sector' ),
+	'update_item' => __( 'Actualizar Sector' ),
+	'add_new_item' => __( 'Añadir nuevo Sector' ),
+	'new_item_name' => __( 'Nombre del nuevo Sector' ),
 );
-register_taxonomy( 'genero', array( 'libro' ), array(
+register_taxonomy( 'Sector', array( 'Productor' ), array(
 	'hierarchical' => true,
-	'labels' => $labels, /* ADVERTENCIA: Aquí es donde se utiliza la variable $labels */
+	'labels' => $labels, 
 	'show_ui' => true,
 	'query_var' => true,
-	'rewrite' => array( 'slug' => 'genero' ),
+	'rewrite' => array( 'slug' => 'Sector' ),
 ));
 }
