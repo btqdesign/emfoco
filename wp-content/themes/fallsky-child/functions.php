@@ -49,7 +49,6 @@ add_action( 'init', 'create_book_taxonomies', 0 );
  
 
 function create_book_taxonomies() {
-	// Añadimos nueva taxonomía y la hacemos jerárquica
 	$labels = array(
 	'name' => _x( 'Sectores', 'taxonomy general name' ),
 	'singular_name' => _x( 'Sector', 'taxonomy singular name' ),
@@ -62,7 +61,7 @@ function create_book_taxonomies() {
 	'add_new_item' => __( 'Añadir nuevo Sector' ),
 	'new_item_name' => __( 'Nombre del nuevo Sector' ),
 );
-register_taxonomy( 'Sectores', array( 'Productores' ), array(
+register_taxonomy( 'Sectores', array( 'Productor' ), array(
 	'hierarchical' => true,
 	'labels' => $labels, 
 	'show_ui' => true,
