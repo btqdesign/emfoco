@@ -65,7 +65,7 @@ function create_book_taxonomies() {
 	'add_new_item' => __( 'Añadir nuevo Sector' ),
 	'new_item_name' => __( 'Nombre del nuevo Sector' ),
 );
-register_taxonomy( 'genero', array( 'prodcutor' ), array(
+register_taxonomy( 'sector', array( 'prodcutor' ), array(
 	'hierarchical' => true,
 	'labels' => $labels, /* ADVERTENCIA: Aquí es donde se utiliza la variable $labels */
 	'show_ui' => true,
