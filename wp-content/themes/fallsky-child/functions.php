@@ -47,11 +47,7 @@ function my_custom_init() {
 
 
 
-
-
-
-
- // Lo enganchamos en la acción init y llamamos a la función create_book_taxonomies() cuando arranque
+// Lo enganchamos en la acción init y llamamos a la función create_book_taxonomies() cuando arranque
 add_action( 'init', 'create_book_taxonomies', 0 );
  
 // Creamos dos taxonomías, género y autor para el custom post type "libro"
@@ -76,6 +72,4 @@ register_taxonomy( 'genero', array( 'libro' ), array(
 	'query_var' => true,
 	'rewrite' => array( 'slug' => 'genero' ),
 ));
-
-
-
+}
