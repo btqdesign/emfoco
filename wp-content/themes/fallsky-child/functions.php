@@ -11,7 +11,9 @@
 
 
 
-// La función no será utilizada antes del 'init'.
+
+
+	// La función no será utilizada antes del 'init'.
 add_action( 'init', 'my_custom_init' );
 /* Here's how to create your customized labels */
 function my_custom_init() {
@@ -19,7 +21,7 @@ function my_custom_init() {
 	'name' => _x( 'Productores', 'post type general name' ),
         'singular_name' => _x( 'Productor', 'post type singular name' ),
         'add_new' => _x( 'Añadir nuevo', 'book' ),
-        'add_new_item' => __( 'Añadir nuevo Libro' ),
+        'add_new_item' => __( 'Añadir nuevo Productor' ),
         'edit_item' => __( 'Editar Productor' ),
         'new_item' => __( 'Nuevo Productor' ),
         'view_item' => __( 'Ver Productor' ),
@@ -42,13 +44,16 @@ function my_custom_init() {
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
     );
  
-    register_post_type( 'Productor', $args ); 
+    register_post_type( 'libro', $args ); /* Registramos y a funcionar */
 }
 
+
+// Lo enganchamos en la acción init y llamamos a la función create_book_taxonomies() cuando arranque
 add_action( 'init', 'create_book_taxonomies', 0 );
  
-
+// Creamos dos taxonomías, género y autor para el custom post type "libro"
 function create_book_taxonomies() {
+	// Añadimos nueva taxonomía y la hacemos jerárquica (como las categorías por defecto)
 	$labels = array(
 	'name' => _x( 'Sectores', 'taxonomy general name' ),
 	'singular_name' => _x( 'Sector', 'taxonomy singular name' ),
@@ -61,11 +66,12 @@ function create_book_taxonomies() {
 	'add_new_item' => __( 'Añadir nuevo Sector' ),
 	'new_item_name' => __( 'Nombre del nuevo Sector' ),
 );
-register_taxonomy( 'Sectores', array( 'Productor' ), array(
+register_taxonomy( 'genero', array( 'libro' ), array(
 	'hierarchical' => true,
-	'labels' => $labels, 
+	'labels' => $labels, /* ADVERTENCIA: Aquí es donde se utiliza la variable $labels */
 	'show_ui' => true,
 	'query_var' => true,
 	'rewrite' => array( 'slug' => 'Sector' ),
 ));
+
 }
