@@ -60,11 +60,10 @@
 
 
  //hook into the init action and call create_book_taxonomies when it fires
- add_action( 'init', 'create_topics_hierarchical_taxonomy', 0 );
-                
+ add_action( 'init', 'create_book_taxonomies', 0 );                
  //create a custom taxonomy name it topics for your posts
  
- function create_topics_hierarchical_taxonomy() {
+ function create_book_taxonomies() {
  
  // Add new taxonomy, make it hierarchical like categories
  //first do the translations part for GUI
