@@ -50,3 +50,49 @@
  '_builtin' => false
  
  ); 
+
+
+ function create_posttype() {
+
+    $labels = array(
+        'name'                => _x( 'Productores', 'Post Type General Name', 'twentythirteen' ),
+        'singular_name'       => _x( 'Productor', 'Post Type Singular Name', 'twentythirteen' ),
+        'menu_name'           => __( 'Productores', 'twentythirteen' ),
+        'parent_item_colon'   => __( 'Prodcutor padre', 'twentythirteen' ),
+        'all_items'           => __( 'Todos los productores', 'twentythirteen' ),
+        'view_item'           => __( 'Ver productor', 'twentythirteen' ),
+        'add_new_item'        => __( 'Añadir nuevo productor', 'twentythirteen' ),
+        'add_new'             => __( 'Añadir nuevo', 'twentythirteen' ),
+        'edit_item'           => __( 'Editar productor', 'twentythirteen' ),
+        'update_item'         => __( 'Actualizar productor', 'twentythirteen' ),
+        'search_items'        => __( 'Buscar productor', 'twentythirteen' ),
+        'not_found'           => __( 'No se encontro', 'twentythirteen' ),
+        'not_found_in_trash'  => __( 'No se encontro en la', 'twentythirteen' ),
+    );
+
+    register_post_type( 'Productores',
+            // CPT Options
+                array(
+                    'labels' => array(
+                        'name' => __( 'Productores' ),
+                        'singular_name' => __( 'Productor' )
+                    ),
+                    'public'              => true,
+                    'has_archive'         => true,
+                    'show_ui'             => true,
+                    'show_in_menu'        => true,
+                    'show_in_nav_menus'   => true,
+                    'show_in_admin_bar'   => true,
+                    'menu_position'       => 5,
+                    'can_export'          => true,
+                    'has_archive'         => true,
+                    'exclude_from_search' => false,
+                    'publicly_queryable'  => true,
+                    'rewrite' => array('slug' => 'Productor'),
+                )
+            );
+        }
+    add_action( 'init', 'create_posttype' );
+
+
+
