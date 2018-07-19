@@ -13,9 +13,7 @@
 
 
 
-	// La función no será utilizada antes del 'init'.
 add_action( 'init', 'my_custom_init' );
-/* Here's how to create your customized labels */
 function my_custom_init() {
 	$labels = array(
 	'name' => _x( 'Productores', 'post type general name' ),
@@ -31,7 +29,6 @@ function my_custom_init() {
         'parent_item_colon' => ''
     );
  
-    // Creamos un array para $args
     $args = array( 'labels' => $labels,
         'public' => true,
         'publicly_queryable' => true,
@@ -44,16 +41,13 @@ function my_custom_init() {
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
     );
  
-    register_post_type( 'productor', $args ); /* Registramos y a funcionar */
+    register_post_type( 'productor', $args ); 
 }
 
 
-// Lo enganchamos en la acción init y llamamos a la función create_book_taxonomies() cuando arranque
 add_action( 'init', 'create_book_taxonomies', 0 );
  
-// Creamos dos taxonomías, género y autor para el custom post type "libro"
 function create_book_taxonomies() {
-	// Añadimos nueva taxonomía y la hacemos jerárquica (como las categorías por defecto)
 	$labels = array(
 	'name' => _x( 'Sectores', 'taxonomy general name' ),
 	'singular_name' => _x( 'Sector', 'taxonomy singular name' ),
