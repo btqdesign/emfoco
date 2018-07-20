@@ -143,6 +143,19 @@ foreach($categorias as $cat){
     $term_meta = get_option("taxonomy_$c_id");
     echo("<a href='".get_term_link($c_id,"sector")."'><img src='".$term_meta['imagen']."'></a>");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
 
 
