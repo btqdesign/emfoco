@@ -137,3 +137,12 @@ function admin_scripts() {
         wp_enqueue_script('admin-js');
     }
 }
+
+foreach($categorias as $cat){
+    $c_id = $cat->term_id;
+    $term_meta = get_option("taxonomy_$c_id");  // ¡Dentro de $term_meta ya tenemos la URL de la imagen! Está en $term_meta['imagen'].
+
+    // Ahora la usamos como necesitemos. La imprimimos con un echo, la guardamos en otra variable...
+    // Por ejemplo, si queremos que ademas sea un enlace al archivo de la categoría, escribimos:
+    echo("<a href='".get_term_link($c_id,"sector")."'><img src='".$term_meta['imagen']."'></a>");
+}
