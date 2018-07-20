@@ -86,7 +86,7 @@ function categorias_add_new_meta_fields(){
 	</div>
 	<?php
 }
-add_action( 'Sector_add_form_fields', 'categorias_add_new_meta_fields', 10, 2 );
+add_action( 'sector_add_form_fields', 'categorias_add_new_meta_fields', 10, 2 );
 
 
 function categorias_edit_meta_fields($term){
@@ -107,4 +107,4 @@ function categorias_edit_meta_fields($term){
 		</tr>
 	<?php
 }
-add_action( 'category_edit_form_fields', 'categorias_edit_meta_fields', 10, 2 );
+add_action( 'sector_edit_form_fields', 'categorias_edit_meta_fields', 10, 2 );
