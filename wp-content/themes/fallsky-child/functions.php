@@ -87,3 +87,24 @@ function categorias_add_new_meta_fields(){
 	<?php
 }
 add_action( 'Sector_add_form_fields', 'categorias_add_new_meta_fields', 10, 2 );
+
+
+function categorias_edit_meta_fields($term){
+	$t_id = $term->term_id;
+
+	$term_meta = get_option("taxonomy_$t_id");
+	?>
+		<tr valign="top" class='form-field'>
+			<th scope="row">Subir imagen</th>
+			<td>
+				<label for="upload_image">
+				    <input id="upload_image" type="text" size="36" name="term_meta[imagen]" value="<?php if( esc_attr( $term_meta['imagen'] ) != "") echo esc_attr( $term_meta['imagen'] ) ; ?>" />
+				    <p><input id="upload_image_button" type="button" class='button button-primary' style='width: 100px' value="Subir Imagen" />
+				    <i>Introduce una URL o establece una imagen para este campo.</i></p>
+				</label>
+				<p><?php if( esc_attr( $term_meta['imagen'] ) != "" ) echo "<table><tr><td><i><strong>Imagen actual</strong></i>:</td><td> <img src='".esc_attr( $term_meta['imagen'] )."'></td></tr></table>"; ?></p>
+			</td>
+		</tr>
+	<?php
+}
+add_action( 'category_edit_form_fields', 'categorias_edit_meta_fields', 10, 2 );
