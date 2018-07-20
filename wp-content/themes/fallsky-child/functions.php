@@ -126,3 +126,14 @@ function categorias_save_custom_meta( $term_id ) {
 }  
 add_action( 'edited_sector', 'categorias_save_custom_meta', 10, 2 );  
 add_action( 'create_sector', 'categorias_save_custom_meta', 10, 2 );
+
+
+add_action('admin_enqueue_scripts', 'admin_scripts');
+
+function admin_scripts() {
+	if (isset($_GET[‘taxonomy’]) && $_GET[‘taxonomy’] == ‘sector’) {
+        wp_enqueue_media();
+        wp_register_script('admin-js', WP_PLUGIN_URL.'admin.js', array('jquery'));
+        wp_enqueue_script('admin-js');
+    }
+}
