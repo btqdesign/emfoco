@@ -69,3 +69,21 @@ register_taxonomy( 'sector', array( 'productor' ), array(
 ));
 
 }
+
+
+
+
+
+
+function categorias_add_new_meta_fields(){
+	?>
+	<div>
+            <label for="term_meta[imagen]">
+               <input type="text" name="term_meta[imagen]" size="36" id="upload_image" value=""><br>
+               <input id="upload_image_button" type="button" class='button button-primary' value="Subir Imagen" />
+               <br/><i>Introduce una URL o establece una imagen para este campo.</i>
+            </label>
+	</div>
+	<?php
+}
+add_action( 'Sector_add_form_fields', 'categorias_add_new_meta_fields', 10, 2 );
