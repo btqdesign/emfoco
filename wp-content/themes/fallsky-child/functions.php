@@ -149,10 +149,6 @@ foreach($categorias as $cat){
 
 
 
-get_template_part( 'page' );
-
-
-
 
 
 
