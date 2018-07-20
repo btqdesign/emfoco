@@ -148,3 +148,23 @@ foreach($categorias as $cat){
 
 
 
+/**
+* Parse html attributes
+* @param array list of attributes
+* @return string 
+*/
+function fallsky_get_html_attributes( $attrs = array() ) {
+	if ( ! empty( $attrs ) ) {
+		if ( is_array( $attrs ) ) {
+			$items = array();
+			foreach ( $attrs as $key => $value ) {
+				if ( ! empty( $key ) && ! empty( $value ) ) {
+					$items[] = sprintf( '%s="%s"', $key, $value );
+				}
+			}
+			return empty( $items ) ? '' : implode( ' ', $items );
+		} else {
+			return $attrs;
+		}
+	}
+}
