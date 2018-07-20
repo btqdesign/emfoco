@@ -150,4 +150,83 @@ foreach($categorias as $cat){
 
 
 
+if(!class_exists('Fallsky_Meta_Boxes')){
+	class Fallsky_Meta_Boxes {
+		// Page
+		private $default_page_layout	= 'page-header-layout-2';
+		private $page_layout_options 	= array();
+		private $option_keys 			= array();
+		private $page_layouts 			= array();
 
+		// Post
+		private $post_default_layout 	= '';
+		private $post_default_template 	= '';
+		private $post_layout_options 	= array();
+		private $post_layout_keys 		= array();
+		private $post_template_options 	= array();
+		private $post_template_keys 	= array();
+		private $post_templates 		= array();
+		private $post_layouts 			= array();
+		public function __construct(){
+			$this->page_layout_options 	= array(
+				'page-header-layout-1' => esc_html__('Layout 1', 'fallsky'),
+				'page-header-layout-2' => esc_html__('Layout 2', 'fallsky')
+			);
+			$this->option_keys 			= array_keys($this->page_layout_options);
+
+			$this->post_layout_options 	= array(
+				'' 						=> esc_html__('Default', 'fallsky'),
+				'no-sidebar'			=> esc_html__('No Sidebar', 'fallsky'),
+				'with-sidebar-left'		=> esc_html__('Left Sidebar', 'fallsky'),
+				'with-sidebar-right'	=> esc_html__('Right Sidebar', 'fallsky')
+			);
+			$this->post_layout_keys 		= array_keys($this->post_layout_options);
+			$this->post_template_options 	= array(
+				'' 					=> esc_html__('Default', 'fallsky'),
+				'post-template-1' 	=> esc_html__('Post Template 1', 'fallsky'),
+				'post-template-2' 	=> esc_html__('Post Template 2', 'fallsky'),
+				'post-template-3' 	=> esc_html__('Post Template 3', 'fallsky'),
+				'post-template-4' 	=> esc_html__('Post Template 4', 'fallsky'),
+				'post-template-5' 	=> esc_html__('Post Template 5', 'fallsky'),
+				'post-template-6' 	=> esc_html__('Post Template 6', 'fallsky'),
+				'post-template-7' 	=> esc_html__('Post Template 7', 'fallsky')
+			);
+			$this->post_template_keys 	= array_keys($this->post_template_options);
+
+			add_action( 'add_meta_boxes', 						array( $this, 'register_meta_boxes' ) );
+			add_action( 'save_post', 							array( $this, 'save_page_meta' ), 10, 3 );
+			add_action( 'loftocean_post_metabox_before_html', 	array( $this, 'post_metabox' ) );
+			add_action( 'loftocean_save_post', 					array( $this, 'save_post_meta' ), 10, 1 );
+			add_action( 'admin_enqueue_scripts', 				array( $this, 'enqueue_scripts' ) );
+			add_filter( 'fallsky_get_page_header_layout', 		array( $this, 'get_page_header_layout' ) );
+			add_filter( 'fallsky_get_post_template',		 	array( $this, 'get_post_template' ) );
+			add_filter( 'fallsky_get_post_sidebar_layout', 		array( $this, 'get_post_sidebar_layout' ) );
+			add_filter( 'loftocean_post_metabox_title',			function($title){ 
+				return esc_html__('Fallsky Single Post Options', 'fallsky'); 
+			});
+		}
+		// Register loftloader shortcode meta box
+		public function register_meta_boxes(){ 
+			global $post; 
+			if($post && in_array($post->post_type, array('page'))){
+				$pid 			= $post->ID;
+				$pages 			= array(get_option('fallsky_category_index_page_id'));
+				$front_page_id 	= fallsky_get_page_on_front();
+
+				if('page' == get_option('show_on_front', 'posts')){
+					array_push($pages, get_option('page_for_posts'));
+				}
+				if(!empty($front_page_id)){
+					array_push($pages, $front_page_id);
+				}
+				$pages = apply_filters('fallsky_static_pages', $pages);
+
+
+				if(!in_array($pid, $pages)){
+					add_meta_box('fallsky_page_meta_box', esc_html__('Fallsky Single Page Options', 'fallsky'), array($this, 'page_metabox'), 'page', 'advanced');
+				}
+			}
+		}
+	}
+	new Fallsky_Meta_Boxes();
+}
