@@ -146,9 +146,3 @@ foreach($categorias as $cat){
 
 
 
-/*
- * Template Name: Full width
- * Template Post Type: sector
- */
-  
- get_header();  
