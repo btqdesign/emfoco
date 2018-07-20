@@ -10,7 +10,7 @@
 	}
 
 
-	get_sidebar();
+	
 
 
 add_action( 'init', 'my_custom_init' );
