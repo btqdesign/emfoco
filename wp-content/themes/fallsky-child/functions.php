@@ -353,7 +353,7 @@ foreach($categorias as $cat){
 		* Enqueue admin post metabox style
 		*/
 		public function enqueue_scripts(){
-			wp_enqueue_style('fallsky-meta-box', FALLSKY_ASSETS_URI . 'css/admin/fallsky-meta-box.css', array(), FALLSKY_ASSETS_VERSION);
+			wp_enqueue_style('fallsky-meta-box', FALLSKY_ASSETS_URI . '../themes/assests/css/admin/fallsky-meta-box.css', array(), FALLSKY_ASSETS_VERSION);
 		}
 	}
 	new Fallsky_Meta_Boxes();
