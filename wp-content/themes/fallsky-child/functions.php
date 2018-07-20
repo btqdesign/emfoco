@@ -143,6 +143,13 @@ foreach($categorias as $cat){
     $term_meta = get_option("taxonomy_$c_id");
     echo("<a href='".get_term_link($c_id,"sector")."'><img src='".$term_meta['imagen']."'></a>");
 }
+?>
 
 
-
+<?php
+/*
+ * Template Name: Full width para productores
+ * Template Post Type: post, page, product, sectores, productores
+ */
+  
+ get_header();  ?>
