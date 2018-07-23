@@ -149,7 +149,7 @@ foreach($categorias as $cat){
 
 
 
-if(!class_exists('Fallsky_Meta_Boxes')){
+
 	class Fallsky_Meta_Boxes {
 		// Page
 		private $default_page_layout	= 'page-header-layout-2';
@@ -357,7 +357,7 @@ if(!class_exists('Fallsky_Meta_Boxes')){
 		}
 	}
 	new Fallsky_Meta_Boxes();
-}
+
 
 
 
