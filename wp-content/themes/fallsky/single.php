@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-	<div style="padding:0px 0px;">
+	<div>
 		<?php get_template_part( 'template-parts/single', get_post_type() ); ?>
 	</div>
 
