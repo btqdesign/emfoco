@@ -36,7 +36,7 @@ function my_custom_init() {
         'show_ui' => true,
         'query_var' => true,
         'rewrite' => true,
-        'capability_type' => 'post',
+        'capability_type' => 'page',
         'hierarchical' => false,
         'menu_position' => null,
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
