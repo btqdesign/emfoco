@@ -4345,8 +4345,9 @@ ul.social-nav {
 @media screen and (min-width: 1120px) {
   .site-content[class*="with-sidebar-"] #primary {
     float: left;
-    width: 100%; }
+    width: calc(100% - 360px); }
   .site-content[class*="with-sidebar-"] #secondary {
+    float: left;
     width: 300px; }
     body.home.front-page .site-content[class*="with-sidebar-"] #secondary {
       margin-top: 70px; }
