@@ -1,0 +1,58 @@
+// font
+$font-base-size:       16px;
+$body-font:            'Roboto', sans-serif;
+$heading-font:         'Source Sans Pro', sans-serif;
+
+// colors
+$primary-color:        #c09f68;
+$light-color:          #fff;  // bg color for Light Scheme
+$text-color:           #212121;  // text (heading and other) color for Light Scheme
+$content-color:        #515151;  // page/post content text color for Light Scheme
+$dark-color:           #282828;  // bg color for Dark Scheme
+$dark-text-color:      #fff;     // text (heading and other) color for Dark Scheme
+$dark-content-color:   #e2e2e2;  // page/post content text color for Dark Scheme
+$light-grey:           #f7f7f7;
+
+// layout
+$spacing-base:         30px;
+$spacing:              50px;
+$spacing-large:        60px;
+$site-width:           1200px;
+$site-width-inner:     1140px;
+$content-width:        1000px;
+$sidebar-width:        300px;
+
+// Define CSS Custom Properties
+:root {
+    --heading-font: #{$heading-font};
+    --body-font: #{$body-font};
+	--primary-color: #{$primary-color};
+    
+    /* Colors for Light Scheme */
+    --light-bg-color: #{$light-color};
+    --light-text-color: #{$text-color};
+    --light-content-color: #{$content-color};
+    
+    /* Colors for Dark Scheme */
+    --dark-bg-color: #{$dark-color};
+    --dark-text-color: #{$dark-text-color};
+    --dark-content-color: #{$dark-content-color};
+    
+    .light-color,
+    .home-widget.light-color {
+        --bg-color: var(--light-bg-color);
+        --text-color: var(--light-text-color);
+        --content-color: var(--light-content-color);
+        --btn-bg-color: #000;
+        --btn-text-color: #fff;
+    }
+    
+    .dark-color,
+    .home-widget.dark-color {
+        --bg-color: var(--dark-bg-color);
+        --text-color: var(--dark-text-color);
+        --content-color: var(--dark-content-color);
+        --btn-bg-color: #fff;
+        --btn-text-color: #000;
+    }
+}

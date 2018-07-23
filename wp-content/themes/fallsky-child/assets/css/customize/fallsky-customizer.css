@@ -1,0 +1,487 @@
+/**
+ * Fallsky Customizer Style
+ * 
+ * Theme Name: Fallsky
+ * Theme URI: http://www.loftocean.com/fallsky
+ * Author: Kaylolo Yinxi Chen @Loft.Ocean
+ * Author URI: http://www.loftocean.com
+ * Description: Fallsky is a lifestyle WordPress magazine theme.
+ * Version: 1.1.7
+*/
+.hide {
+  display: none !important;
+  visibility: hidden !important; }
+
+#customize-theme-controls.fallsky-customizer-wrapper .customize-section-title h3,
+#customize-theme-controls.fallsky-customizer-wrapper .accordion-section-title .preview-notice .panel-title {
+  font-size: 16px;
+  font-weight: 600; }
+#customize-theme-controls.fallsky-customizer-wrapper .customize-control-title {
+  margin-top: 0;
+  color: #111;
+  font-size: 12px; }
+  #customize-theme-controls.fallsky-customizer-wrapper .customize-control-title + span.description {
+    margin-top: -6px; }
+#customize-theme-controls.fallsky-customizer-wrapper span.description {
+  margin-bottom: 12px;
+  color: #888;
+  font-size: 11px;
+  font-style: normal; }
+  #customize-theme-controls.fallsky-customizer-wrapper span.description strong {
+    color: #111;
+    font-weight: bold; }
+#customize-theme-controls.fallsky-customizer-wrapper a span.description {
+  color: inherit; }
+#customize-theme-controls.fallsky-customizer-wrapper select,
+#customize-theme-controls.fallsky-customizer-wrapper textarea,
+#customize-theme-controls.fallsky-customizer-wrapper input {
+  border: 1px solid #111;
+  font-size: 12px; }
+  #customize-theme-controls.fallsky-customizer-wrapper select:focus,
+  #customize-theme-controls.fallsky-customizer-wrapper textarea:focus,
+  #customize-theme-controls.fallsky-customizer-wrapper input:focus {
+    border-color: #111;
+    box-shadow: 0 0 2px rgba(156, 165, 200, 0.8); }
+#customize-theme-controls.fallsky-customizer-wrapper input[type="radio"]:checked:before {
+  background-color: #111; }
+#customize-theme-controls.fallsky-customizer-wrapper input[type="checkbox"]:checked:before {
+  color: #111; }
+#customize-theme-controls.fallsky-customizer-wrapper select[multiple] {
+  height: 120px; }
+#customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox,
+#customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label {
+  margin-left: 0;
+  color: #111;
+  font-size: 12px; }
+  #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox .customize-control-title,
+  #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label .customize-control-title {
+    display: inline-block;
+    max-width: calc(100% - 50px); }
+  #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"],
+  #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"] {
+    position: relative;
+    float: right;
+    width: 33px;
+    height: 33px;
+    background: #FFF;
+    border-radius: 50%;
+    border: 1px solid #111;
+    box-shadow: none;
+    font-size: 0; }
+    #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"]:checked:before,
+    #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"]:checked:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      margin: 0 0 0 -3px;
+      color: #111; }
+      @media screen and (max-width: 782px) {
+        #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"]:checked:before,
+        #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"]:checked:before {
+          margin: 0 0 0 -8px; } }
+    .rtl #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"], .rtl
+    #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"] {
+      float: left; }
+      .rtl #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"]:checked:before, .rtl
+      #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"]:checked:before {
+        margin: 0 -3px 0 0; }
+        @media screen and (max-width: 782px) {
+          .rtl #customize-theme-controls.fallsky-customizer-wrapper label.title-first-checkbox input[type="checkbox"]:checked:before, .rtl
+          #customize-theme-controls.fallsky-customizer-wrapper li#customize-control-display_header_text label input[type="checkbox"]:checked:before {
+            margin: 0 -8px 0 0; } }
+#customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content {
+  padding: 0; }
+  #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    content: ""; }
+  #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content#menu-to-edit:before, #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content.control-section-sidebar:before {
+    display: none; }
+  #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li {
+    padding: 20px;
+    margin-bottom: 0;
+    border-top: 1px solid #E6E6E6;
+    box-sizing: border-box; }
+    #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li.customize-section-description-container {
+      padding: 12px 12px 0; }
+    #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li:nth-of-type(-n+2) {
+      border-top: none; }
+    #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li.customize-control-title_only {
+      padding-bottom: 0; }
+      #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li.customize-control-title_only h3 {
+        padding: 10px;
+        margin-top: 0.5em;
+        background: #F3F3F5;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em; }
+      #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li.customize-control-title_only + li {
+        padding-top: 10px;
+        border-top: none; }
+    #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li#customize-control-fallsky_homepage_main_area {
+      background: #EEE; }
+    #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li {
+      padding: 0 0 20px;
+      border: none; }
+      #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li:first-child {
+        padding-top: 10px; }
+      #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content label.title {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 600; }
+      #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content > *:not(:first-child) label.title {
+        margin-top: 20px; }
+      #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content label.radio-wrapper {
+        margin-right: 15px; }
+      #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content textarea {
+        min-height: 86px; }
+      #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap {
+        display: block;
+        overflow: hidden; }
+        #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper {
+          position: relative;
+          float: left;
+          display: block;
+          width: 105px;
+          height: 105px;
+          margin: 0 16px 10px 0;
+          padding: 0;
+          box-sizing: border-box; }
+          #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper:nth-child(1) input[type="radio"] + span.thumbnail:after {
+            background-position: 0 0px; }
+          #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper:nth-child(2) input[type="radio"] + span.thumbnail:after {
+            background-position: 0 -63px; }
+          #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper:nth-child(3) input[type="radio"] + span.thumbnail:after {
+            background-position: 0 -126px; }
+          #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper:nth-child(4) input[type="radio"] + span.thumbnail:after {
+            background-position: 0 -189px; }
+          #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper:nth-child(5) input[type="radio"] + span.thumbnail:after {
+            background-position: 0 -252px; }
+          #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper:nth-child(2n) {
+            margin-right: 0; }
+          #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper input[type="radio"] {
+            display: none;
+            width: inherit;
+            height: inherit;
+            opacity: 0;
+            margin: 0; }
+            #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper input[type="radio"] + span.thumbnail {
+              position: absolute;
+              top: 0;
+              left: 0;
+              display: block;
+              height: 63px;
+              width: 105px;
+              border: 2px solid #DDD;
+              box-sizing: content-box; }
+              #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper input[type="radio"] + span.thumbnail:after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: inherit;
+                height: inherit;
+                background-image: url(images/call-to-action-all.png);
+                background-size: 105px;
+                opacity: .5;
+                content: "";
+                box-sizing: border-box; }
+            #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper input[type="radio"]:checked + span.thumbnail {
+              border-color: #000; }
+              #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper input[type="radio"]:checked + span.thumbnail:after {
+                opacity: 1; }
+            #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper input[type="radio"]:checked ~ span.thumbnail-title {
+              opacity: 1; }
+          #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content li ul.fallsky-homepage-area-wrap li .widget-content .fallsky-homepage-widget-call-action-layout-radio-btn-wrap label.radio-wrapper span.thumbnail-title {
+            position: absolute;
+            bottom: 4px;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            font-size: 11px;
+            line-height: 14px;
+            text-align: center;
+            opacity: 0.5; }
+  #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content.control-section-sidebar, #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content.menu, #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content#sub-accordion-section-custom_css {
+    padding: 12px; }
+    #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content.control-section-sidebar li, #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content.menu li, #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content#sub-accordion-section-custom_css li {
+      padding: 0;
+      margin-bottom: 15px;
+      border: none; }
+  #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content.menu li {
+    margin-bottom: 0; }
+  #customize-theme-controls.fallsky-customizer-wrapper .accordion-section-content#sub-accordion-section-custom_css li#customize-control-custom_css:last-child {
+    margin-bottom: -12px; }
+#customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container {
+  overflow: visible;
+  width: auto; }
+  #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container .wp-color-result {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-top: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    box-shadow: none !important;
+    line-height: 28px; }
+    #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container .wp-color-result:after {
+      right: auto;
+      left: 24px;
+      width: 80px;
+      padding: 0 6px;
+      background: transparent;
+      border: none;
+      color: #555;
+      font-size: 11px;
+      text-align: left;
+      line-height: 24px; }
+    #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container .wp-color-result .wp-color-result-text {
+      margin-left: 24px;
+      background: none;
+      border: none;
+      color: inherit;
+      line-height: 24px; }
+      body.rtl #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container .wp-color-result .wp-color-result-text {
+        margin-right: 24px;
+        margin-left: 0; }
+  #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap {
+    float: right;
+    width: auto;
+    margin-top: -2px; }
+  #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container input[type="text"].wp-color-picker {
+    display: inline-block;
+    padding: 0 5px;
+    margin-top: 0;
+    width: 70px !important;
+    border: 1px solid #111;
+    vertical-align: top;
+    line-height: 26px; }
+  #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container .button.wp-picker-default,
+  #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container .button.wp-picker-clear {
+    height: 28px;
+    box-shadow: none;
+    background: #111;
+    color: #FFF;
+    line-height: 26px; }
+    @media screen and (max-width: 640px) {
+      #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container .button.wp-picker-default,
+      #customize-theme-controls.fallsky-customizer-wrapper .wp-picker-container .button.wp-picker-clear {
+        padding: 0 10px 1px; } }
+#customize-theme-controls.fallsky-customizer-wrapper .attachment-media-view,
+#customize-theme-controls.fallsky-customizer-wrapper .media-widget-preview.media_audio,
+#customize-theme-controls.fallsky-customizer-wrapper .media-widget-preview.media_image {
+  background: none; }
+#customize-theme-controls.fallsky-customizer-wrapper li.customize-control-number_slider input.readonly,
+#customize-theme-controls.fallsky-customizer-wrapper li.customize-control-number_slider input[readonly] {
+  width: 40px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-align: right;
+  font-weight: 600; }
+#customize-theme-controls.fallsky-customizer-wrapper li.customize-control-number_slider .ui-slider {
+  height: 20px;
+  background: none;
+  border: none;
+  border-radius: 0; }
+  #customize-theme-controls.fallsky-customizer-wrapper li.customize-control-number_slider .ui-slider:before {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.3);
+    content: ""; }
+  #customize-theme-controls.fallsky-customizer-wrapper li.customize-control-number_slider .ui-slider .ui-slider-range {
+    top: 8px;
+    height: 4px;
+    background: #000;
+    border-radius: 0;
+    border: none; }
+  #customize-theme-controls.fallsky-customizer-wrapper li.customize-control-number_slider .ui-slider .ui-slider-handle {
+    width: 14px;
+    height: 14px;
+    margin-top: 7px;
+    background: #000;
+    border: none;
+    border-radius: 50%; }
+#customize-theme-controls.fallsky-customizer-wrapper li.customize-control-group h3.group-title {
+  padding: 10px;
+  margin: 0.5em 0 20px;
+  background: #F3F3F5;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+#customize-theme-controls.fallsky-customizer-wrapper li.customize-control-group .group-controls-wrap li {
+  padding: 10px 0 20px;
+  border-top: none; }
+  #customize-theme-controls.fallsky-customizer-wrapper li.customize-control-group .group-controls-wrap li .customize-inside-control-row {
+    margin-left: 0; }
+  #customize-theme-controls.fallsky-customizer-wrapper li.customize-control-group .group-controls-wrap li.customize-control-checkbox .customize-inside-control-row input, #customize-theme-controls.fallsky-customizer-wrapper li.customize-control-group .group-controls-wrap li.customize-control-radio .customize-inside-control-row input {
+    margin-left: 0; }
+  #customize-theme-controls.fallsky-customizer-wrapper li.customize-control-group .group-controls-wrap li.customize-control-number_slider {
+    padding-top: 20px; }
+#customize-theme-controls.fallsky-customizer-wrapper li#customize-control-fallsky_post_excerpt_length_group .group-controls-wrap li:first-of-type {
+  padding-top: 10px; }
+#customize-theme-controls.fallsky-customizer-wrapper li#customize-control-fallsky_site_layout_options_group ~ li,
+#customize-theme-controls.fallsky-customizer-wrapper li#customize-control-fallsky_single_post_signup_form_id {
+  padding-top: 0;
+  border-top: none; }
+#customize-theme-controls.fallsky-customizer-wrapper ul#input_woocommerce_thumbnail_cropping {
+  margin-right: 0; }
+  #customize-theme-controls.fallsky-customizer-wrapper ul#input_woocommerce_thumbnail_cropping li {
+    padding-right: 0;
+    padding-left: 0;
+    border: none; }
+#customize-theme-controls.fallsky-customizer-wrapper li.customize-control-nav_menu_auto_add {
+  margin-top: 12px; }
+#customize-theme-controls.fallsky-customizer-wrapper li.customize-control-multiple_checkbox .multiple-checkbox-wrap label {
+  display: block;
+  margin-top: 25px; }
+#customize-theme-controls.fallsky-customizer-wrapper li.customize-control-multiple_checkbox .multiple-checkbox-wrap + span.description {
+  margin-top: 25px; }
+#customize-theme-controls.fallsky-customizer-wrapper li#customize-control-fallsky_transparent_site_header_logo .thumbnail-image {
+  background: rgba(0, 0, 0, 0.1); }
+#customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label,
+#customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label,
+#customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label {
+  position: relative;
+  display: block;
+  padding: 0;
+  box-sizing: border-box; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label .fallsky-radiobtn,
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn,
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn {
+    display: none;
+    width: inherit;
+    height: inherit;
+    opacity: 0;
+    margin: 0; }
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label .fallsky-radiobtn + span.thumbnail,
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn + span.thumbnail,
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn + span.thumbnail {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      border: 2px solid #DDD;
+      box-sizing: content-box; }
+      #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label .fallsky-radiobtn + span.thumbnail:after,
+      #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn + span.thumbnail:after,
+      #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn + span.thumbnail:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: inherit;
+        height: inherit;
+        opacity: .5;
+        content: "";
+        box-sizing: border-box; }
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label .fallsky-radiobtn:checked + span.thumbnail,
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn:checked + span.thumbnail,
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn:checked + span.thumbnail {
+      border-color: #000; }
+      #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label .fallsky-radiobtn:checked + span.thumbnail:after,
+      #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn:checked + span.thumbnail:after,
+      #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn:checked + span.thumbnail:after {
+        opacity: 1; }
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label .fallsky-radiobtn:checked ~ span.thumbnail-title,
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn:checked ~ span.thumbnail-title,
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn:checked ~ span.thumbnail-title {
+      opacity: 1; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label span.thumbnail-title,
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label span.thumbnail-title,
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label span.thumbnail-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+    line-height: 30px;
+    text-align: center;
+    opacity: 0.5; }
+#customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label {
+  width: 260px;
+  height: 73px;
+  margin: 0 0 10px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label:nth-child(1) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 0px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label:nth-child(2) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 -43.5px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label:nth-child(3) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 -87px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label:nth-child(4) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 -130.5px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label:nth-child(5) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 -174px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label:nth-child(6) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 -217.5px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label:nth-child(6) {
+    height: 97px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label .fallsky-radiobtn + span.thumbnail {
+    width: 260px;
+    height: 43px; }
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label .fallsky-radiobtn + span.thumbnail:after {
+      background-image: url(images/site-header-all.jpg);
+      background-size: 260px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_header_style label #fallsky_site_header_layout-site-header-layout-6 + span.thumbnail {
+    height: 67px; }
+#customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label,
+#customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label {
+  float: left;
+  width: 120px;
+  margin: 0 16px 10px 0; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label:nth-child(2n),
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label:nth-child(2n) {
+    margin-right: 0; }
+  body.rtl #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label, body.rtl
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label {
+    float: right;
+    margin: 0 0 10px 16px; }
+    body.rtl #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label:nth-child(2n), body.rtl
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label:nth-child(2n) {
+      margin-left: 0; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn + span.thumbnail,
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn + span.thumbnail {
+    width: 120px; }
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn + span.thumbnail:after,
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn + span.thumbnail:after {
+      background-size: 120px; }
+#customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label {
+  height: 102px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label:nth-child(1) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 0px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label:nth-child(2) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 -72px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label:nth-child(3) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 -144px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn + span.thumbnail {
+    height: 72px; }
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_slider label .fallsky-radiobtn + span.thumbnail:after {
+      background-image: url(images/featured-slider-all.jpg); }
+#customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label {
+  height: 117px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label:nth-child(1) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 0px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label:nth-child(2) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 174px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label:nth-child(3) .fallsky-radiobtn + span.thumbnail:after {
+    background-position: 0 348px; }
+  #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn + span.thumbnail {
+    height: 87px; }
+    #customize-theme-controls.fallsky-customizer-wrapper #fallsky_featured_blocks label .fallsky-radiobtn + span.thumbnail:after {
+      background-image: url(images/featured-blocks-all.jpg); }

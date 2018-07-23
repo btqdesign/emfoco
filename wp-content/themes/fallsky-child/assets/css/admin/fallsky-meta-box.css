@@ -1,0 +1,35 @@
+#fallsky_page_meta_box .inside p,
+#loftocean_post_meta_box .inside p {
+    padding: 5px 20px 15px 162px !important;
+}
+
+#fallsky_page_meta_box .inside p:not(:last-child),
+#loftocean_post_meta_box .inside p:not(:last-child) {
+    border-bottom: 1px dotted #EBEBEB;
+}
+
+#fallsky_page_meta_box .inside p label,
+#loftocean_post_meta_box .inside p label {
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 0 0 0 -150px;
+    line-height: 28px;
+}
+
+#fallsky_page_meta_box .inside p label.checkbox-label,
+#loftocean_post_meta_box .inside p label.checkbox-label {
+    float: none;
+    width: auto;
+    margin: 0;
+}
+
+#loftocean_post_meta_box .inside p.loftocean-post-counter-wrap input[type="number"] ~ a {
+    margin-left: 8px;
+}
+
+#loftocean_post_meta_box .inside p span.description {
+    display: block;
+    margin-top: 8px;
+    opacity: 0.7;
+}
