@@ -5,10 +5,8 @@
 */
 
 get_header(); ?>
-        <div id="productor">
-
-        <?php get_template_part( 'template-parts/single', get_post_type() ); ?>
-
-        </div>
+        <<div class="container">
+			<div id="productor" class="content-area"><?php fallsky_main_content(); ?></div>
+		</div> 
 
 <?php get_footer(); ?>
