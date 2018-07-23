@@ -4342,9 +4342,11 @@ ul.social-nav {
     .home-widget.fallsky-bannr.large-banner-special .section-content img {
       opacity: 0;
       visibility: hidden; } }
-
-  .site-content[class*="with-sidebar-"] #secondary {
+@media screen and (min-width: 1120px) {
+  .site-content[class*="with-sidebar-"] #primary {
     float: left;
+    width: 100%; }
+  .site-content[class*="with-sidebar-"] #secondary {
     width: 300px; }
     body.home.front-page .site-content[class*="with-sidebar-"] #secondary {
       margin-top: 70px; }
