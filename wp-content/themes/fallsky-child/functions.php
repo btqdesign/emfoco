@@ -361,5 +361,17 @@ if(!class_exists('Fallsky_Meta_Boxes')){
 
 
 
+ 
+$wp_customize->add_setting( 'setting_id', array(
+  'type' => 'theme_mod', // or 'option'
+  'capability' => 'edit_theme_options',
+  'theme_supports' => '',
+  'default' => '',
+  'transport' => 'refresh', // or postMessage
+  'sanitize_callback' => '',
+  'sanitize_js_callback' => '',
+) );
+
+
 
 
