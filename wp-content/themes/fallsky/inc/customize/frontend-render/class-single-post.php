@@ -144,7 +144,6 @@ if ( ! class_exists( 'Fallsky_Single_Post_Render' ) ) {
 			$this->side_modules(); ?>
 			<div class="container">
 				<div id="primary" class="content-area"><?php $this->post_content(); $this->after_modules(); ?></div> 
-				<?php get_sidebar(); ?>
 			</div> <?php
 		}
 		/**
