@@ -4344,7 +4344,7 @@ ul.social-nav {
       visibility: hidden; } }
 @media screen and (min-width: 1120px) {
   .site-content[class*="with-sidebar-"] #primary {
-    float: left;
+    float: center;
     width: calc(100% - 360px); }
   .site-content[class*="with-sidebar-"] #secondary {
     float: left;
