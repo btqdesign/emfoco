@@ -4343,7 +4343,7 @@ ul.social-nav {
       opacity: 0;
       visibility: hidden; } }
 @media screen and (min-width: 1120px) {
-  .site-content[class*="with-sidebar-"] #productor {
+  .site-content[class*="with-sidebar-"] #primary {
     float: left;
     width: calc(100% - 360px); }
   .site-content[class*="with-sidebar-"] #secondary {
