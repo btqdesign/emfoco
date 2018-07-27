@@ -117,6 +117,15 @@ if(!class_exists('Fallsky_WP_Core')){
 				'after_title'   => '</h5>'
 			));
 			register_sidebar(array(
+				'name' 			=> esc_html__('Footer BTQ', 'fallsky'),
+				'id' 			=> 'footer-column-btq',
+				'description'   => '',
+				'before_widget' => '<div id="%1$s" class="widget %2$s">',
+				'after_widget'  => '</div>',
+				'before_title'  => '<h5 class="widget-title">',
+				'after_title'   => '</h5>'
+			));
+			register_sidebar(array(
 				'name' 			=> esc_html__('Footer Column 1', 'fallsky'),
 				'id' 			=> 'footer-column-1',
 				'description'   => '',
