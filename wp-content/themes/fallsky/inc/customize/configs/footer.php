@@ -679,6 +679,17 @@ if ( ! class_exists( 'Fallsky_Customize_Footer' ) ) {
 			$bottom_class 	= empty( $bottom_columns ) ? '' : sprintf( ' %s', $bottom_columns ); ?>
 
 			<footer id="colophon"<?php fallsky_site_footer_class(); ?>>
+				<div class="widget-area">
+					<div class="container">
+						<div class="widget-area-row">
+							<?php if ( is_active_sidebar( 'footer-column-btq') ) : ?>
+								<div class="widget-area-column">
+								<?php dynamic_sidebar( 'footer-column-btq'); ?>
+								</div>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
 				<?php if ( is_active_sidebar( 'footer-column-1' ) || is_active_sidebar( 'footer-column-2' ) || is_active_sidebar( 'footer-column-3' ) ) : ?>
 				<div class="widget-area">
 					<div class="container">
