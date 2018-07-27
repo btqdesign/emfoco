@@ -683,7 +683,7 @@ if ( ! class_exists( 'Fallsky_Customize_Footer' ) ) {
 					<div class="container">
 						<div class="widget-area-row">
 							<?php if ( is_active_sidebar( 'footer-column-btq') ) : ?>
-								<div class="widget-area-column">
+								<div class="widget-area">
 								<?php dynamic_sidebar( 'footer-column-btq'); ?>
 								</div>
 							<?php endif; ?>
