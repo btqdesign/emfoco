@@ -66,7 +66,7 @@ register_taxonomy( 'sector', array( 'productor' ), array(
 	'labels' => $labels, 
 	'show_ui' => true,
 	'query_var' => true,
-	'rewrite' => array( 'slug' => 'Sector' ),
+	'rewrite' => array( 'slug' => 'sector' ),
 ));
 
 }
