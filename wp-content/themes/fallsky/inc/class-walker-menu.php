@@ -61,7 +61,7 @@ if(class_exists('Walker_Nav_Menu')){
 			// If is category and has its child category, add class menu-item-has-children
 			if($this->is_mega_category($item, $depth)){
 				$term_id = $item->object_id;
-				$terms = get_terms('sector', array('parent' => $term_id));
+				$terms = get_terms('category', array('parent' => $term_id));
 				if(!is_wp_error($terms) && (count($terms) > 0)){
 					$item->classes = array_merge($classes, array('menu-item-has-children'));
 				};
@@ -71,7 +71,7 @@ if(class_exists('Walker_Nav_Menu')){
 		public function end_el(&$output, $item, $depth = 0, $args = array()){
 			if($this->is_mega_category($item, $depth)){ 
 				$term_id = $item->object_id;
-				$terms = get_terms('sector', array('parent' => $term_id));
+				$terms = get_terms('category', array('parent' => $term_id));
 				$ppp = (!is_wp_error($terms) && (count($terms) > 0)) ? 3 : 4;
 				$query = new WP_Query(array('posts_per_page' => $ppp, 'cat' => $term_id, 'offset' => 0));
 				if($query->have_posts()){
@@ -81,7 +81,7 @@ if(class_exists('Walker_Nav_Menu')){
 						$cat_list = sprintf(
 							'<li class="current" data-id="cat-%s"><a href="%s">%s</a></li>',
 							$term_id,
-							get_term_link(intval($term_id), 'sector'),
+							get_term_link(intval($term_id), 'category'),
 							esc_html__('All', 'fallsky')
 						);
 						$post_list = $this->post_list($query, '<div class="sub-cat current cat-' . $term_id . '"><ul>', '</ul></div>');
@@ -92,7 +92,7 @@ if(class_exists('Walker_Nav_Menu')){
 								$term_id = $t->term_id;
 								$cat_list .= sprintf('<li data-id="cat-%s"><a href="%s">%s</a></li>',
 									$term_id,
-									get_term_link($t, 'sector'),
+									get_term_link($t, 'category'),
 									$t->name
 								);
 								$post_list .= $this->post_list($query, '<div class="sub-cat cat-' . $term_id . '"><ul>', '</ul></div>');
@@ -120,7 +120,7 @@ if(class_exists('Walker_Nav_Menu')){
 			$output .= "{$n}{$indent}<ul class=\"sub-menu\" style=\"display: none;\">{$n}";
 		}
 		private function is_mega_category($item, $depth){
-			return in_array('mega-menu', (array)$item->classes) && ($depth == 0) && ($item->object == 'sector');
+			return in_array('mega-menu', (array)$item->classes) && ($depth == 0) && ($item->object == 'category');
 		}
 		private function post_list($query, $before = '', $after = ''){
 			ob_start();
