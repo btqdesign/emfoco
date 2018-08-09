@@ -124,7 +124,7 @@ if(class_exists('Walker_Nav_Menu')){
 			$deep=in_array('mega-menu', (array)$item->classes) && ($depth == 0);
 			$export = var_export($deep , true);
 			error_log("bool:" .$export);
-			return in_array('mega-menu', (array)$item->classes) && ($depth == 0) && ($item->object == 'category' || $item->object == 'sector');
+			return (in_array('mega-menu', (array)$item->classes) && ($depth == 0) && ($item->object == 'category')) || ($item->object == 'sector');
 		}
 		private function post_list($query, $before = '', $after = ''){
 			ob_start();
