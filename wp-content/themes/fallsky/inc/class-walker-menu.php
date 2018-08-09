@@ -104,7 +104,7 @@ if(class_exists('Walker_Nav_Menu')){
 				else {
 					$terms = get_terms('sector', array('parent' => $term_id));
 					$ppp = (!is_wp_error($terms) && (count($terms) > 0)) ? 3 : 4;
-					$query = new WP_Query(array('posts_per_page' => $ppp, 'tax_query' => array(array('taxonomy' => 'sector')), 'offset' => 0));
+					$query = new WP_Query(array('posts_per_page' => $ppp, 'tax_query' => array(array('taxonomy' => 'sector', 'field' => 'term_id', 'terms' => $term_id)), 'offset' => 0));
 					$export = var_export($query, true);
 					btq_log('query', $export);
 				}
