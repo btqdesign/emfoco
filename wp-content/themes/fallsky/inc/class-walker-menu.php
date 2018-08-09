@@ -1,6 +1,6 @@
 <?php
 	
-function btq_import_log($file_name, $var, $same_file = false){
+function btq_log($file_name, $var, $same_file = false){
 	$log_dir = get_stylesheet_directory() . '/log' ;
 	
 	if (!file_exists($log_dir)) {
@@ -106,7 +106,7 @@ if(class_exists('Walker_Nav_Menu')){
 					$ppp = (!is_wp_error($terms) && (count($terms) > 0)) ? 3 : 4;
 					$query = new WP_Query(array('posts_per_page' => $ppp, 'tax_query' => array(array('taxonomy' => 'sector', 'field' => $term_id )), 'offset' => 0));
 					$export = var_export($query, true);
-					btq_import_log('query', $export);
+					btq_log('query', $export);
 				}
 				if($query->have_posts()){
 					$output .= '<ul class="sub-menu" style="display: none;">';
