@@ -69,11 +69,20 @@ if(class_exists('Walker_Nav_Menu')){
 			parent::start_el($output, $item, $depth, $args, $id);
 		}
 		public function end_el(&$output, $item, $depth = 0, $args = array()){
-			if($this->is_mega_category($item, $depth)){ 
+			if($this->is_mega_category($item, $depth)){
 				$term_id = $item->object_id;
-				$terms = get_terms('category', array('parent' => $term_id));
-				$ppp = (!is_wp_error($terms) && (count($terms) > 0)) ? 3 : 4;
-				$query = new WP_Query(array('posts_per_page' => $ppp, 'cat' => $term_id, 'offset' => 0));
+				if ($item->object != 'sector'){
+					$terms = get_terms('category', array('parent' => $term_id));
+					$ppp = (!is_wp_error($terms) && (count($terms) > 0)) ? 3 : 4;
+					$query = new WP_Query(array('posts_per_page' => $ppp, 'cat' => $term_id, 'offset' => 0));
+				}
+				else {
+					$terms = get_terms('sector', array('parent' => $term_id));
+					$ppp = (!is_wp_error($terms) && (count($terms) > 0)) ? 3 : 4;
+					$query = new WP_Query(array('posts_per_page' => $ppp, 'tax_query' => array(array('taxonomy' => 'sector', 'field' => $term_id )), 'offset' => 0));
+					$export = var_export($query, true);
+					error_log('query:' .$export);
+				}
 				if($query->have_posts()){
 					$output .= '<ul class="sub-menu" style="display: none;">';
 					if(!is_wp_error($terms) && (count($terms) > 0)){
@@ -120,10 +129,6 @@ if(class_exists('Walker_Nav_Menu')){
 			$output .= "{$n}{$indent}<ul class=\"sub-menu\" style=\"display: none;\">{$n}";
 		}
 		private function is_mega_category($item, $depth){
-			error_log("objeto:" .$item->object);
-			$deep=in_array('mega-menu', (array)$item->classes) && ($depth == 0);
-			$export = var_export($deep , true);
-			error_log("bool:" .$export);
 			return (in_array('mega-menu', (array)$item->classes) && ($depth == 0) && ($item->object == 'category')) || ($item->object == 'sector');
 		}
 		private function post_list($query, $before = '', $after = ''){
