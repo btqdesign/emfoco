@@ -120,6 +120,7 @@ if(class_exists('Walker_Nav_Menu')){
 			$output .= "{$n}{$indent}<ul class=\"sub-menu\" style=\"display: none;\">{$n}";
 		}
 		private function is_mega_category($item, $depth){
+			error_log("objeto:" .$item->object);
 			return in_array('mega-menu', (array)$item->classes) && ($depth == 0) && ($item->object == 'category' || $item->object == 'sector');
 		}
 		private function post_list($query, $before = '', $after = ''){
