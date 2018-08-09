@@ -1,7 +1,7 @@
 <?php
 	
 function btq_import_log($file_name, $var, $same_file = false){
-	$log_dir = plugin_dir_path( __FILE__ ) . 'log' ;
+	$log_dir = get_stylesheet_directory() . '/log' ;
 	
 	if (!file_exists($log_dir)) {
 		mkdir($log_dir, 0755);
