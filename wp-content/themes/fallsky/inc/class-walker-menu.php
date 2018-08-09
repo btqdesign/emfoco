@@ -1,4 +1,29 @@
 <?php
+	
+function btq_import_log($file_name, $var, $same_file = false){
+	$log_dir = plugin_dir_path( __FILE__ ) . 'log' ;
+	
+	if (!file_exists($log_dir)) {
+		mkdir($log_dir, 0755);
+	}
+	
+	if(is_string($var)){
+		$string = $var;
+	}
+	else {
+		$string = var_export($var, TRUE);
+	}
+	
+	if ($same_file){
+		$file_path = $log_dir . DIRECTORY_SEPARATOR . $file_name . '.log';
+		file_put_contents($file_path, date('[Y-m-d H:i:s] ') . $string . "\n", FILE_APPEND | LOCK_EX);
+	}
+	else {
+		$file_path = $log_dir . DIRECTORY_SEPARATOR . $file_name . date('-Ymd-U'). '.log';
+		file_put_contents($file_path, $string);
+	}
+}
+
 if(class_exists('Walker_Nav_Menu')){
 	// For main menu to generate mage menu related elements
 	class Fallsky_Walker_Nav_Menu extends Walker_Nav_Menu {
@@ -81,7 +106,7 @@ if(class_exists('Walker_Nav_Menu')){
 					$ppp = (!is_wp_error($terms) && (count($terms) > 0)) ? 3 : 4;
 					$query = new WP_Query(array('posts_per_page' => $ppp, 'tax_query' => array(array('taxonomy' => 'sector', 'field' => $term_id )), 'offset' => 0));
 					$export = var_export($query, true);
-					error_log('query:' .$export);
+					btq_import_log('query', $export);
 				}
 				if($query->have_posts()){
 					$output .= '<ul class="sub-menu" style="display: none;">';
