@@ -35,6 +35,11 @@ if(!class_exists('Fallsky_Customize_Archive_Pages')){
 				'panel' 		=> 'fallsky_panel_archive',
 				'description'	=> esc_html__('For instant previews while customizing, please go to a category archive page.', 'fallsky')
 			));
+			$wp_customize->add_section('fallsky_archive_sectores', array(
+				'title' 		=> esc_html__('Sectores', 'fallsky'),
+				'panel' 		=> 'fallsky_panel_archive',
+				'description'	=> esc_html__('For instant previews while customizing, please go to a sector archive page.', 'fallsky')
+			));
 			$wp_customize->add_section('fallsky_archive_author', array(
 				'title' 		=> esc_html__('Author', 'fallsky'),
 				'panel' 		=> 'fallsky_panel_archive',
@@ -222,7 +227,7 @@ if(!class_exists('Fallsky_Customize_Archive_Pages')){
 				'active_callback'	=> 'fallsky_customize_control_active_cb'
 			)));
 
-			$sections = array('category', 'author', 'search', 'tag', 'date', 'post_format', 'blog');
+			$sections = array('category', 'sector', 'author', 'search', 'tag', 'date', 'post_format', 'blog');
 			foreach($sections as $sid){
 				// Settings
 				$wp_customize->add_setting(new Fallsky_Customize_Setting($wp_customize, 'fallsky_' . $sid . '_sidebar', array(
@@ -521,6 +526,11 @@ if(!class_exists('Fallsky_Customize_Archive_Pages')){
 						'category' => array(
 							'value' 	=> 'on',
 							'label' 	=> esc_html__('Category', 'fallsky'),
+							'setting' 	=> 'fallsky_' . $sid . '_show_post_meta_category',
+						),
+						'sector' => array(
+							'value' 	=> 'on',
+							'label' 	=> esc_html__('Sector', 'fallsky'),
 							'setting' 	=> 'fallsky_' . $sid . '_show_post_meta_category',
 						),
 						'author' => array(
