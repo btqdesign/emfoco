@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPBakery Page Builder\n"
 "POT-Creation-Date: 2018-08-22 12:24-0500\n"
-"PO-Revision-Date: 2018-08-22 12:28-0500\n"
+"PO-Revision-Date: 2018-08-22 12:32-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_MX\n"
@@ -3845,7 +3845,7 @@ msgid "Video link"
 msgstr "Enlace de vídeo"
 
 #: config/content/shortcode-vc-video.php:25
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Enter link to video (Note: read more about available formats at WordPress <a "
 "href=\"%s\" target=\"_blank\">codex page</a>)."
@@ -4296,7 +4296,6 @@ msgstr "Contenido completo"
 
 #: config/deprecated/shortcode-vc-carousel.php:69
 #: config/deprecated/shortcode-vc-posts-grid.php:96
-#, fuzzy
 msgid "Read more link"
 msgstr "Enlace de leer más"
 
@@ -11266,7 +11265,6 @@ msgstr "Cuadrícula básica: predeterminado"
 #: include/params/vc_grid_item/templates.php:85
 #: include/templates/shortcodes/post_block/_item.php:22
 #: include/templates/teaser.html.php:69
-#, fuzzy
 msgid "Read more"
 msgstr "Leer más"
 
@@ -11316,9 +11314,8 @@ msgid "Basic grid: Slide from top"
 msgstr "Cuadrícula básica: Deslice desde arriba"
 
 #: include/params/vc_grid_item/templates.php:45
-#, fuzzy
 msgid "READ MORE"
-msgstr "Leer más"
+msgstr "LEER MÁS"
 
 #: include/params/vc_grid_item/templates.php:48
 #, fuzzy
