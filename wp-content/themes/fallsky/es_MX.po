@@ -1,0 +1,3793 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fallsky\n"
+"POT-Creation-Date: 2018-08-22 10:56-0500\n"
+"PO-Revision-Date: 2018-08-22 11:13-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:12
+msgid "404"
+msgstr "404"
+
+#: 404.php:13
+msgid "Page Not Found"
+msgstr "Página no encontrada"
+
+#: 404.php:17
+msgid ""
+"Sorry but we couldn't find the page you are looking for. It might have been "
+"moved or deleted. Perhaps searching can help."
+msgstr ""
+"Lo sentimos pero no pudimos encontrar la página que buscas. Podría haber "
+"sido movido o eliminado. Quizás buscar puede ayudar."
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s comentario"
+msgstr[1] "%s comentarios"
+
+#: comments.php:39
+msgid "Write a response"
+msgstr "Escribir una respuesta"
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: inc/class-back-compat.php:14
+#, php-format
+msgid ""
+"Fallsky requires at least WordPress version %1$s. You are running version "
+"%2$s. Please upgrade and try again."
+msgstr ""
+"Fallsky requiere al menos la versión de WordPress %1$s. Está ejecutando la "
+"versión%2$s. Por favor actualice e inténtelo de nuevo."
+
+#: inc/class-frontend.php:13
+msgid "Fallsky Instagram"
+msgstr "Fallsky Instagram"
+
+#: inc/class-frontend.php:14
+msgid "Fallsky Facebook"
+msgstr "Fallsky Facebook"
+
+#: inc/class-frontend.php:15
+msgid "Fallsky Author List"
+msgstr "Fallsky lista de autores"
+
+#: inc/class-frontend.php:71
+msgid "No post list found."
+msgstr "No se encontró ninguna lista de correos."
+
+#: inc/class-frontend.php:72
+msgid "No image found"
+msgstr "No se encontró ninguna imagen"
+
+#: inc/class-frontend.php:73
+msgid "No Widget found"
+msgstr "No se encontró ningún widget"
+
+#: inc/class-meta-box.php:21
+msgid "Layout 1"
+msgstr "Layout 1"
+
+#: inc/class-meta-box.php:22
+msgid "Layout 2"
+msgstr "Diseño 2"
+
+#: inc/class-meta-box.php:27 inc/class-meta-box.php:34
+#: inc/customize/configs/footer.php:276 inc/customize/configs/sidebar.php:79
+#: inc/customize/configs/typography.php:534
+#: inc/customize/configs/typography.php:609
+#: inc/customize/configs/typography.php:688
+#: inc/customize/configs/typography.php:767
+#: inc/customize/configs/typography.php:846
+#: inc/widgets/homepage/class-widget-banner.php:156
+#: inc/widgets/homepage/class-widget-call-to-action.php:134
+#: inc/widgets/homepage/class-widget-custom-content.php:108
+#: inc/widgets/homepage/class-widget-featured-category.php:83
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:113
+#: inc/widgets/homepage/class-widget-posts.php:215
+#: inc/widgets/homepage/class-widget-product-category.php:88
+#: inc/widgets/homepage/class-widget-products.php:238
+msgid "Default"
+msgstr "Defecto"
+
+#. Template Name of the plugin/theme
+#: inc/class-meta-box.php:28 inc/customize/configs/home-page.php:745
+#: inc/customize/configs/woocommerce.php:149
+#: inc/customize/configs/woocommerce.php:160
+msgid "No Sidebar"
+msgstr "No Sidebar"
+
+#: inc/class-meta-box.php:29 inc/customize/configs/archive-pages.php:376
+#: inc/customize/configs/category-index-page.php:122
+#: inc/customize/configs/home-page.php:746
+#: inc/customize/configs/woocommerce.php:151
+#: inc/customize/configs/woocommerce.php:162
+msgid "Left Sidebar"
+msgstr "Barra lateral izquierda"
+
+#: inc/class-meta-box.php:30 inc/customize/configs/archive-pages.php:375
+#: inc/customize/configs/category-index-page.php:121
+#: inc/customize/configs/home-page.php:747
+#: inc/customize/configs/woocommerce.php:150
+#: inc/customize/configs/woocommerce.php:161
+msgid "Right Sidebar"
+msgstr "Barra lateral derecha"
+
+#: inc/class-meta-box.php:35
+msgid "Post Template 1"
+msgstr "Plantilla de post 1"
+
+#: inc/class-meta-box.php:36
+msgid "Post Template 2"
+msgstr "Post template 2"
+
+#: inc/class-meta-box.php:37
+msgid "Post Template 3"
+msgstr "Post template 3"
+
+#: inc/class-meta-box.php:38
+msgid "Post Template 4"
+msgstr "Post plantilla 4"
+
+#: inc/class-meta-box.php:39
+msgid "Post Template 5"
+msgstr "Post plantilla 5"
+
+#: inc/class-meta-box.php:40
+msgid "Post Template 6"
+msgstr "Post plantilla 6"
+
+#: inc/class-meta-box.php:41
+msgid "Post Template 7"
+msgstr "Post plantilla 7"
+
+#: inc/class-meta-box.php:54
+msgid "Fallsky Single Post Options"
+msgstr "Opciones de Fallsky Single post"
+
+#: inc/class-meta-box.php:75
+msgid "Fallsky Single Page Options"
+msgstr "Opciones de Fallsky Single Page"
+
+#: inc/class-meta-box.php:92
+msgid "Post Template:"
+msgstr "Plantilla de correo:"
+
+#: inc/class-meta-box.php:98
+msgid "Sidebar Layout:"
+msgstr "Diseño de la barra lateral:"
+
+#: inc/class-meta-box.php:123
+msgid "Page Header Layout:"
+msgstr "Diseño del encabezado de página:"
+
+#: inc/class-meta-box.php:129 inc/class-meta-box.php:134
+msgid "Hide AD:"
+msgstr "Ocultar anuncio:"
+
+#: inc/class-meta-box.php:131
+msgid "Hide advertisement before page content"
+msgstr "Ocultar anuncio antes de contenido de página"
+
+#: inc/class-meta-box.php:136
+msgid "Hide advertisement after page content"
+msgstr "Ocultar anuncio después de contenido de página"
+
+#: inc/class-post-list.php:151
+msgid "Posts Navigation"
+msgstr "Navegación de posts"
+
+#: inc/class-post-list.php:154
+msgid "No More Posts"
+msgstr "No mas Publicaciones"
+
+#: inc/class-post-list.php:155
+msgid "Load More"
+msgstr "Cargar Más"
+
+#: inc/class-post-list.php:166
+msgid "Prev"
+msgstr "Anterior"
+
+#: inc/class-post-list.php:167
+msgid "Next"
+msgstr "Siguiente"
+
+#: inc/class-post-list.php:174
+msgid "Posts navigation"
+msgstr "Navegación de Publicaciones"
+
+#: inc/class-post-list.php:188
+msgid "Request not allowed"
+msgstr "Solicitud no permitida"
+
+#: inc/class-upgrader.php:36
+msgid "Latest Articles"
+msgstr "Ultimos Articulos"
+
+#: inc/class-walker-menu.php:119 inc/customize/class-customize-custom.php:590
+#: inc/customize/frontend-render/class-archive.php:349
+msgid "All"
+msgstr "Todo"
+
+#: inc/class-walker-menu.php:203
+msgid "expand child menu"
+msgstr "expandir menú secundario"
+
+#: inc/class-wp-core.php:103
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: inc/class-wp-core.php:104
+msgid "Secondary Menu"
+msgstr "Menú secundario"
+
+#: inc/class-wp-core.php:105 inc/customize/configs/footer.php:350
+msgid "Social Menu"
+msgstr "Menú social"
+
+#: inc/class-wp-core.php:111 inc/customize/configs/woocommerce.php:171
+msgid "Main Sidebar"
+msgstr "Barra lateral principal"
+
+#: inc/class-wp-core.php:113
+msgid "Add widgets here to appear in your main sidebar."
+msgstr "Agregar widgets aquí para aparecer en la barra lateral principal."
+
+#: inc/class-wp-core.php:120
+msgid "Footer BTQ"
+msgstr "Pie de BTQ"
+
+#: inc/class-wp-core.php:129
+msgid "Footer Column 1"
+msgstr "Pie Columna 1"
+
+#: inc/class-wp-core.php:138
+msgid "Footer Column 2"
+msgstr "Pie Columna 2"
+
+#: inc/class-wp-core.php:147
+msgid "Footer Column 3"
+msgstr "Pie Columna 3"
+
+#: inc/customize/class-customize-custom.php:330
+#: inc/widgets/class-fallsky-widget.php:271
+msgid "No image selected"
+msgstr "No se seleccionó ninguna imagen"
+
+#: inc/customize/class-customize-custom.php:333
+msgid "Remove"
+msgstr "Eliminar"
+
+#: inc/customize/class-customize-custom.php:334
+msgid "Select Image"
+msgstr "Seleccionar imagen"
+
+#: inc/customize/class-customize-custom.php:387
+msgid "Add a Widget"
+msgstr "Agregar un widget"
+
+#: inc/customize/class-customize-custom.php:609
+msgid "Choose a Menu"
+msgstr "Elegir un Menú"
+
+#: inc/customize/class-customize-custom.php:614
+msgid "No Menu set yet"
+msgstr "Todavía no hay menú configurado"
+
+#: inc/customize/class-customize-custom.php:631
+msgid "Choose Form"
+msgstr "Elegir formulario"
+
+#: inc/customize/configs/advanced.php:17
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: inc/customize/configs/advanced.php:23
+msgid "Start Sync"
+msgstr "Iniciar sincronización"
+
+#: inc/customize/configs/advanced.php:31
+msgid "Synchronize the data of post views from JetPack to your website"
+msgstr "Sincroniza los datos de post vistas desde jetpack a tu sitio web"
+
+#: inc/customize/configs/advanced.php:32
+msgid ""
+"Only works when Jetpack is installed and connected to a WordPress.com User "
+"ID."
+msgstr ""
+"Sólo funciona cuando jetpack está instalado y conectado a un identificador "
+"de usuario WordPress.com."
+
+#: inc/customize/configs/advanced.php:60
+msgid "Data is syncing. Please wait. It can take a couple of minutes."
+msgstr ""
+"Los datos se están sincronizando. Espera. Puede tomar un par de minutos."
+
+#: inc/customize/configs/advanced.php:61
+msgid "Congratulations! Sync is completed."
+msgstr "¡Felicitaciones! Se ha completado la sincronización."
+
+#: inc/customize/configs/advanced.php:62
+msgid "Sorry but unable to sync. Please try again later."
+msgstr "Lo siento pero no puedo sincronizar. Por favor Inténtalo más tarde."
+
+#: inc/customize/configs/advertisement.php:16
+msgid "Site Top"
+msgstr "Sitio superior"
+
+#: inc/customize/configs/advertisement.php:17
+msgid "Before Single Post Content"
+msgstr "Antes del contenido de un solo mensaje"
+
+#: inc/customize/configs/advertisement.php:18
+msgid "After Single Post Content"
+msgstr "Después del contenido de un solo mensaje"
+
+#: inc/customize/configs/advertisement.php:19
+msgid "Before Single Page Content"
+msgstr "Antes del contenido de una sola página"
+
+#: inc/customize/configs/advertisement.php:20
+msgid "After Single Page Content"
+msgstr "Después del contenido de una sola página"
+
+#: inc/customize/configs/advertisement.php:30
+msgid "Advertisement"
+msgstr "Publicidad"
+
+#: inc/customize/configs/advertisement.php:93
+msgid "Ad source"
+msgstr "Fuente de anuncios"
+
+#: inc/customize/configs/advertisement.php:97
+#: inc/widgets/homepage/class-widget-banner.php:205
+msgid "Custom Banner"
+msgstr "Banner personalizado"
+
+#: inc/customize/configs/advertisement.php:98
+#: inc/widgets/homepage/class-widget-banner.php:206
+#: inc/widgets/homepage/class-widget-banner.php:293
+msgid "Embed Code"
+msgstr "Codigo incrustado"
+
+#: inc/customize/configs/advertisement.php:103
+#: inc/widgets/homepage/class-widget-banner.php:215
+msgid "URL"
+msgstr "URL"
+
+#: inc/customize/configs/advertisement.php:110
+msgid "Ad image"
+msgstr "Imagen de anuncio"
+
+#: inc/customize/configs/advertisement.php:117
+msgid "Ad image width"
+msgstr "Ancho de imagen de anuncio"
+
+#: inc/customize/configs/advertisement.php:124
+#: inc/widgets/homepage/class-widget-banner.php:245
+#: inc/widgets/homepage/class-widget-call-to-action.php:291
+#: inc/widgets/normal/class-widget-banner.php:88
+msgid "Open link in a new tab"
+msgstr "Abrir el enlace en una nueva pestaña"
+
+#: inc/customize/configs/advertisement.php:132
+msgid "Embed code"
+msgstr "Incrustar código"
+
+#: inc/customize/configs/animation.php:14
+msgid "Animations"
+msgstr "Animaciones"
+
+#: inc/customize/configs/animation.php:48
+msgid "Parallax effect only works when screen width is larger than 1024px."
+msgstr ""
+"El efecto de paralaje sólo funciona cuando el ancho de pantalla es mayor que "
+"1024px."
+
+#: inc/customize/configs/animation.php:55
+msgid ""
+"Enable parallax effect while scrolling for Homepage Fullwidth Featured "
+"Section"
+msgstr ""
+"Activar el efecto de paralaje mientras se desplaza para homepage ancho "
+"Sección destacada"
+
+#: inc/customize/configs/animation.php:62
+msgid "Enable parallax effect while scrolling for Page Header"
+msgstr ""
+"Activar efecto de paralaje mientras se desplaza para encabezado de página"
+
+#: inc/customize/configs/animation.php:69
+msgid "Enable parallax effect while scrolling for Post Header"
+msgstr ""
+"Activar efecto de paralaje mientras se desplaza para encabezado de post"
+
+#: inc/customize/configs/animation.php:76
+msgid "Enable parallax effect while scrolling for ZigZag post archive"
+msgstr ""
+"Activar efecto de paralaje mientras se desplaza para archivo de post en "
+"zigzag"
+
+#: inc/customize/configs/archive-pages.php:28
+#: inc/customize/configs/header.php:302
+msgid "Archive Pages"
+msgstr "Archivar páginas"
+
+#: inc/customize/configs/archive-pages.php:34
+#: inc/customize/configs/archive-pages.php:523
+#: inc/customize/configs/single-post.php:437
+#: inc/widgets/homepage/class-widget-posts.php:446
+#: inc/widgets/normal/class-widget-post.php:263
+msgid "Category"
+msgstr "Categoría"
+
+#: inc/customize/configs/archive-pages.php:36
+msgid ""
+"For instant previews while customizing, please go to a category archive page."
+msgstr ""
+"Para obtener vistas previas instantáneas mientras se personaliza, visite una "
+"página de archivo de categoría."
+
+#: inc/customize/configs/archive-pages.php:39
+#: inc/customize/configs/archive-pages.php:528
+#: inc/customize/configs/single-post.php:439
+#: inc/widgets/homepage/class-widget-posts.php:453
+#: inc/widgets/normal/class-widget-post.php:277
+msgid "Author"
+msgstr "Autor"
+
+#: inc/customize/configs/archive-pages.php:41
+msgid ""
+"For instant previews while customizing, please go to an author's archive "
+"page."
+msgstr ""
+"Para obtener vistas previas instantáneas mientras se personaliza, diríjase a "
+"la página de archivado de un autor."
+
+#: inc/customize/configs/archive-pages.php:44
+#: inc/customize/configs/header.php:216 inc/customize/configs/header.php:412
+#: inc/customize/frontend-render/class-single-post.php:128 searchform.php:8
+#: searchform.php:10
+msgid "Search"
+msgstr "Buscar"
+
+#: inc/customize/configs/archive-pages.php:46
+msgid ""
+"For instant previews while customizing, please go to a search results page."
+msgstr ""
+"Para obtener vistas previas instantáneas mientras se personaliza, vaya a una "
+"página de resultados de búsqueda."
+
+#: inc/customize/configs/archive-pages.php:49
+#: inc/customize/configs/single-post.php:438
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: inc/customize/configs/archive-pages.php:51
+msgid ""
+"For instant previews while customizing, please go to a tag archive page."
+msgstr ""
+"Para obtener vistas previas instantáneas mientras se personaliza, vaya a una "
+"página de archivo de etiquetas."
+
+#: inc/customize/configs/archive-pages.php:54
+msgid "Date based"
+msgstr "Fecha basada"
+
+#: inc/customize/configs/archive-pages.php:56
+msgid ""
+"For instant previews while customizing, please go to a date-based archive "
+"page."
+msgstr ""
+"Para obtener vistas previas instantáneas mientras se personaliza, diríjase a "
+"una página de archivado basada en fecha."
+
+#: inc/customize/configs/archive-pages.php:59
+msgid "Post Format"
+msgstr "Formato del post"
+
+#: inc/customize/configs/archive-pages.php:61
+msgid ""
+"For instant previews while customizing, please go to a post format archive "
+"page."
+msgstr ""
+"Para obtener vistas previas instantáneas mientras se personaliza, por favor "
+"vaya a una página de archivar formato post."
+
+#: inc/customize/configs/archive-pages.php:64
+msgid "Blog Page"
+msgstr "Página del blog"
+
+#: inc/customize/configs/archive-pages.php:68
+#, php-format
+msgid ""
+"The settings below only works for the static Blog page. Please %sclick here"
+"%s for instant previews while customizing."
+msgstr ""
+"La configuración de abajo sólo funciona para la página del blog estático. "
+"Por favor %sclick aquí %s para previsualizaciones instantáneas mientras se "
+"personaliza."
+
+#: inc/customize/configs/archive-pages.php:142
+#: inc/customize/configs/archive-pages.php:212
+msgid "Show page header"
+msgstr "Mostrar encabezado de página"
+
+#: inc/customize/configs/archive-pages.php:149
+msgid "Display category image in page header"
+msgstr "Mostrar imagen de categoría en encabezado de página"
+
+#: inc/customize/configs/archive-pages.php:157
+msgid "Display subcategories filter"
+msgstr "Mostrar filtro de subcategorías"
+
+#: inc/customize/configs/archive-pages.php:163
+msgid "Show Posts or Sub Categories on Parent Category Page"
+msgstr "Mostrar mensajes o subcategorías en la página de categorías primarias"
+
+#: inc/customize/configs/archive-pages.php:168
+#: inc/widgets/homepage/class-widget-posts.php:19
+msgid "Posts"
+msgstr "Publicaciones"
+
+#: inc/customize/configs/archive-pages.php:169
+msgid "Sub Categories"
+msgstr "Sub Categorias"
+
+#: inc/customize/configs/archive-pages.php:174
+msgid "Sub Categories Style"
+msgstr "Estilo de sub categorías"
+
+#: inc/customize/configs/archive-pages.php:180
+#: inc/customize/configs/category-index-page.php:141
+#: inc/widgets/homepage/class-widget-featured-category.php:141
+#: inc/widgets/normal/class-widget-category.php:108
+msgid "Rectangle"
+msgstr "Rectángulo"
+
+#: inc/customize/configs/archive-pages.php:181
+#: inc/customize/configs/category-index-page.php:142
+#: inc/widgets/homepage/class-widget-featured-category.php:142
+#: inc/widgets/normal/class-widget-category.php:109
+msgid "Circle"
+msgstr "Círculo"
+
+#: inc/customize/configs/archive-pages.php:186
+msgid "Sub Categories Layout"
+msgstr "Diseño de subcategorías"
+
+#: inc/customize/configs/archive-pages.php:192
+#: inc/customize/configs/category-index-page.php:151
+#: inc/customize/configs/footer.php:334
+#: inc/widgets/homepage/class-widget-featured-category.php:152
+#: inc/widgets/homepage/class-widget-posts.php:316
+#: inc/widgets/homepage/class-widget-posts.php:340
+#: inc/widgets/homepage/class-widget-posts.php:365
+#: inc/widgets/homepage/class-widget-posts.php:379
+#: inc/widgets/homepage/class-widget-product-category.php:146
+#: inc/widgets/homepage/class-widget-products.php:320
+#: inc/widgets/normal/class-widget-category.php:121
+msgid "2 Columns"
+msgstr "2 Columnas"
+
+#: inc/customize/configs/archive-pages.php:193
+#: inc/customize/configs/category-index-page.php:152
+#: inc/widgets/homepage/class-widget-featured-category.php:153
+#: inc/widgets/homepage/class-widget-posts.php:328
+#: inc/widgets/homepage/class-widget-posts.php:341
+#: inc/widgets/homepage/class-widget-posts.php:366
+#: inc/widgets/homepage/class-widget-posts.php:380
+#: inc/widgets/homepage/class-widget-product-category.php:147
+#: inc/widgets/homepage/class-widget-products.php:321
+#: inc/widgets/homepage/class-widget-products.php:333
+#: inc/widgets/normal/class-widget-category.php:122
+msgid "3 Columns"
+msgstr "3 columnas"
+
+#: inc/customize/configs/archive-pages.php:194
+#: inc/customize/configs/category-index-page.php:153
+#: inc/widgets/homepage/class-widget-featured-category.php:154
+#: inc/widgets/homepage/class-widget-posts.php:342
+#: inc/widgets/homepage/class-widget-posts.php:367
+#: inc/widgets/homepage/class-widget-posts.php:381
+#: inc/widgets/homepage/class-widget-product-category.php:148
+#: inc/widgets/homepage/class-widget-products.php:322
+#: inc/widgets/homepage/class-widget-products.php:334
+#: inc/widgets/normal/class-widget-category.php:123
+msgid "4 Columns"
+msgstr "4 columnas"
+
+#: inc/customize/configs/archive-pages.php:195
+#: inc/customize/configs/category-index-page.php:154
+#: inc/widgets/homepage/class-widget-featured-category.php:155
+#: inc/widgets/homepage/class-widget-product-category.php:149
+#: inc/widgets/homepage/class-widget-products.php:335
+#: inc/widgets/normal/class-widget-category.php:124
+msgid "5 Columns"
+msgstr "5 Columnas"
+
+#: inc/customize/configs/archive-pages.php:201
+#: inc/customize/configs/category-index-page.php:160
+#: inc/widgets/homepage/class-widget-featured-category.php:163
+#: inc/widgets/normal/class-widget-category.php:132
+msgid "Show Post Counts"
+msgstr "Mostrar conteos de puestos"
+
+#: inc/customize/configs/archive-pages.php:219
+msgid "Display tag image in page header"
+msgstr "Mostrar imagen de etiqueta en encabezado de página"
+
+#: inc/customize/configs/archive-pages.php:370
+#: inc/customize/configs/category-index-page.php:116
+#: inc/customize/configs/home-page.php:739
+msgid "Sidebar Layout"
+msgstr "Estilo de la barra lateral"
+
+#: inc/customize/configs/archive-pages.php:374
+#: inc/customize/configs/category-index-page.php:120
+#: inc/customize/configs/single-post.php:229
+msgid "No sidebar"
+msgstr "Sin barra lateral"
+
+#: inc/customize/configs/archive-pages.php:381
+#: inc/widgets/homepage/class-widget-posts.php:295
+msgid "Posts Layout"
+msgstr "Diseño de publicaciones"
+
+#: inc/customize/configs/archive-pages.php:385
+#: inc/customize/configs/general.php:15
+#: inc/widgets/homepage/class-widget-posts.php:298
+msgid "Masonry"
+msgstr "Masonry"
+
+#: inc/customize/configs/archive-pages.php:386
+#: inc/widgets/homepage/class-widget-posts.php:299
+msgid "List"
+msgstr "Lista"
+
+#: inc/customize/configs/archive-pages.php:387
+#: inc/widgets/homepage/class-widget-posts.php:300
+msgid "ZigZag"
+msgstr "Zigzag"
+
+#: inc/customize/configs/archive-pages.php:388
+#: inc/customize/configs/general.php:19
+#: inc/widgets/homepage/class-widget-posts.php:301
+#: inc/widgets/homepage/class-widget-products.php:308
+msgid "Grid"
+msgstr "Retícula"
+
+#: inc/customize/configs/archive-pages.php:389
+#: inc/customize/configs/general.php:20
+#: inc/widgets/homepage/class-widget-posts.php:302
+msgid "Card"
+msgstr "Tarjeta"
+
+#: inc/customize/configs/archive-pages.php:390
+#: inc/customize/configs/footer.php:277
+#: inc/customize/configs/woocommerce.php:202
+#: inc/widgets/homepage/class-widget-posts.php:303
+#: inc/widgets/homepage/class-widget-products.php:349
+msgid "Overlay"
+msgstr "Superposición"
+
+#: inc/customize/configs/archive-pages.php:391
+#: inc/widgets/homepage/class-widget-posts.php:304
+msgid "Overlay Mix"
+msgstr "Mezcla de superposición"
+
+#: inc/customize/configs/archive-pages.php:396
+#: inc/customize/configs/archive-pages.php:407
+#: inc/customize/configs/archive-pages.php:418
+#: inc/customize/configs/archive-pages.php:442
+#: inc/customize/configs/archive-pages.php:454
+#: inc/customize/configs/archive-pages.php:467
+#: inc/widgets/homepage/class-widget-posts.php:311
+#: inc/widgets/homepage/class-widget-posts.php:323
+#: inc/widgets/homepage/class-widget-posts.php:335
+#: inc/widgets/homepage/class-widget-posts.php:362
+#: inc/widgets/homepage/class-widget-posts.php:375
+#: inc/widgets/homepage/class-widget-posts.php:389
+#: inc/widgets/homepage/class-widget-products.php:318
+#: inc/widgets/homepage/class-widget-products.php:331
+msgid "Columns"
+msgstr "Columnas"
+
+#: inc/customize/configs/archive-pages.php:401
+#: inc/customize/configs/archive-pages.php:423
+#: inc/customize/configs/archive-pages.php:459
+msgid "1"
+msgstr "1"
+
+#: inc/customize/configs/archive-pages.php:402
+#: inc/customize/configs/archive-pages.php:412
+#: inc/customize/configs/archive-pages.php:424
+#: inc/customize/configs/archive-pages.php:447
+#: inc/customize/configs/archive-pages.php:460
+msgid "2"
+msgstr "2"
+
+#: inc/customize/configs/archive-pages.php:413
+#: inc/customize/configs/archive-pages.php:425
+#: inc/customize/configs/archive-pages.php:448
+#: inc/customize/configs/archive-pages.php:461
+#: inc/customize/configs/single-post.php:449
+msgid "3"
+msgstr "3"
+
+#: inc/customize/configs/archive-pages.php:426
+#: inc/customize/configs/archive-pages.php:449
+#: inc/customize/configs/archive-pages.php:462
+msgid "4"
+msgstr "4"
+
+#: inc/customize/configs/archive-pages.php:431
+#: inc/widgets/homepage/class-widget-posts.php:349
+msgid "Card Color"
+msgstr "Color de la tarjeta"
+
+#: inc/customize/configs/archive-pages.php:436
+#: inc/customize/configs/footer.php:423 inc/customize/configs/general.php:390
+#: inc/customize/configs/header.php:258
+#: inc/customize/configs/single-post.php:254
+#: inc/customize/configs/woocommerce.php:212
+#: inc/widgets/homepage/class-widget-banner.php:168
+#: inc/widgets/homepage/class-widget-call-to-action.php:146
+#: inc/widgets/homepage/class-widget-custom-content.php:120
+#: inc/widgets/homepage/class-widget-featured-category.php:95
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:125
+#: inc/widgets/homepage/class-widget-posts.php:227
+#: inc/widgets/homepage/class-widget-posts.php:353
+#: inc/widgets/homepage/class-widget-product-category.php:100
+#: inc/widgets/homepage/class-widget-products.php:250
+#: inc/widgets/homepage/class-widget-products.php:360
+msgid "Light"
+msgstr "Claro"
+
+#: inc/customize/configs/archive-pages.php:437
+#: inc/customize/configs/footer.php:424 inc/customize/configs/general.php:391
+#: inc/customize/configs/header.php:259
+#: inc/customize/configs/single-post.php:255
+#: inc/customize/configs/woocommerce.php:213
+#: inc/widgets/homepage/class-widget-banner.php:169
+#: inc/widgets/homepage/class-widget-call-to-action.php:147
+#: inc/widgets/homepage/class-widget-custom-content.php:121
+#: inc/widgets/homepage/class-widget-featured-category.php:96
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:126
+#: inc/widgets/homepage/class-widget-posts.php:228
+#: inc/widgets/homepage/class-widget-posts.php:354
+#: inc/widgets/homepage/class-widget-product-category.php:101
+#: inc/widgets/homepage/class-widget-products.php:251
+#: inc/widgets/homepage/class-widget-products.php:361
+msgid "Dark"
+msgstr "Oscuro"
+
+#: inc/customize/configs/archive-pages.php:472
+msgid "1+2"
+msgstr "1 + 2"
+
+#: inc/customize/configs/archive-pages.php:473
+msgid "1+4"
+msgstr "1 + 4"
+
+#: inc/customize/configs/archive-pages.php:474
+msgid "2+3"
+msgstr "2 + 3"
+
+#: inc/customize/configs/archive-pages.php:475
+msgid "1+2+2"
+msgstr "1 + 2 + 2"
+
+#: inc/customize/configs/archive-pages.php:480
+#: inc/widgets/homepage/class-widget-posts.php:403
+msgid "Featured Image Orientation"
+msgstr "Orientación de imagen destacada"
+
+#: inc/customize/configs/archive-pages.php:485
+#: inc/widgets/homepage/class-widget-posts.php:406
+msgid "Landscape"
+msgstr "Paisaje"
+
+#: inc/customize/configs/archive-pages.php:486
+#: inc/widgets/homepage/class-widget-posts.php:407
+msgid "Square"
+msgstr "Cuadrado"
+
+#: inc/customize/configs/archive-pages.php:487
+#: inc/widgets/homepage/class-widget-posts.php:408
+msgid "Portrait"
+msgstr "Retrato"
+
+#: inc/customize/configs/archive-pages.php:493
+#: inc/widgets/homepage/class-widget-posts.php:417
+msgid "Show post excerpt"
+msgstr "Mostrar Extracto de post"
+
+#: inc/customize/configs/archive-pages.php:501
+#: inc/widgets/homepage/class-widget-posts.php:425
+msgid "Show Read More button"
+msgstr "Mostrar botón Leer más"
+
+#: inc/customize/configs/archive-pages.php:509
+#: inc/widgets/homepage/class-widget-posts.php:433
+msgid "Center text"
+msgstr "Centrar texto"
+
+#: inc/customize/configs/archive-pages.php:516
+msgid "Display Selected Post Meta:"
+msgstr "Mostrar el mensaje seleccionado meta:"
+
+#: inc/customize/configs/archive-pages.php:533
+#: inc/customize/configs/single-post.php:351
+#: inc/widgets/homepage/class-widget-posts.php:460
+#: inc/widgets/normal/class-widget-post.php:270
+msgid "Publish Date"
+msgstr "Fecha de publicación"
+
+#: inc/customize/configs/archive-pages.php:538
+#: inc/widgets/homepage/class-widget-posts.php:467
+msgid "View Count"
+msgstr "Conteo de Visitas"
+
+#: inc/customize/configs/archive-pages.php:543
+#: inc/widgets/homepage/class-widget-posts.php:474
+msgid "Like Count"
+msgstr "Como el Conde"
+
+#: inc/customize/configs/archive-pages.php:548
+#: inc/customize/configs/single-post.php:369
+#: inc/widgets/normal/class-widget-post.php:298
+msgid "Comment Counts"
+msgstr "Conteos de comentarios"
+
+#: inc/customize/configs/archive-pages.php:555
+msgid "Number of Posts displayed Per Page"
+msgstr "Número de mensajes mostrados por página"
+
+#: inc/customize/configs/category-index-page.php:31
+msgid ""
+"This is the Category Index page. It is a special archive that lists your "
+"post categories. Content entered in the editor below will not display on the "
+"page."
+msgstr ""
+"Esta es la página del índice de categorías. Es un archivo especial que "
+"muestra las categorías de tus publicaciones. El contenido introducido en el "
+"editor de abajo no se mostrará en la página."
+
+#: inc/customize/configs/category-index-page.php:43
+#: inc/customize/configs/category-index-page.php:50
+#: inc/customize/configs/category-index-page.php:77
+#: inc/customize/configs/category-index-page.php:173
+msgid "Category Index Page"
+msgstr "Página índice de categorías"
+
+#: inc/customize/configs/category-index-page.php:60
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Select &mdash;"
+
+#: inc/customize/configs/category-index-page.php:68
+#, php-format
+msgid "%sWarning:%s the page should not be the same as Homepage/Posts page!"
+msgstr ""
+"%sWarning: %s la página no debe ser la misma que la página homepage/posts!"
+
+#: inc/customize/configs/category-index-page.php:80
+#, php-format
+msgid "Please %sclick here%s to pick your category index page."
+msgstr ""
+"Por favor %sclick aquí %s para seleccionar la página de índice de categoría."
+
+#: inc/customize/configs/category-index-page.php:127
+#: inc/customize/configs/home-page.php:606
+#: inc/widgets/homepage/class-widget-featured-category.php:130
+#: inc/widgets/homepage/class-widget-product-category.php:135
+#: inc/widgets/normal/class-widget-category.php:97
+msgid "Choose Categories"
+msgstr "Elegir categorías"
+
+#: inc/customize/configs/category-index-page.php:131
+msgid "All Categories"
+msgstr "Todas las Categorías"
+
+#: inc/customize/configs/category-index-page.php:132
+msgid "Top Level Parent Categories"
+msgstr "Categorías primarias de nivel superior"
+
+#: inc/customize/configs/category-index-page.php:137
+#: inc/widgets/homepage/class-widget-featured-category.php:139
+#: inc/widgets/normal/class-widget-category.php:106
+msgid "Category Style"
+msgstr "Estilo de categoría"
+
+#: inc/customize/configs/category-index-page.php:147
+#: inc/widgets/homepage/class-widget-featured-category.php:150
+#: inc/widgets/homepage/class-widget-product-category.php:143
+#: inc/widgets/normal/class-widget-category.php:119
+msgid "Category Layout"
+msgstr "Diseño de categoría"
+
+#: inc/customize/configs/category-index-page.php:180
+msgid "Category Index Page must be different from Homepage/Posts page ."
+msgstr ""
+"La página índice de categorías debe ser diferente de la página de inicio/"
+"mensajes."
+
+#: inc/customize/configs/footer.php:14
+msgid "Site Footer"
+msgstr "Pie de página"
+
+#: inc/customize/configs/footer.php:20
+#: inc/customize/configs/fullscreen-menu.php:19
+#: inc/customize/configs/home-page.php:541
+#: inc/customize/configs/home-page.php:567
+#: inc/customize/configs/search-screen.php:24
+msgid "Content Options"
+msgstr "Opciones de contenido"
+
+#: inc/customize/configs/footer.php:24
+#: inc/customize/configs/fullscreen-menu.php:23
+#: inc/customize/configs/header.php:32 inc/customize/configs/home-page.php:632
+#: inc/customize/configs/search-screen.php:28
+#: inc/customize/configs/sidebar.php:69
+msgid "Design Options"
+msgstr "Opciones de diseño"
+
+#: inc/customize/configs/footer.php:238 inc/customize/configs/general.php:673
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customize/configs/footer.php:245
+msgid "Display Instagram Feed"
+msgstr "¿Mostrar Instagram?"
+
+#: inc/customize/configs/footer.php:251
+msgid "Instagram Account"
+msgstr "Cuenta de Instagram"
+
+#: inc/customize/configs/footer.php:256
+msgid "Enter your Instagram Account"
+msgstr "Ingresa tu cuenta de Instagram"
+
+#: inc/customize/configs/footer.php:261 inc/customize/configs/footer.php:266
+msgid "Title (optional)"
+msgstr "Título"
+
+#: inc/customize/configs/footer.php:271
+msgid "Title Layout"
+msgstr "Diseño de título"
+
+#: inc/customize/configs/footer.php:282
+msgid "Display x photos (4 to 8)"
+msgstr "Mostrar x fotos (4 a 8)"
+
+#: inc/customize/configs/footer.php:291
+msgid "Make it fullwidth"
+msgstr "Make it ancho"
+
+#: inc/customize/configs/footer.php:298
+msgid "Space around each photo"
+msgstr "Espacio alrededor de cada foto"
+
+#: inc/customize/configs/footer.php:302 inc/customize/configs/home-page.php:729
+msgid "px"
+msgstr "px"
+
+#: inc/customize/configs/footer.php:312
+msgid "Open links in new tab"
+msgstr "Abrir vínculos en Nueva pestaña"
+
+#: inc/customize/configs/footer.php:323
+msgid "Footer Bottom"
+msgstr "Fondo del pie de página"
+
+#: inc/customize/configs/footer.php:329
+#: inc/widgets/homepage/class-widget-call-to-action.php:248
+msgid "Layout"
+msgstr "Diseño"
+
+#: inc/customize/configs/footer.php:333
+#: inc/widgets/homepage/class-widget-posts.php:315
+#: inc/widgets/homepage/class-widget-posts.php:339
+#: inc/widgets/homepage/class-widget-posts.php:378
+msgid "1 Column"
+msgstr "1 Columna"
+
+#: inc/customize/configs/footer.php:340
+msgid "Display a menu"
+msgstr "Mostrar un menú"
+
+#: inc/customize/configs/footer.php:351
+msgid "Navigation Menu"
+msgstr "Menú de Navegación"
+
+#: inc/customize/configs/footer.php:354
+#, php-format
+msgid ""
+"You can choose your social menu to display social icons here. %sClick here%s "
+"to know how to setup the social menu."
+msgstr ""
+"Usted puede elegir su menú social para mostrar iconos sociales aquí.  "
+"%sClick aquí %s para saber cómo configurar el menú social."
+
+#: inc/customize/configs/footer.php:368
+msgid "Footer Text"
+msgstr "Texto de pie de página"
+
+#: inc/customize/configs/footer.php:378
+msgid "Footer Background Image"
+msgstr "Imagen de fondo del pie de página"
+
+#: inc/customize/configs/footer.php:383
+#: inc/customize/configs/fullscreen-menu.php:187
+#: inc/customize/configs/general.php:230
+#: inc/customize/configs/home-page.php:651
+#: inc/customize/configs/search-screen.php:179
+msgid "Image Position"
+msgstr "Posición de la Imagen"
+
+#: inc/customize/configs/footer.php:393
+#: inc/customize/configs/fullscreen-menu.php:197
+#: inc/customize/configs/home-page.php:661
+#: inc/customize/configs/search-screen.php:189
+msgid "Size"
+msgstr "Tamaño"
+
+#: inc/customize/configs/footer.php:398
+#: inc/customize/configs/fullscreen-menu.php:202
+#: inc/customize/configs/general.php:247
+#: inc/customize/configs/home-page.php:666
+#: inc/customize/configs/search-screen.php:194
+#: inc/widgets/homepage/class-widget-call-to-action.php:199
+#: inc/widgets/homepage/class-widget-custom-content.php:174
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:178
+msgid "Original"
+msgstr "Original"
+
+#: inc/customize/configs/footer.php:399
+#: inc/customize/configs/fullscreen-menu.php:203
+#: inc/customize/configs/general.php:248
+#: inc/customize/configs/home-page.php:667
+#: inc/customize/configs/search-screen.php:195
+#: inc/widgets/homepage/class-widget-call-to-action.php:200
+#: inc/widgets/homepage/class-widget-custom-content.php:175
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:179
+msgid "Fit to Screen"
+msgstr "Ajustar a la pantalla"
+
+#: inc/customize/configs/footer.php:400
+#: inc/customize/configs/fullscreen-menu.php:204
+#: inc/customize/configs/general.php:249
+#: inc/customize/configs/home-page.php:668
+#: inc/customize/configs/search-screen.php:196
+#: inc/widgets/homepage/class-widget-call-to-action.php:201
+#: inc/widgets/homepage/class-widget-custom-content.php:176
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:180
+msgid "Fill Screen"
+msgstr "Rellenar pantalla"
+
+#: inc/customize/configs/footer.php:405
+#: inc/customize/configs/fullscreen-menu.php:209
+#: inc/customize/configs/home-page.php:673
+#: inc/customize/configs/search-screen.php:201
+msgid "Repeat"
+msgstr "Repetir"
+
+#: inc/customize/configs/footer.php:412 inc/customize/configs/general.php:262
+#: inc/customize/configs/home-page.php:680
+#: inc/widgets/homepage/class-widget-call-to-action.php:220
+#: inc/widgets/homepage/class-widget-custom-content.php:195
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:199
+msgid "Scroll with Page"
+msgstr "Desplazar con la página"
+
+#: inc/customize/configs/footer.php:419 inc/customize/configs/header.php:254
+#: inc/customize/configs/single-post.php:249
+#: inc/widgets/homepage/class-widget-banner.php:164
+#: inc/widgets/homepage/class-widget-call-to-action.php:142
+#: inc/widgets/homepage/class-widget-custom-content.php:116
+#: inc/widgets/homepage/class-widget-featured-category.php:91
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:121
+#: inc/widgets/homepage/class-widget-posts.php:223
+#: inc/widgets/homepage/class-widget-product-category.php:96
+#: inc/widgets/homepage/class-widget-products.php:246
+msgid "Color Scheme"
+msgstr "Esquema de color"
+
+#: inc/customize/configs/footer.php:428
+#: inc/customize/configs/fullscreen-menu.php:171
+#: inc/customize/configs/header.php:263 inc/customize/configs/home-page.php:638
+#: inc/customize/configs/search-screen.php:163
+#: inc/customize/configs/single-post.php:259
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: inc/customize/configs/footer.php:433
+#: inc/customize/configs/fullscreen-menu.php:176
+#: inc/customize/configs/home-page.php:709
+#: inc/customize/configs/search-screen.php:168
+#: inc/customize/configs/typography.php:1059
+msgid "Text Color"
+msgstr "Color de texto"
+
+#: inc/customize/configs/footer.php:439
+msgid "Footer Bottom Color"
+msgstr "Footer bottom color"
+
+#: inc/customize/configs/footer.php:443
+msgid "Inherit"
+msgstr "Heredar"
+
+#: inc/customize/configs/footer.php:444 inc/customize/configs/home-page.php:722
+#: inc/customize/configs/typography.php:610
+#: inc/customize/configs/typography.php:689
+#: inc/customize/configs/typography.php:768
+#: inc/customize/configs/typography.php:847
+#: inc/widgets/homepage/class-widget-banner.php:157
+#: inc/widgets/homepage/class-widget-call-to-action.php:135
+#: inc/widgets/homepage/class-widget-custom-content.php:109
+#: inc/widgets/homepage/class-widget-featured-category.php:84
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:114
+#: inc/widgets/homepage/class-widget-posts.php:216
+#: inc/widgets/homepage/class-widget-product-category.php:89
+#: inc/widgets/homepage/class-widget-products.php:239
+msgid "Custom"
+msgstr "Personaliza"
+
+#: inc/customize/configs/footer.php:448
+msgid "Footer Bottom Background Color"
+msgstr "Color de fondo inferior del pie de página"
+
+#: inc/customize/configs/footer.php:454
+msgid "Footer Bottom Text Color"
+msgstr "Color inferior del texto del pie de la base"
+
+#: inc/customize/configs/fullscreen-menu.php:13
+msgid "Fullscreen Menu"
+msgstr "Menú de pantalla completa"
+
+#: inc/customize/configs/fullscreen-menu.php:134
+#: inc/customize/configs/fullscreen-menu.php:166
+msgid "Click on the hamburger menu button in site header to preview"
+msgstr ""
+"Haga clic en el botón de menú hamburguesa en el encabezado del sitio para "
+"previsualizar"
+
+#: inc/customize/configs/fullscreen-menu.php:141
+msgid "Display Search Form"
+msgstr "Mostrar formulario de búsqueda"
+
+#: inc/customize/configs/fullscreen-menu.php:148
+#: inc/customize/configs/header.php:205
+msgid "Display Social Menu"
+msgstr "Mostrar menú social"
+
+#: inc/customize/configs/fullscreen-menu.php:152
+#: inc/customize/configs/header.php:209
+#, php-format
+msgid "%sClick here%s to know how to setup the social menu."
+msgstr "%sClick aquí %s para saber cómo configurar el menú social."
+
+#: inc/customize/configs/fullscreen-menu.php:159
+msgid "Copyright Text"
+msgstr "Derechos de autor"
+
+#: inc/customize/configs/fullscreen-menu.php:182
+#: inc/customize/configs/home-page.php:645
+#: inc/customize/configs/search-screen.php:174
+#: inc/widgets/homepage/class-widget-call-to-action.php:164
+#: inc/widgets/homepage/class-widget-custom-content.php:137
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:143
+msgid "Background Image"
+msgstr "Imagen de fondo"
+
+#: inc/customize/configs/fullscreen-menu.php:218
+#: inc/customize/configs/search-screen.php:210
+msgid "Add an overlay"
+msgstr "Agregar una superposición"
+
+#: inc/customize/configs/fullscreen-menu.php:224
+#: inc/customize/configs/search-screen.php:216
+msgid "Overlay color"
+msgstr "Color de Superposición"
+
+#: inc/customize/configs/fullscreen-menu.php:231
+#: inc/customize/configs/search-screen.php:223
+msgid "Overlay opacity"
+msgstr "Opacidad de superposición"
+
+#: inc/customize/configs/fullscreen-menu.php:235
+#: inc/customize/configs/search-screen.php:227
+#: inc/widgets/homepage/class-widget-custom-content.php:230
+msgid "%"
+msgstr "%"
+
+#: inc/customize/configs/fullscreen-menu.php:246
+#: inc/customize/configs/search-screen.php:238
+msgid "Remove border"
+msgstr "Quitar borde"
+
+#: inc/customize/configs/general.php:16
+msgid "List 1 Column"
+msgstr "Lista 1 columna"
+
+#: inc/customize/configs/general.php:17
+msgid "List 2 Columns"
+msgstr "Listar 2 columnas"
+
+#: inc/customize/configs/general.php:18
+msgid "Zigzag"
+msgstr "Zigzag"
+
+#: inc/customize/configs/general.php:25
+msgid "General"
+msgstr "General"
+
+#: inc/customize/configs/general.php:30 inc/customize/configs/general.php:272
+msgid "Site Layout"
+msgstr "Diseño del sitio"
+
+#: inc/customize/configs/general.php:34
+msgid "Posts General Options"
+msgstr "Entradas opciones generales"
+
+#: inc/customize/configs/general.php:38
+msgid "General Colors"
+msgstr "Colores generales"
+
+#: inc/customize/configs/general.php:42
+msgid "Image Sliders"
+msgstr "Deslizadores de imagen"
+
+#: inc/customize/configs/general.php:217 inc/customize/configs/general.php:224
+msgid "Site Background Image"
+msgstr "Imagen de fondo del sitio"
+
+#: inc/customize/configs/general.php:241
+msgid "Image Size"
+msgstr "Tamaño de imagen"
+
+#: inc/customize/configs/general.php:254
+#: inc/widgets/homepage/class-widget-call-to-action.php:209
+#: inc/widgets/homepage/class-widget-custom-content.php:184
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:188
+msgid "Repeat Background Image"
+msgstr "Repetir la imagen de fondo"
+
+#: inc/customize/configs/general.php:277
+msgid "Fullwidth"
+msgstr "Ancho completo"
+
+#: inc/customize/configs/general.php:278
+msgid "Boxed"
+msgstr "En caja"
+
+#: inc/customize/configs/general.php:279
+msgid "Frame"
+msgstr "Frame"
+
+#: inc/customize/configs/general.php:284
+msgid "Options"
+msgstr "Opciones"
+
+#: inc/customize/configs/general.php:294
+msgid "Inner Container Width"
+msgstr "Anchura interna del envase"
+
+#: inc/customize/configs/general.php:296
+#, php-format
+msgid ""
+"This option determines the maximum width of the inner content area when the "
+"screen is narrower than 1440 pixels. For more information, please %sclick "
+"here%s."
+msgstr ""
+"Esta opción determina el ancho máximo del área de contenido interno cuando "
+"la pantalla es más estrecha que 1440 píxeles. Para más información, por "
+"favor %sclick aquí %s."
+
+#: inc/customize/configs/general.php:303
+#: inc/customize/configs/typography.php:432
+#: inc/customize/configs/typography.php:590
+#: inc/customize/configs/typography.php:669
+#: inc/customize/configs/typography.php:748
+#: inc/customize/configs/typography.php:827
+#: inc/customize/configs/typography.php:906
+#: inc/customize/configs/typography.php:965
+#: inc/customize/configs/typography.php:1022
+#: inc/customize/configs/woocommerce.php:201
+#: inc/widgets/homepage/class-widget-products.php:348
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/customize/configs/general.php:304
+msgid "Wide"
+msgstr "Amplio"
+
+#: inc/customize/configs/general.php:310
+msgid "Read More Button text"
+msgstr "Leer más texto del botón"
+
+#: inc/customize/configs/general.php:316
+msgid "Pagination Style"
+msgstr "Estilo de paginación"
+
+#: inc/customize/configs/general.php:320
+msgid "Next/Prev Links"
+msgstr "Vínculos siguientes/prev"
+
+#: inc/customize/configs/general.php:321
+msgid "With Page Number"
+msgstr "Con el número de página"
+
+#: inc/customize/configs/general.php:322
+msgid "Load More Button"
+msgstr "Leer Mas Botón"
+
+#: inc/customize/configs/general.php:323
+msgid "Infinite Scroll"
+msgstr "Scroll infinito"
+
+#: inc/customize/configs/general.php:329
+msgid "Comments Options"
+msgstr "Opciones de comentarios"
+
+#: inc/customize/configs/general.php:336
+msgid "Fold the reply form by default"
+msgstr "Doblar el formulario de respuesta por defecto"
+
+#: inc/customize/configs/general.php:342
+msgid "Comments location on single post"
+msgstr "Comentarios ubicación en single post"
+
+#: inc/customize/configs/general.php:346
+msgid "After post content"
+msgstr "Después del contenido de post"
+
+#: inc/customize/configs/general.php:347
+msgid "After posts pagination & related posts"
+msgstr "Post paginación y posts relacionados"
+
+#: inc/customize/configs/general.php:364
+msgid "words"
+msgstr "palabras"
+
+#: inc/customize/configs/general.php:377
+msgid "Post Excerpt Length"
+msgstr "Longitud del extracto del poste"
+
+#: inc/customize/configs/general.php:378
+msgid ""
+"When choosing \"Overlay\" or \"Overlay Mix\", post excerpt will not display."
+msgstr ""
+"Al elegir \"overlay\" o \"overlay Mix\", el fragmento de post no se mostrará."
+
+#: inc/customize/configs/general.php:386
+msgid "Site Color Scheme"
+msgstr "Esquema de color del sitio"
+
+#: inc/customize/configs/general.php:396
+#: inc/customize/configs/typography.php:1060
+msgid "Accent Color"
+msgstr "Color a Resaltar"
+
+#: inc/customize/configs/general.php:400
+msgid "None, just black & white"
+msgstr "Ninguno, sólo negro y blanco"
+
+#: inc/customize/configs/general.php:401
+msgid "Yes, I want to choose an accent color"
+msgstr "Sí, quiero elegir un color de acento"
+
+#: inc/customize/configs/general.php:415
+#, php-format
+msgid ""
+"To change site header/footer/homepage/sidebar's colors, please go to their "
+"sections and find \"Design Options\". For more details please check %sthis "
+"article%s."
+msgstr ""
+"Para cambiar los colores del encabezado del sitio/pie/Página principal/"
+"Sidebar, por favor vaya a sus secciones y encuentre \"opciones de diseño\". "
+"Para obtener más información, consulte %sthis article %s."
+
+#: inc/customize/configs/general.php:422
+msgid "Tweak Colors"
+msgstr "Ajustar colores"
+
+#: inc/customize/configs/general.php:427
+msgid "Light Scheme Background Color"
+msgstr "Color de fondo de esquema de luz"
+
+#: inc/customize/configs/general.php:432
+msgid "Light Scheme Text Color"
+msgstr "Color de texto de esquema de luz"
+
+#: inc/customize/configs/general.php:437
+msgid "Light Scheme Content Color"
+msgstr "Color de contenido de esquema de luz"
+
+#: inc/customize/configs/general.php:440 inc/customize/configs/general.php:456
+msgid "For post/page main content text, except headings"
+msgstr "Para texto de contenido principal de post/página, excepto encabezados"
+
+#: inc/customize/configs/general.php:443
+msgid "Dark Scheme Background Color"
+msgstr "Color oscuro del fondo del esquema"
+
+#: inc/customize/configs/general.php:448
+msgid "Dark Scheme Text Color"
+msgstr "Color de texto de esquema oscuro"
+
+#: inc/customize/configs/general.php:453
+msgid "Dark Scheme Content Color"
+msgstr "Color oscuro del contenido del esquema"
+
+#: inc/customize/configs/general.php:463
+msgid "Slider Arrows - Mobile"
+msgstr "Flechas deslizantes-móviles"
+
+#: inc/customize/configs/general.php:467
+msgid "Hide slider arrows on mobile devices"
+msgstr "Ocultar flechas deslizantes en dispositivos móviles"
+
+#: inc/customize/configs/general.php:468
+msgid "Display slider arrows on mobile devices"
+msgstr "Mostrar flechas deslizantes en dispositivos móviles"
+
+#: inc/customize/configs/general.php:487
+msgid "Site Max Width"
+msgstr "Anchura máxima del sitio"
+
+#: inc/customize/configs/general.php:678 inc/customize/configs/general.php:725
+msgid "Clear Cache"
+msgstr "Vaciar caché"
+
+#: inc/customize/configs/general.php:690
+msgid "Clear Instagram Cache"
+msgstr "Borrar la caché de Instagram"
+
+#: inc/customize/configs/general.php:691
+msgid ""
+"By default, the Instagram cache will exist for up to 2 hours. To manually "
+"clear the cache, please click the button below."
+msgstr ""
+"De forma predeterminada, la caché de Instagram existirá hasta 2 horas. Para "
+"borrar manualmente la caché, por favor haga clic en el botón de abajo."
+
+#: inc/customize/configs/general.php:698
+msgid "Load Instagram pictures dynamically with AJAX"
+msgstr "Cargar imágenes Instagram dinámicamente con Ajax"
+
+#: inc/customize/configs/general.php:699
+msgid ""
+"Recommend enabling this option if any caching plugins are used on your site."
+msgstr ""
+"Recomendamos activar esta opción si se utilizan los plugins de caché en el "
+"sitio."
+
+#: inc/customize/configs/general.php:708
+msgid "Boxed Layout Options"
+msgstr "Opciones de diseño en caja"
+
+#: inc/customize/configs/general.php:709
+msgid "Outer Area Background Image"
+msgstr "Imagen de fondo del área externa"
+
+#: inc/customize/configs/general.php:710 inc/customize/configs/general.php:711
+msgid "Outer Area Background Image Position"
+msgstr "Posición de imagen de fondo del área externa"
+
+#: inc/customize/configs/general.php:712
+msgid "Outer Area Background Image Size"
+msgstr "Tamaño de la imagen de fondo del área externa"
+
+#: inc/customize/configs/general.php:713
+msgid "Outer Area Background Color"
+msgstr "Color de fondo del área externa"
+
+#: inc/customize/configs/general.php:716
+msgid "Frame Layout Options"
+msgstr "Opciones de diseño de marco"
+
+#: inc/customize/configs/general.php:717
+msgid "Frame Background Image"
+msgstr "Imagen de fondo del marco"
+
+#: inc/customize/configs/general.php:718 inc/customize/configs/general.php:719
+msgid "Frame Background Image Position"
+msgstr "Posición de imagen de fondo del marco"
+
+#: inc/customize/configs/general.php:720
+msgid "Frame Background Image Size"
+msgstr "Tamaño de imagen de fondo de marco"
+
+#: inc/customize/configs/general.php:721
+msgid "Frame Background Color"
+msgstr "Color de fondo del marco"
+
+#: inc/customize/configs/general.php:724
+msgid "Request Sending ..."
+msgstr "Petición de envío..."
+
+#: inc/customize/configs/header.php:22
+#: inc/customize/configs/woocommerce.php:112
+msgid "Site Header"
+msgstr "Encabezado del Sitio"
+
+#: inc/customize/configs/header.php:28
+msgid "Header Layout"
+msgstr "Layout del Encabezado"
+
+#: inc/customize/configs/header.php:36
+msgid "Transparent Site Header"
+msgstr "Encabezado de sitio transparente"
+
+#: inc/customize/configs/header.php:148
+msgid "Site Header Layout"
+msgstr "Diseño del encabezado del sitio"
+
+#: inc/customize/configs/header.php:152
+msgid "Header Layout 1"
+msgstr "Diseño de cabecera 1"
+
+#: inc/customize/configs/header.php:153
+msgid "Header Layout 2"
+msgstr "Diseño de cabecera 2"
+
+#: inc/customize/configs/header.php:154
+msgid "Header Layout 3"
+msgstr "Diseño de cabecera 3"
+
+#: inc/customize/configs/header.php:155
+msgid "Header Layout 4"
+msgstr "Diseño de cabecera 4"
+
+#: inc/customize/configs/header.php:156
+msgid "Header Layout 5"
+msgstr "Diseño de cabecera 5"
+
+#: inc/customize/configs/header.php:157
+msgid "Header Layout 6"
+msgstr "Diseño de cabecera 6"
+
+#: inc/customize/configs/header.php:163
+msgid "Also Show Hamburger Menu Button"
+msgstr "También mostrar el botón de menú de hamburguesa"
+
+#: inc/customize/configs/header.php:170
+msgid "Hamburger Menu Button Style"
+msgstr "Menú hamburguesa estilo de botón"
+
+#: inc/customize/configs/header.php:174
+msgid "With Text"
+msgstr "Con texto"
+
+#: inc/customize/configs/header.php:175
+msgid "Icon Only"
+msgstr "Sólo icono"
+
+#: inc/customize/configs/header.php:178
+#, php-format
+msgid ""
+"To edit the Fullscreen Menu's style, please go to %sFullscreen Menu%s "
+"section."
+msgstr ""
+"To edit the Fullscreen Menu’s style, please go to %sFullscreen Menu%s "
+"section."
+
+#: inc/customize/configs/header.php:185
+msgid "Sticky Header"
+msgstr "Encabezado Fijo"
+
+#: inc/customize/configs/header.php:189
+msgid "No"
+msgstr "No"
+
+#: inc/customize/configs/header.php:190
+msgid "Always sticky"
+msgstr "Siempre pegajoso"
+
+#: inc/customize/configs/header.php:191
+msgid "Sticky when scroll up"
+msgstr "Pegajoso cuando se desplaza hacia arriba"
+
+#: inc/customize/configs/header.php:197
+msgid "Remove the space between site header and main content "
+msgstr ""
+"Quitar el espacio entre el encabezado del sitio y el contenido principal"
+
+#: inc/customize/configs/header.php:198
+msgid ""
+"Please don't tick this option when site header has a background image or a "
+"different background color from page."
+msgstr ""
+"Por favor, no marque esta opción cuando el encabezado del sitio tenga una "
+"imagen de fondo o un color de fondo diferente de la página."
+
+#: inc/customize/configs/header.php:223
+msgid "Show Search Button"
+msgstr "Mostrar Botón de Búsqueda"
+
+#: inc/customize/configs/header.php:229
+msgid "Search Button Style"
+msgstr "Estilo del botón de búsqueda"
+
+#: inc/customize/configs/header.php:234
+#: inc/customize/configs/woocommerce.php:131
+msgid "Icon"
+msgstr "Icono"
+
+#: inc/customize/configs/header.php:235
+#: inc/customize/configs/woocommerce.php:130
+#: inc/widgets/class-fallsky-widget.php:613
+msgid "Text"
+msgstr "Texto"
+
+#: inc/customize/configs/header.php:244
+#, php-format
+msgid ""
+"To edit the Search Screen's style, please go to %sSearch Screen%s section."
+msgstr ""
+"To edit the Search Screen’s style, please go to %sSearch Screen%s section."
+
+#: inc/customize/configs/header.php:271
+msgid ""
+"In this section, you can choose to enable Transparent Absolute Header for "
+"different pages. When the option is enabled on a page, the site header "
+"background will be transparent, text in the site header will be white, and "
+"site header position will be absolute."
+msgstr ""
+"En esta sección, puede elegir habilitar encabezado absoluto transparente "
+"para distintas páginas. Cuando la opción está activada en una página, el "
+"fondo del encabezado del sitio será transparente, el texto en el encabezado "
+"del sitio será blanco y la posición del encabezado del sitio será absoluta."
+
+#: inc/customize/configs/header.php:278
+msgid "On Home Page"
+msgstr "En la Página principal"
+
+#: inc/customize/configs/header.php:279
+msgid ""
+"For best results, we recommend enabling it only when the first part of the "
+"home page is full width with background."
+msgstr ""
+"Para obtener mejores resultados, recomendamos activarlo sólo cuando la "
+"primera parte de la página de inicio es de ancho completo con fondo."
+
+#: inc/customize/configs/header.php:286
+msgid "Single Post - for Single Post Template 1"
+msgstr "Single post-para una sola plantilla de post 1"
+
+#: inc/customize/configs/header.php:287
+msgid "Only works when the post has a featured image."
+msgstr "Sólo funciona cuando el post tiene una imagen destacada."
+
+#: inc/customize/configs/header.php:294
+msgid "Single Page - for Page Header Layout 2"
+msgstr "Página única-para el diseño de cabecera de página 2"
+
+#: inc/customize/configs/header.php:295
+msgid "Only works when the page has a featured image."
+msgstr "Sólo funciona cuando la página tiene una imagen destacada."
+
+#: inc/customize/configs/header.php:303
+msgid ""
+"Including category/tag/shop/category index archive. Only works when the "
+"archive page has a page header background image."
+msgstr ""
+"Incluyendo Category/Tag/Shop/Category Archive index. Sólo funciona cuando la "
+"página de archivado tiene una imagen de fondo de encabezado de página."
+
+#: inc/customize/configs/header.php:387
+msgid "Menu"
+msgstr "Menú"
+
+#: inc/customize/configs/header.php:413
+#, php-format
+msgid "%sSearch%s"
+msgstr "%sSearch %s"
+
+#: inc/customize/configs/header.php:453
+msgid "Header Background Image"
+msgstr "Imagen de fondo del encabezado"
+
+#: inc/customize/configs/home-page.php:18
+msgid "From Page Content"
+msgstr "Contenido de la página"
+
+#: inc/customize/configs/home-page.php:19
+msgid "From Customizer > Homepage Section"
+msgstr "De la sección Página principal de Customizer >"
+
+#: inc/customize/configs/home-page.php:45
+#: inc/customize/configs/home-page.php:772
+msgid "Static Homepage Content"
+msgstr "Contenido de página Web estática"
+
+#: inc/customize/configs/home-page.php:68
+msgid "For static homepage only"
+msgstr "Sólo para Página Web estática"
+
+#: inc/customize/configs/home-page.php:98
+#, php-format
+msgid ""
+"For static front page, the sections \"Fullwidth Featured Area\" and \"Home "
+"Main Content Area\" only work when choosing the content from \"Customize\". "
+"You can %sclick here%s to change the setting."
+msgstr ""
+"Para la página frontal estática, las secciones \"área de ancho destacados\" "
+"y \"área principal de contenido del hogar\" sólo funcionan cuando se elige "
+"el contenido de \"personalizar\". Puede %sclick aquí %s para cambiar la "
+"configuración."
+
+#: inc/customize/configs/home-page.php:104
+msgid "Home Page"
+msgstr "Página de Inicio"
+
+#: inc/customize/configs/home-page.php:111
+#: inc/customize/configs/typography.php:599
+msgid "Fullwidth Featured Area"
+msgstr "Área destacada de ancho"
+
+#: inc/customize/configs/home-page.php:116
+msgid "Home Main Content Area"
+msgstr "Inicio área de contenido principal"
+
+#: inc/customize/configs/home-page.php:455
+msgid "Display Featured Content"
+msgstr "Mostrar contenido destacado"
+
+#: inc/customize/configs/home-page.php:461
+#: inc/plugins/class-tgm-plugin-activation.php:2540
+msgid "Type"
+msgstr "Tipo"
+
+#: inc/customize/configs/home-page.php:466
+msgid "Posts Slider"
+msgstr "Postes Slider"
+
+#: inc/customize/configs/home-page.php:467
+msgid "Posts Blocks"
+msgstr "Bloques de postes"
+
+#: inc/customize/configs/home-page.php:468
+#: inc/widgets/homepage/class-widget-custom-content.php:14
+msgid "Custom Content"
+msgstr "Contenido Personalizado"
+
+#: inc/customize/configs/home-page.php:476
+msgid "Slider Style"
+msgstr "Activar Slider"
+
+#: inc/customize/configs/home-page.php:481
+msgid "Slider 1"
+msgstr "1"
+
+#: inc/customize/configs/home-page.php:482
+msgid "Slider 2"
+msgstr "2"
+
+#: inc/customize/configs/home-page.php:483
+msgid "Slider 3"
+msgstr "Activar Slider"
+
+#: inc/customize/configs/home-page.php:488
+msgid "Show at most x posts in slider"
+msgstr "Mostrar en la mayoría de los mensajes x en slider"
+
+#: inc/customize/configs/home-page.php:497
+msgid "Auto play the slider"
+msgstr "Revolution Slider"
+
+#: inc/customize/configs/home-page.php:504
+msgid "Autoplay pause duration"
+msgstr "Duración de pausa de reproducción automática"
+
+#: inc/customize/configs/home-page.php:505
+msgid "second(s)"
+msgstr "%1$s, %2$s"
+
+#: inc/customize/configs/home-page.php:518
+msgid "Pause on hover"
+msgstr "Pausa en el vuelo estacionario"
+
+#: inc/customize/configs/home-page.php:528
+msgid "Blocks Style"
+msgstr "Bloques de estilo"
+
+#: inc/customize/configs/home-page.php:533
+msgid "Blocks 1"
+msgstr "Blocks 1"
+
+#: inc/customize/configs/home-page.php:534
+msgid "Blocks 2"
+msgstr "Blocks 2"
+
+#: inc/customize/configs/home-page.php:535
+msgid "Blocks 3"
+msgstr "Blocks 3"
+
+#: inc/customize/configs/home-page.php:549
+#: inc/customize/configs/home-page.php:575
+msgid "Hide categories"
+msgstr "Ocultar categorías"
+
+#: inc/customize/configs/home-page.php:557
+msgid "Hide post excerpt"
+msgstr "Ocultar fragmento de post"
+
+#: inc/customize/configs/home-page.php:585
+msgid "Pick Posts"
+msgstr "Picking posts"
+
+#: inc/customize/configs/home-page.php:597
+msgid "By Category"
+msgstr "Por categoría"
+
+#: inc/customize/configs/home-page.php:598
+msgid "Featured Posts"
+msgstr "Entradas destacadas"
+
+#: inc/customize/configs/home-page.php:599
+msgid "Most Liked"
+msgstr "Más apreciado"
+
+#: inc/customize/configs/home-page.php:600
+msgid "Most Viewed"
+msgstr "Mas Vistas"
+
+#: inc/customize/configs/home-page.php:601
+msgid "Most Commented"
+msgstr "Más comentado"
+
+#: inc/customize/configs/home-page.php:615
+msgid ""
+"Exclude the posts from Latest Posts Archive in Homepage Main Content Area"
+msgstr ""
+"Excluir los mensajes de los últimos posts Archive in homepage área de "
+"contenido principal"
+
+#: inc/customize/configs/home-page.php:625
+#: inc/widgets/homepage/class-widget-custom-content.php:264
+msgid "Add content"
+msgstr "Agregar contenido"
+
+#: inc/customize/configs/home-page.php:685
+#, php-format
+msgid ""
+"Please tick this option when you have enabled %s\"parallax effect while "
+"scrolling for Homepage Fullwidth Featured Section\"%s."
+msgstr ""
+"Marque esta opción cuando haya activado %s \"efecto de paralaje mientras se "
+"desplaza para la Página principal ancho sección\" %s."
+
+#: inc/customize/configs/home-page.php:691
+msgid "Background Video"
+msgstr "Vídeo de Fondo"
+
+#: inc/customize/configs/home-page.php:693
+#, php-format
+msgid ""
+"Upload your video in %1$s format and minimize its file size for best results."
+msgstr ""
+"Cargue su vídeo en formato%1$s y minimice su tamaño de archivo para obtener "
+"los mejores resultados."
+
+#: inc/customize/configs/home-page.php:703
+msgid "Or, enter a YouTube URL:"
+msgstr "O, ingrese una URL de YouTube:"
+
+#: inc/customize/configs/home-page.php:716
+msgid "Height Option"
+msgstr "Opción de altura"
+
+#: inc/customize/configs/home-page.php:721
+msgid "Screen Height"
+msgstr "Altura de la pantalla"
+
+#: inc/customize/configs/home-page.php:727
+msgid "Custom Height"
+msgstr "Altura personalizada"
+
+#: inc/customize/configs/home-page.php:753
+msgid "Home Widgets"
+msgstr "Widgets de inicio"
+
+#: inc/customize/configs/popup-signip-form.php:13
+msgid "Popup Signup Form"
+msgstr "Formulario de inscripción emergente"
+
+#: inc/customize/configs/popup-signip-form.php:36
+#, php-format
+msgid ""
+"We support MailChimp's default functionality to add a popup signup form to "
+"your site. Please log into your MailChimp account and read %sthis article%s "
+"to know how to create a popup signup form. And then copy and paste the form "
+"code into the box below:"
+msgstr ""
+"Apoyamos la funcionalidad predeterminada de Mailchimp para agregar un "
+"formulario de registro emergente a su sitio. Por favor ingrese a su cuenta "
+"Mailchimp y lea %sthis article %s para saber como crear un formulario de "
+"registro emergente. Y, a continuación, copie y pegue el código de formulario "
+"en el cuadro siguiente:"
+
+#: inc/customize/configs/popup-signip-form.php:44
+msgid ""
+"Please note, the form will only pop up in the front-end. It will not show in "
+"the preview area."
+msgstr ""
+"Tenga en cuenta que el formulario sólo aparecerá en el front-end. No se "
+"mostrará en el área de vista previa."
+
+#: inc/customize/configs/search-screen.php:19
+msgid "Search Screen"
+msgstr "Pantalla de búsqueda"
+
+#: inc/customize/configs/search-screen.php:137
+#: inc/customize/configs/search-screen.php:158
+msgid "Click on the search button in site header to preview"
+msgstr ""
+"Haga clic en el botón Buscar en el encabezado del sitio para previsualizar"
+
+#: inc/customize/configs/search-screen.php:144
+msgid "Display Categories"
+msgstr "Mostrar categorías"
+
+#: inc/customize/configs/search-screen.php:151
+msgid "Display Post Counts"
+msgstr "Mostrar conteos de puestos"
+
+#: inc/customize/configs/search-screen.php:330
+msgid "Search Results"
+msgstr "Resultados de la búsqueda"
+
+#: inc/customize/configs/search-screen.php:369 template-parts/loop/none.php:7
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo sentimos, pero nada no coincide con tus criterios de búsqueda. Inténtalo "
+"de nuevo con algunas palabras clave diferentes."
+
+#: inc/customize/configs/search-screen.php:385
+#: template-parts/site-header/header-fullscreen.php:11
+msgid "Close"
+msgstr "Cerrar"
+
+#: inc/customize/configs/search-screen.php:389
+msgid "Press Enter Key to see all results"
+msgstr "Pulse la tecla Intro para ver todos los resultados"
+
+#: inc/customize/configs/sidebar.php:13
+#: inc/customize/configs/woocommerce.php:139
+msgid "Sidebar"
+msgstr "No Sidebar"
+
+#: inc/customize/configs/sidebar.php:62
+msgid "Enable Sticky Sidebar"
+msgstr "Activar Barra Lateral Sticky"
+
+#: inc/customize/configs/sidebar.php:63
+msgid ""
+"Only works when sidebar is shorter than content area and when screen width "
+"is larger than 1120 px."
+msgstr ""
+"Sólo funciona cuando la barra lateral es más corta que el área de contenido "
+"y cuando el ancho de la pantalla es mayor que 1120 PX."
+
+#: inc/customize/configs/sidebar.php:75
+msgid "Widgets Style"
+msgstr "Estilo del borde"
+
+#: inc/customize/configs/sidebar.php:80
+msgid "With Border"
+msgstr "Estilo del borde"
+
+#: inc/customize/configs/sidebar.php:81
+msgid "With Background"
+msgstr "El fondo"
+
+#: inc/customize/configs/sidebar.php:85
+msgid "Widget Background Color"
+msgstr "Color de fondo del widget"
+
+#: inc/customize/configs/sidebar.php:91
+msgid "Widget Border Color"
+msgstr "Color del borde del Widget de Búsqueda"
+
+#: inc/customize/configs/sidebar.php:97
+msgid "Widget Text Color"
+msgstr "Color del texto en pie"
+
+#: inc/customize/configs/single-post.php:14
+#: inc/customize/configs/typography.php:757
+msgid "Single Post"
+msgstr "Publicación individual"
+
+#: inc/customize/configs/single-post.php:210
+msgid "Default Post Template"
+msgstr "Plantilla predeterminada para publicaciones"
+
+#: inc/customize/configs/single-post.php:214
+msgid "Template 1"
+msgstr "1 Columna"
+
+#: inc/customize/configs/single-post.php:215
+msgid "Template 2"
+msgstr "Plantilla 2"
+
+#: inc/customize/configs/single-post.php:216
+msgid "Template 3"
+msgstr "Plantilla 3"
+
+#: inc/customize/configs/single-post.php:217
+msgid "Template 4"
+msgstr "4 columnas"
+
+#: inc/customize/configs/single-post.php:218
+msgid "Template 5"
+msgstr "5 columnas"
+
+#: inc/customize/configs/single-post.php:219
+msgid "Template 6"
+msgstr "Plantilla 6"
+
+#: inc/customize/configs/single-post.php:220
+msgid "Template 7"
+msgstr "Plantilla 7"
+
+#: inc/customize/configs/single-post.php:225
+msgid "Default Sidebar Layout"
+msgstr "Diseño de la barra lateral predeterminada"
+
+#: inc/customize/configs/single-post.php:230
+msgid "Left sidebar"
+msgstr "Barra lateral izquierda"
+
+#: inc/customize/configs/single-post.php:231
+msgid "Right sidebar"
+msgstr "Barra lateral derecha"
+
+#: inc/customize/configs/single-post.php:236
+msgid "Sticky Post Nav"
+msgstr "Post NAV pegajoso"
+
+#: inc/customize/configs/single-post.php:243
+msgid "Display Sticky Post Nav on top"
+msgstr "Display Sticky post NAV en la parte superior"
+
+#: inc/customize/configs/single-post.php:269
+msgid "Display Categories in post header"
+msgstr "Mostrar categorías en encabezado de mensaje"
+
+#: inc/customize/configs/single-post.php:276
+msgid "Display Tags after post content"
+msgstr "Mostrar etiquetas después del contenido de post"
+
+#: inc/customize/configs/single-post.php:285
+msgid "Post Sharing"
+msgstr "Contabilización compartida"
+
+#: inc/customize/configs/single-post.php:292
+msgid "Display Side Post Share Buttons"
+msgstr "Botones Mostrar parte posterior de la pantalla"
+
+#: inc/customize/configs/single-post.php:293
+msgid ""
+"Please note: the Side Post Share Buttons only show when screen is wider than "
+"768px."
+msgstr ""
+"Observe por favor: los botones laterales del recurso compartido del poste "
+"solamente demuestran cuando la pantalla es más ancha que 768px."
+
+#: inc/customize/configs/single-post.php:300
+msgid ""
+"Also display Post Share Button on small screens (sticky to screen bottom)"
+msgstr ""
+"También mostrar el botón compartir post en pantallas pequeñas (pegajosa a la "
+"pantalla inferior)"
+
+#: inc/customize/configs/single-post.php:307
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customize/configs/single-post.php:314
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customize/configs/single-post.php:321
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customize/configs/single-post.php:328
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/customize/configs/single-post.php:338
+msgid "Footer Meta"
+msgstr "Meta de pie de página"
+
+#: inc/customize/configs/single-post.php:339
+msgid "Display Selected Footer Meta"
+msgstr "Mostrar meta de pie de pantalla seleccionado"
+
+#: inc/customize/configs/single-post.php:345
+msgid "Author Name"
+msgstr "Nombre del autor"
+
+#: inc/customize/configs/single-post.php:357
+#: inc/widgets/normal/class-widget-post.php:284
+msgid "View Counts"
+msgstr "Ver conteos"
+
+#: inc/customize/configs/single-post.php:363
+#: inc/widgets/normal/class-widget-post.php:291
+msgid "Like Counts"
+msgstr "Como cuenta"
+
+#: inc/customize/configs/single-post.php:378
+msgid "Display Author Info Box"
+msgstr "Mostrar el cuadro de información del autor"
+
+#: inc/customize/configs/single-post.php:379
+msgid ""
+"Please note: the author's biographical info need to have some content, or "
+"the author info box will not show."
+msgstr ""
+"Tenga en cuenta: la información biográfica del autor necesita tener algún "
+"contenido, o la caja de información del autor no se mostrará."
+
+#: inc/customize/configs/single-post.php:386
+msgid "Display Signup Form"
+msgstr "Mostrar formulario de inscripción"
+
+#: inc/customize/configs/single-post.php:390
+msgid ""
+"Please make sure you have installed and activated the plugin \"MailChimp for "
+"WordPress\"."
+msgstr ""
+"Por favor asegúrate de haber instalado y activado el plugin \"Mailchimp para "
+"WordPress\"."
+
+#: inc/customize/configs/single-post.php:404
+msgid "Display Post Pagination"
+msgstr "Mostrar paginación post"
+
+#: inc/customize/configs/single-post.php:411
+msgid "Related Posts"
+msgstr "Publicaciones relacionadas"
+
+#: inc/customize/configs/single-post.php:418
+msgid "Display Related Posts"
+msgstr "¿Mostrar entradas relacionadas?"
+
+#: inc/customize/configs/single-post.php:424
+msgid "Related Posts Title"
+msgstr "Título de los puestos relacionados"
+
+#: inc/customize/configs/single-post.php:425
+msgid "e.g. You May Also Like"
+msgstr "También te puede like&hellip;"
+
+#: inc/customize/configs/single-post.php:432
+msgid "Pick Posts by"
+msgstr "Pick Posts por"
+
+#: inc/customize/configs/single-post.php:444
+msgid "How many related posts will be displayed?"
+msgstr "¿cuántos mensajes relacionados se mostrarán?"
+
+#: inc/customize/configs/single-post.php:450
+msgid "6"
+msgstr "6"
+
+#: inc/customize/configs/site-identity.php:46
+msgid "Logo Width"
+msgstr "Ancho del logo"
+
+#: inc/customize/configs/site-identity.php:55
+msgid "Logo for transparent site header (optional)"
+msgstr "Insignia para el jefe transparente del sitio (opcional)"
+
+#: inc/customize/configs/typography.php:16
+msgid "Typography"
+msgstr "Tipografía"
+
+#: inc/customize/configs/typography.php:22
+msgid "Font Family"
+msgstr "Familia tipográfica"
+
+#: inc/customize/configs/typography.php:26
+msgid "Heading Text"
+msgstr "Texto Heading"
+
+#: inc/customize/configs/typography.php:30
+msgid "Content Text"
+msgstr "Texto del Contenido"
+
+#: inc/customize/configs/typography.php:34
+msgid "Post Title"
+msgstr "Título de la publicación"
+
+#: inc/customize/configs/typography.php:38
+msgid "Page Title"
+msgstr "Título de la página"
+
+#: inc/customize/configs/typography.php:42
+msgid "Section & Widget Title"
+msgstr "Color del enlace para la sección de información del encabezado"
+
+#: inc/customize/configs/typography.php:46
+msgid "Category Links"
+msgstr "Enlaces de categoría"
+
+#: inc/customize/configs/typography.php:367
+#: inc/customize/configs/typography.php:1048
+msgid "Text Font Family"
+msgstr "Familia tipográfica de texto"
+
+#: inc/customize/configs/typography.php:374
+#: inc/customize/configs/typography.php:1047
+msgid "Heading Font Family"
+msgstr "Tipografía del Encabezado"
+
+#: inc/customize/configs/typography.php:382
+#: inc/customize/configs/typography.php:540
+#: inc/customize/configs/typography.php:615
+#: inc/customize/configs/typography.php:694
+#: inc/customize/configs/typography.php:773
+#: inc/customize/configs/typography.php:852
+#: inc/customize/configs/typography.php:915
+#: inc/customize/configs/typography.php:972
+msgid "Font Weight"
+msgstr "Grosor de la Fuente"
+
+#: inc/customize/configs/typography.php:383
+#: inc/customize/configs/typography.php:541
+#: inc/customize/configs/typography.php:616
+#: inc/customize/configs/typography.php:695
+#: inc/customize/configs/typography.php:774
+#: inc/customize/configs/typography.php:853
+#: inc/customize/configs/typography.php:916
+#: inc/customize/configs/typography.php:973
+msgid "Please note: not every font supports all the font weight values listed."
+msgstr ""
+"Tenga en cuenta: no todas las fuentes admiten todos los valores de peso de "
+"fuente enumerados."
+
+#: inc/customize/configs/typography.php:399
+#: inc/customize/configs/typography.php:557
+#: inc/customize/configs/typography.php:633
+#: inc/customize/configs/typography.php:712
+#: inc/customize/configs/typography.php:791
+#: inc/customize/configs/typography.php:870
+#: inc/customize/configs/typography.php:932
+#: inc/customize/configs/typography.php:989
+msgid "Letter Spacing"
+msgstr "Espaciado entre letras"
+
+#: inc/customize/configs/typography.php:416
+#: inc/customize/configs/typography.php:574
+#: inc/customize/configs/typography.php:651
+#: inc/customize/configs/typography.php:730
+#: inc/customize/configs/typography.php:809
+#: inc/customize/configs/typography.php:888
+#: inc/customize/configs/typography.php:949
+#: inc/customize/configs/typography.php:1006
+msgid "Text Transform"
+msgstr "Transformación del texto"
+
+#: inc/customize/configs/typography.php:420
+#: inc/customize/configs/typography.php:578
+#: inc/customize/configs/typography.php:656
+#: inc/customize/configs/typography.php:735
+#: inc/customize/configs/typography.php:814
+#: inc/customize/configs/typography.php:893
+#: inc/customize/configs/typography.php:953
+#: inc/customize/configs/typography.php:1010
+msgid "None"
+msgstr "Ninguno"
+
+#: inc/customize/configs/typography.php:421
+#: inc/customize/configs/typography.php:579
+#: inc/customize/configs/typography.php:657
+#: inc/customize/configs/typography.php:736
+#: inc/customize/configs/typography.php:815
+#: inc/customize/configs/typography.php:894
+#: inc/customize/configs/typography.php:954
+#: inc/customize/configs/typography.php:1011
+msgid "Uppercase"
+msgstr "Mayúscula"
+
+#: inc/customize/configs/typography.php:422
+#: inc/customize/configs/typography.php:580
+#: inc/customize/configs/typography.php:658
+#: inc/customize/configs/typography.php:737
+#: inc/customize/configs/typography.php:816
+#: inc/customize/configs/typography.php:895
+#: inc/customize/configs/typography.php:955
+#: inc/customize/configs/typography.php:1012
+msgid "Lowercase"
+msgstr "Minúsculas"
+
+#: inc/customize/configs/typography.php:423
+#: inc/customize/configs/typography.php:581
+#: inc/customize/configs/typography.php:659
+#: inc/customize/configs/typography.php:738
+#: inc/customize/configs/typography.php:817
+#: inc/customize/configs/typography.php:896
+#: inc/customize/configs/typography.php:956
+#: inc/customize/configs/typography.php:1013
+msgid "Capitalize"
+msgstr "Capitalizar"
+
+#: inc/customize/configs/typography.php:428
+#: inc/customize/configs/typography.php:586
+#: inc/customize/configs/typography.php:664
+#: inc/customize/configs/typography.php:743
+#: inc/customize/configs/typography.php:822
+#: inc/customize/configs/typography.php:901
+#: inc/customize/configs/typography.php:961
+#: inc/customize/configs/typography.php:1018
+msgid "Style"
+msgstr "Estilo"
+
+#: inc/customize/configs/typography.php:433
+#: inc/customize/configs/typography.php:591
+#: inc/customize/configs/typography.php:670
+#: inc/customize/configs/typography.php:749
+#: inc/customize/configs/typography.php:828
+#: inc/customize/configs/typography.php:907
+#: inc/customize/configs/typography.php:966
+#: inc/customize/configs/typography.php:1023
+msgid "Italic"
+msgstr "Itálica"
+
+#: inc/customize/configs/typography.php:438
+#: inc/customize/configs/typography.php:490
+msgid "Line Height"
+msgstr "Altura de Linea"
+
+#: inc/customize/configs/typography.php:482
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+#: inc/customize/configs/typography.php:678
+msgid "Post Archive"
+msgstr "Publicar archivo"
+
+#: inc/customize/configs/typography.php:836
+msgid "Widget Area"
+msgstr "Área de Widget"
+
+#: inc/customize/configs/typography.php:1028
+msgid "Hide widget titles' decor line"
+msgstr "Ocultar línea de decoración de títulos de widget"
+
+#: inc/customize/configs/typography.php:1035
+msgid "Hide home widget titles' decor line"
+msgstr "Ocultar la línea de decoración de los títulos del widget Home"
+
+#: inc/customize/configs/typography.php:1043
+msgid "Categories Font Family"
+msgstr "Tamaño fuente general"
+
+#: inc/customize/configs/typography.php:1053
+#: inc/widgets/homepage/class-widget-banner.php:153
+#: inc/widgets/homepage/class-widget-call-to-action.php:131
+#: inc/widgets/homepage/class-widget-custom-content.php:105
+#: inc/widgets/homepage/class-widget-featured-category.php:80
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:110
+#: inc/widgets/homepage/class-widget-posts.php:212
+#: inc/widgets/homepage/class-widget-product-category.php:85
+#: inc/widgets/homepage/class-widget-products.php:235
+msgid "Color"
+msgstr "Color"
+
+#: inc/customize/configs/typography.php:1057
+msgid ""
+"Please note: When there is a background image behind it, the category link "
+"will always be white."
+msgstr ""
+"Observe por favor: cuando hay una imagen de fondo detrás de él, el "
+"acoplamiento de la categoría será siempre blanco."
+
+#: inc/customize/configs/woocommerce.php:17
+msgid "Shop"
+msgstr "Tienda"
+
+#: inc/customize/configs/woocommerce.php:119
+msgid "Show Cart Button in site header"
+msgstr "Botón Mostrar carrito en el encabezado del sitio"
+
+#: inc/customize/configs/woocommerce.php:125
+msgid "Cart Button Style"
+msgstr "Estilo del botón del carro"
+
+#: inc/customize/configs/woocommerce.php:145
+msgid "Products Archive Sidebar Layout"
+msgstr "Presentación de productos archivo lateral"
+
+#: inc/customize/configs/woocommerce.php:156
+msgid "Single Product Sidebar Layout"
+msgstr "Diseño de la barra lateral de un solo producto"
+
+#: inc/customize/configs/woocommerce.php:167
+msgid "Sidebar Content"
+msgstr "Contenido de la barra lateral"
+
+#: inc/customize/configs/woocommerce.php:172
+#: inc/customize/frontend-render/class-woocommerce.php:41
+msgid "Shop Sidebar"
+msgstr "Barra lateral de la tienda"
+
+#: inc/customize/configs/woocommerce.php:180
+msgid "Shop Page & Archive"
+msgstr "Página de Shop & Archive"
+
+#: inc/customize/configs/woocommerce.php:186
+#: inc/widgets/homepage/class-widget-products.php:305
+msgid "Products Layout"
+msgstr "Diseño de productos"
+
+#: inc/customize/configs/woocommerce.php:190
+msgid "Grid 2 Columns"
+msgstr "Cuadrícula 2 columnas"
+
+#: inc/customize/configs/woocommerce.php:191
+msgid "Grid 3 Columns"
+msgstr "Cuadrícula 3 columnas"
+
+#: inc/customize/configs/woocommerce.php:192
+msgid "Grid 4 Columns"
+msgstr "Cuadrícula 4 columnas"
+
+#: inc/customize/configs/woocommerce.php:197
+#: inc/widgets/homepage/class-widget-products.php:346
+msgid "Products Style"
+msgstr "Estilo de los productos"
+
+#: inc/customize/configs/woocommerce.php:207
+#: inc/widgets/homepage/class-widget-products.php:357
+msgid "Overlay Color Scheme"
+msgstr "Esquema de color superpuesto"
+
+#: inc/customize/configs/woocommerce.php:218
+msgid "Show at most x products per page"
+msgstr "Mostrar en la mayoría de los productos x por página"
+
+#: inc/customize/configs/woocommerce.php:226
+#: inc/widgets/homepage/class-widget-products.php:376
+msgid "Show Title"
+msgstr "Título"
+
+#: inc/customize/configs/woocommerce.php:233
+#: inc/widgets/homepage/class-widget-products.php:383
+msgid "Show Price"
+msgstr "Mostrar Precio"
+
+#: inc/customize/configs/woocommerce.php:240
+#: inc/widgets/homepage/class-widget-products.php:390
+msgid "Show Rating"
+msgstr "Mostrar la calificación"
+
+#: inc/customize/configs/woocommerce.php:247
+#: inc/widgets/homepage/class-widget-products.php:397
+msgid "Show On Sale Label"
+msgstr "Mostrar en la etiqueta de venta"
+
+#: inc/customize/default-settings.php:28
+msgid "Read More"
+msgstr "Leer más"
+
+#: inc/customize/default-settings.php:85
+msgid "Your custom text &copy; Copyright 2018. All rights reserved."
+msgstr ""
+"Su texto personalizado &copy; Copyright 2018. Todos los derechos reservados."
+
+#: inc/customize/default-settings.php:130
+msgid "Footer text &copy; Copyright 2018. All rights reserved."
+msgstr "Pie de texto &copy; Copyright 2018. Todos los derechos reservados."
+
+#: inc/customize/default-settings.php:377
+msgid "You May Also Like"
+msgstr "También podría Interesarte"
+
+#: inc/customize/frontend-render/class-archive.php:252
+#, php-format
+msgid "Found %s Result for"
+msgid_plural "Found %s Results for"
+msgstr[0] "No se encontró habitación."
+msgstr[1] "Encontrados %s resultados para"
+
+#: inc/customize/frontend-render/class-archive.php:260
+msgctxt "yearly archives"
+msgid "Yearly Archive"
+msgstr "Archivo anual"
+
+#: inc/customize/frontend-render/class-archive.php:261
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/customize/frontend-render/class-archive.php:266
+msgctxt "monthly archives"
+msgid "Monthly Archive"
+msgstr "Archivo mensual"
+
+#: inc/customize/frontend-render/class-archive.php:267
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Formato de archivo por mes F Y"
+
+#: inc/customize/frontend-render/class-archive.php:272
+msgctxt "daily archives"
+msgid "Daily Archive"
+msgstr "Archivos diarios: %s"
+
+#: inc/customize/frontend-render/class-archive.php:273
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/customize/frontend-render/class-page.php:156
+#: inc/customize/frontend-render/class-single-post.php:299
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: inc/customize/frontend-render/class-single-post.php:378
+msgid "Home"
+msgstr "Inicio"
+
+#: inc/customize/frontend-render/class-single-post.php:453
+msgid "Next Article"
+msgstr "Siguiente artículo"
+
+#: inc/customize/frontend-render/class-single-post.php:454
+msgid "Next post:"
+msgstr "Siguiente publicación:"
+
+#: inc/customize/frontend-render/class-single-post.php:456
+msgid "Previous Article"
+msgstr "Artículo anterior"
+
+#: inc/customize/frontend-render/class-single-post.php:457
+msgid "Previous post:"
+msgstr "Publicación anterior:"
+
+#: inc/customize/frontend-render/class-woocommerce.php:43
+msgid "Add widgets here to appear in your shop sidebar."
+msgstr ""
+"Agrega widgets aquí para que aparezcan en la barra lateral de tu tienda."
+
+#: inc/customize/frontend-render/class-woocommerce.php:195
+msgid "View your shopping cart"
+msgstr "Ver su carrito de compras"
+
+#: inc/customize/frontend-render/class-woocommerce.php:196
+msgid "Cart"
+msgstr "Carrito"
+
+#: inc/customize/frontend-render/class-woocommerce.php:318
+msgid "Website"
+msgstr "Sitio Web"
+
+#: inc/customize/frontend-render/class-woocommerce.php:352
+msgid "Out of Stock"
+msgstr "Sin stock"
+
+#: inc/function-templates.php:348
+#, php-format
+msgid "by %s"
+msgstr "by %s"
+
+#: inc/function-templates.php:389 inc/function-templates.php:411
+#, php-format
+msgid "%s %s"
+msgstr "%s %s"
+
+#: inc/function-templates.php:391
+msgid "Views"
+msgstr "Vistas"
+
+#: inc/function-templates.php:391
+msgid "View"
+msgstr "Ver"
+
+#: inc/function-templates.php:413
+msgid "Likes"
+msgstr "Likes"
+
+#: inc/function-templates.php:413
+msgid "Like"
+msgstr "Me Gusta"
+
+#: inc/function-templates.php:436
+msgid "Leave a comment"
+msgstr "comentar"
+
+#: inc/function-templates.php:441 inc/widgets/normal/class-widget-post.php:100
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s comentario"
+msgstr[1] "%s Comentarios"
+
+#: inc/function-templates.php:459
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/multilingual/class-polylang.php:16
+msgid "Widget title"
+msgstr "Título"
+
+#: inc/multilingual/class-polylang.php:17
+msgid "Widget Custom Content text"
+msgstr "De entrada el contenido de la ficha personalizada."
+
+#: inc/multilingual/class-polylang.php:18
+msgid "Widget Call to Action button text"
+msgstr "Widget de llamada al botón de acción texto"
+
+#: inc/multilingual/class-polylang.php:19
+msgid "Widget Call to Action heading text"
+msgstr "Widget de llamada a la acción encabezado Text"
+
+#: inc/multilingual/class-polylang.php:20
+msgid "Widget Call to Action description text"
+msgstr "Widget llamada a acción Descripción texto"
+
+#: inc/plugins/class-tgm-plugin-activation.php:324
+msgid "Install Required Plugins"
+msgstr "Instalar Plugins requeridos"
+
+#: inc/plugins/class-tgm-plugin-activation.php:325
+msgid "Install Plugins"
+msgstr "Instalar complementos"
+
+#. translators: %s: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:327
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalando plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:329
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Actualizando plugin:%s"
+
+#: inc/plugins/class-tgm-plugin-activation.php:330
+msgid "Something went wrong with the plugin API."
+msgstr "Algo salió mal con la API de complemento."
+
+#. translators: 1: plugin name(s).
+#: inc/plugins/class-tgm-plugin-activation.php:333
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema requiere el siguiente plugin: %1$s."
+msgstr[1] "Este tema requiere los siguientes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema recomienda el siguiente plugin: %1$s."
+msgstr[1] "Este tema recomienda los siguientes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/plugins/class-tgm-plugin-activation.php:345
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"El siguiente plugin necesita ser actualizado a su última versión para "
+"asegurar la compatibilidad máxima con este tema: %1$s."
+msgstr[1] ""
+"Los siguientes plugins necesitan ser actualizados a su última versión para "
+"asegurar la compatibilidad máxima con este tema: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/plugins/class-tgm-plugin-activation.php:351
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Hay una actualización disponible para: %1$s."
+msgstr[1] "Hay actualizaciones disponibles para los siguientes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/plugins/class-tgm-plugin-activation.php:357
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin requerido está inactivo: %1$s."
+msgstr[1] "Los siguientes plugins requeridos están inactivos: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/plugins/class-tgm-plugin-activation.php:363
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin recomendado esta actualmente inactivo: %1$s."
+msgstr[1] ""
+"Los siguientes plugins recomendados están actualmente inactivos: %1$s."
+
+#: inc/plugins/class-tgm-plugin-activation.php:368
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Comenzar a instalar el plugin"
+msgstr[1] "Comienza la instalación de los plugins"
+
+#: inc/plugins/class-tgm-plugin-activation.php:373
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Comience la actualización del plugin"
+msgstr[1] "Empezar a actualizar los plugins"
+
+#: inc/plugins/class-tgm-plugin-activation.php:378
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Comenzar a activar el plugin"
+msgstr[1] "Inicia la activación de los plugins"
+
+#: inc/plugins/class-tgm-plugin-activation.php:382
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al Instalador de plugins necesarios"
+
+#: inc/plugins/class-tgm-plugin-activation.php:383
+#: inc/plugins/class-tgm-plugin-activation.php:818
+#: inc/plugins/class-tgm-plugin-activation.php:2524
+#: inc/plugins/class-tgm-plugin-activation.php:3547
+msgid "Return to the Dashboard"
+msgstr "Regresar al Escritorio"
+
+#: inc/plugins/class-tgm-plugin-activation.php:384
+#: inc/plugins/class-tgm-plugin-activation.php:3150
+msgid "Plugin activated successfully."
+msgstr "Plugin activado correctamente."
+
+#: inc/plugins/class-tgm-plugin-activation.php:385
+#: inc/plugins/class-tgm-plugin-activation.php:2943
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Plugin activado correctamente."
+msgstr[1] "Los siguientes plugins se ha activado correctamente:"
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:387
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Ninguna acción tomada. El complemento %1$s ya estaba activo."
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:389
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin no activado. Se necesita una versión superior de %s para este tema. "
+"Por favor, actualice el plugin."
+
+#. translators: 1: dashboard link.
+#: inc/plugins/class-tgm-plugin-activation.php:391
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugin han sido instalados y activados con éxito. %1$s"
+
+#: inc/plugins/class-tgm-plugin-activation.php:392
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: inc/plugins/class-tgm-plugin-activation.php:393
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Hay uno o más complementos necesarios o recomendados para instalar, "
+"actualizar o activar."
+
+#: inc/plugins/class-tgm-plugin-activation.php:394
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+"Por favor, contacta con el administrador del sitio para solicitar ayuda."
+
+#: inc/plugins/class-tgm-plugin-activation.php:513
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Este complemento debe actualizarse para que sea compatible con tu tema."
+
+#: inc/plugins/class-tgm-plugin-activation.php:514
+msgid "Update Required"
+msgstr "Actualización requerida"
+
+#: inc/plugins/class-tgm-plugin-activation.php:925
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"El paquete de complemento remoto no contiene una carpeta con el slug deseado "
+"y el cambio de nombre no funcionó."
+
+#: inc/plugins/class-tgm-plugin-activation.php:925
+#: inc/plugins/class-tgm-plugin-activation.php:928
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Póngase en contacto con el proveedor de complementos y pídales que "
+"empaqueten su complemento de acuerdo con las directrices de WordPress."
+
+#: inc/plugins/class-tgm-plugin-activation.php:928
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"El paquete remoto del plugin está compuesto por más de un archivo, pero los "
+"archivos no están dentro de una carpeta."
+
+#: inc/plugins/class-tgm-plugin-activation.php:1112
+#: inc/plugins/class-tgm-plugin-activation.php:2939
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "y"
+
+#. translators: %s: version number
+#: inc/plugins/class-tgm-plugin-activation.php:1973
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2264
+msgid "Required"
+msgstr "Obligatorio"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2267
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2283
+msgid "WordPress Repository"
+msgstr "Repositorio de WordPress"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2286
+msgid "External Source"
+msgstr "Recurso Externo"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2289
+msgid "Pre-Packaged"
+msgstr "Per-Empaquetados"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2306
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2310
+msgid "Installed But Not Activated"
+msgstr "Instalado pero no activado"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2312
+msgid "Active"
+msgstr "Activo"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2318
+msgid "Required Update not Available"
+msgstr "Actualización Requerida no Disponible"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2321
+msgid "Requires Update"
+msgstr "Requiere actualización"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2324
+msgid "Update recommended"
+msgstr "Actualización recomendada"
+
+#. translators: 1: install status, 2: update status
+#: inc/plugins/class-tgm-plugin-activation.php:2333
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2379
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Todos <span class=“count”>(%s)</span>"
+msgstr[1] "Todos <span class=“count”>(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2383
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Para Instalar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para Instalar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2387
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Actualización Disponible <span class=\"count\">(%s)</span>"
+msgstr[1] "Actualización Disponible <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2391
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Para Activar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para Activar <span class=\"count\">(%s)</span>"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2473
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconocido"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2481
+msgid "Installed version:"
+msgstr "Versión instalada:"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2489
+msgid "Minimum required version:"
+msgstr "Versión mínima requerida:"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2501
+msgid "Available version:"
+msgstr "Versión disponible:"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2524
+msgid "No plugins to install, update or activate."
+msgstr "No hay plugins para instalar, actualizar o activar."
+
+#: inc/plugins/class-tgm-plugin-activation.php:2538
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2539
+msgid "Source"
+msgstr "Fuente"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2544
+msgid "Version"
+msgstr "Versión"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2545
+msgid "Status"
+msgstr "Estado"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugins/class-tgm-plugin-activation.php:2594
+#, php-format
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugins/class-tgm-plugin-activation.php:2599
+#, php-format
+msgid "Update %2$s"
+msgstr "Actualizar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/plugins/class-tgm-plugin-activation.php:2605
+#, php-format
+msgid "Activate %2$s"
+msgstr "Activar %2$s"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2675
+msgid "Upgrade message from the plugin author:"
+msgstr "Mejora el mensaje del autor del plugin:"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2708
+msgid "Install"
+msgstr "Instalar"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2714
+msgid "Update"
+msgstr "Actualizar"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2717
+msgid "Activate"
+msgstr "Activar"
+
+#: inc/plugins/class-tgm-plugin-activation.php:2748
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"No se seleccionaron complementos para ser instalados. Ninguna acción tomada."
+
+#: inc/plugins/class-tgm-plugin-activation.php:2750
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"No se seleccionaron complementos para actualizarse. Ninguna acción tomada."
+
+#: inc/plugins/class-tgm-plugin-activation.php:2791
+msgid "No plugins are available to be installed at this time."
+msgstr "No hay plugins disponibles para ser instalados en este momento."
+
+#: inc/plugins/class-tgm-plugin-activation.php:2793
+msgid "No plugins are available to be updated at this time."
+msgstr "No hay plugins disponibles para actualizar en este momento."
+
+#: inc/plugins/class-tgm-plugin-activation.php:2899
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No se seleccionaron plugins para ser activados. Ninguna acción tomada."
+
+#: inc/plugins/class-tgm-plugin-activation.php:2925
+msgid "No plugins are available to be activated at this time."
+msgstr "No hay plugins disponibles para ser activados en este momento."
+
+#: inc/plugins/class-tgm-plugin-activation.php:3149
+msgid "Plugin activation failed."
+msgstr "La activación del plugin falló."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugins/class-tgm-plugin-activation.php:3465
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Actualizando el plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/plugins/class-tgm-plugin-activation.php:3468
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Se ha producido un error durante la instalación de %1$s: <strong>%2$s</"
+"strong>."
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:3470
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "La instalación de %1$s ha fallado."
+
+#: inc/plugins/class-tgm-plugin-activation.php:3474
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"La instalación y el proceso de activación están comenzando. Este proceso "
+"puede demorar un poco en algunos hosts, por lo que tenga paciencia."
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:3476
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado y activado con éxito."
+
+#: inc/plugins/class-tgm-plugin-activation.php:3476
+#: inc/plugins/class-tgm-plugin-activation.php:3484
+msgid "Show Details"
+msgstr "Mostrar detalles"
+
+#: inc/plugins/class-tgm-plugin-activation.php:3476
+#: inc/plugins/class-tgm-plugin-activation.php:3484
+msgid "Hide Details"
+msgstr "Ocultar detalles"
+
+#: inc/plugins/class-tgm-plugin-activation.php:3477
+msgid "All installations and activations have been completed."
+msgstr "Todas las instalaciones y activaciones han sido completadas."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugins/class-tgm-plugin-activation.php:3479
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando y activando plugin %1$s(%2$d/%3$d)"
+
+#: inc/plugins/class-tgm-plugin-activation.php:3482
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"El proceso de instalación se está iniciando. Este proceso puede llevar un "
+"buen rato en algunos alojamientos, así que sé paciente."
+
+#. translators: 1: plugin name.
+#: inc/plugins/class-tgm-plugin-activation.php:3484
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado con éxito."
+
+#: inc/plugins/class-tgm-plugin-activation.php:3485
+msgid "All installations have been completed."
+msgstr "Todas las instalaciones han sido completadas."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/plugins/class-tgm-plugin-activation.php:3487
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando plugin %1$s (%2$d/%3$d)"
+
+#: inc/plugins/envato-market.php:87 inc/plugins/envato-market.php:97
+msgid "Cheatin&#8217; huh?"
+msgstr "Haciendo Trampa - Cheatin&#8217; huh?"
+
+#: inc/plugins/envato-market.php:294
+#, php-format
+msgid ""
+"%sActivate the Envato Market plugin%s to get updates for your ThemeForest "
+"and CodeCanyon items."
+msgstr ""
+"%sActivate el plugin de mercado de Envato %s para obtener actualizaciones de "
+"los elementos ThemeForest y CodeCanyon."
+
+#: inc/plugins/envato-market.php:305
+#, php-format
+msgid ""
+"%sInstall the Envato Market plugin%s to get updates for your ThemeForest and "
+"CodeCanyon items."
+msgstr ""
+"%sInstall el plugin de mercado de Envato %s para obtener actualizaciones de "
+"los elementos ThemeForest y CodeCanyon."
+
+#: inc/plugins/tgm-plugin-activation-config.php:87
+msgid "Fallsky Extension"
+msgstr "Extensión Fallsky"
+
+#: inc/plugins/tgm-plugin-activation-config.php:98
+msgid "Contact Form 7"
+msgstr "Formulario de contacto 7"
+
+#: inc/plugins/tgm-plugin-activation-config.php:102
+msgid "MailChimp for WordPress"
+msgstr "MailChimp para WordPress"
+
+#: inc/plugins/tgm-plugin-activation-config.php:106
+msgid "One Click Demo Import"
+msgstr "Importación de una demostración del tecleo"
+
+#: inc/plugins/tgm-plugin-activation-config.php:110
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/plugins/tgm-plugin-activation-config.php:114
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: inc/widgets/class-fallsky-widget.php:271
+msgid "No media selected"
+msgstr "Ningún medio seleccionado"
+
+#: inc/widgets/class-fallsky-widget.php:272
+msgid "Choose Image"
+msgstr "Elegir Imagen"
+
+#: inc/widgets/class-fallsky-widget.php:272
+msgid "Choose Media"
+msgstr "Seleccione medios"
+
+#: inc/widgets/class-fallsky-widget.php:273
+msgid "Remove Image"
+msgstr "Eliminar Imagen"
+
+#: inc/widgets/class-fallsky-widget.php:273
+msgid "Remove Media"
+msgstr "Quitar medio"
+
+#: inc/widgets/class-fallsky-widget.php:611
+msgid "Add Media"
+msgstr "Agregar medios"
+
+#: inc/widgets/class-fallsky-widget.php:612
+msgid "Visual"
+msgstr "WPBakery Compositor visual"
+
+#: inc/widgets/class-fallsky-widget.php:618
+msgid "Add Shortcode"
+msgstr "Agregar Código Corto"
+
+#: inc/widgets/homepage/class-widget-banner.php:17
+msgid "Add Ad banner to your homepage."
+msgstr "Añade Banner publicitario a tu página de inicio."
+
+#: inc/widgets/homepage/class-widget-banner.php:20
+msgid "Ad Banner"
+msgstr "Banner publicitario"
+
+#: inc/widgets/homepage/class-widget-banner.php:139
+#: inc/widgets/homepage/class-widget-call-to-action.php:117
+#: inc/widgets/homepage/class-widget-custom-content.php:91
+#: inc/widgets/homepage/class-widget-featured-category.php:66
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:97
+#: inc/widgets/homepage/class-widget-posts.php:199
+#: inc/widgets/homepage/class-widget-product-category.php:71
+#: inc/widgets/homepage/class-widget-products.php:221
+#: inc/widgets/normal/class-widget-banner.php:67
+msgid "Section Title"
+msgstr "Título de la sección"
+
+#: inc/widgets/homepage/class-widget-banner.php:146
+#: inc/widgets/homepage/class-widget-call-to-action.php:124
+#: inc/widgets/homepage/class-widget-custom-content.php:98
+#: inc/widgets/homepage/class-widget-featured-category.php:73
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:104
+#: inc/widgets/homepage/class-widget-posts.php:206
+#: inc/widgets/homepage/class-widget-product-category.php:78
+#: inc/widgets/homepage/class-widget-products.php:228
+msgid "Center Section Title"
+msgstr "Título de la sección central"
+
+#: inc/widgets/homepage/class-widget-banner.php:177
+#: inc/widgets/homepage/class-widget-call-to-action.php:155
+#: inc/widgets/homepage/class-widget-custom-content.php:129
+#: inc/widgets/homepage/class-widget-featured-category.php:104
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:135
+#: inc/widgets/homepage/class-widget-posts.php:237
+#: inc/widgets/homepage/class-widget-product-category.php:109
+#: inc/widgets/homepage/class-widget-products.php:259
+msgid "Custom background color"
+msgstr "Color de fondo personalizado"
+
+#: inc/widgets/homepage/class-widget-banner.php:184
+#: inc/widgets/homepage/class-widget-call-to-action.php:230
+#: inc/widgets/homepage/class-widget-custom-content.php:246
+#: inc/widgets/homepage/class-widget-featured-category.php:111
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:209
+#: inc/widgets/homepage/class-widget-posts.php:243
+#: inc/widgets/homepage/class-widget-product-category.php:116
+#: inc/widgets/homepage/class-widget-products.php:266
+msgid "Padding Top"
+msgstr "Relleno Superior"
+
+#: inc/widgets/homepage/class-widget-banner.php:193
+#: inc/widgets/homepage/class-widget-call-to-action.php:239
+#: inc/widgets/homepage/class-widget-custom-content.php:255
+#: inc/widgets/homepage/class-widget-featured-category.php:120
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:218
+#: inc/widgets/homepage/class-widget-posts.php:252
+#: inc/widgets/homepage/class-widget-product-category.php:125
+#: inc/widgets/homepage/class-widget-products.php:275
+msgid "Padding Bottom"
+msgstr "Relleno Inferior"
+
+#: inc/widgets/homepage/class-widget-banner.php:202
+msgid "Ad Source"
+msgstr "Fuente de anuncios"
+
+#: inc/widgets/homepage/class-widget-banner.php:222
+msgid "Ad Image"
+msgstr "Imagen de anuncio"
+
+#: inc/widgets/homepage/class-widget-banner.php:231
+msgid "Image Max Width"
+msgstr "Anchura máxima de la imagen"
+
+#: inc/widgets/homepage/class-widget-banner.php:256
+#: inc/widgets/homepage/class-widget-posts.php:504
+msgid "Make the container to be fullwidth when homepage has no sidebar"
+msgstr ""
+"Haga el envase para ser ancho cuando homepage no tiene ninguna barra lateral"
+
+#: inc/widgets/homepage/class-widget-banner.php:268
+msgid "Enable large banner special effect"
+msgstr "Activar gran banner efecto especial"
+
+#: inc/widgets/homepage/class-widget-banner.php:269
+msgid "Only works when screen width is larger than 1024px"
+msgstr "Sólo funciona cuando el ancho de la pantalla es mayor que 1024px"
+
+#: inc/widgets/homepage/class-widget-banner.php:277
+msgid "Banner Visible Height"
+msgstr "Altura visible de banner"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:11
+msgid "Add Call To Action to your homepage."
+msgstr "Agregar llamada a la acción a su página de inicio."
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:14
+msgid "Call To Action"
+msgstr "Llamada de acción"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:171
+#: inc/widgets/homepage/class-widget-custom-content.php:146
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:150
+msgid "Background Image Position"
+msgstr "Posición de imagen de fondo"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:177
+#: inc/widgets/homepage/class-widget-custom-content.php:152
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:156
+msgid "Left Top"
+msgstr "Superior Izquierda"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:178
+#: inc/widgets/homepage/class-widget-custom-content.php:153
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:157
+msgid "Left Center"
+msgstr "Centro izquierda"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:179
+#: inc/widgets/homepage/class-widget-custom-content.php:154
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:158
+msgid "Left Bottom"
+msgstr "Abajo"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:180
+#: inc/widgets/homepage/class-widget-custom-content.php:155
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:159
+msgid "Center Top"
+msgstr "Centro arriba"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:181
+#: inc/widgets/homepage/class-widget-custom-content.php:156
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:160
+msgid "Center Center"
+msgstr "Centro del centro"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:182
+#: inc/widgets/homepage/class-widget-custom-content.php:157
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:161
+msgid "Center Bottom"
+msgstr "Centro inferior"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:183
+#: inc/widgets/homepage/class-widget-custom-content.php:158
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:162
+msgid "Right Top"
+msgstr "Arriba a la derecha"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:184
+#: inc/widgets/homepage/class-widget-custom-content.php:159
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:163
+msgid "Right Center"
+msgstr "Centro derecho"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:185
+#: inc/widgets/homepage/class-widget-custom-content.php:160
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:164
+msgid "Right Bottom"
+msgstr "Derecha inferior"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:193
+#: inc/widgets/homepage/class-widget-custom-content.php:168
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:172
+msgid "Background Image Size"
+msgstr "Tamaño de imagen de fondo"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:251
+msgid "1 column, no media"
+msgstr "1 columna, sin medios"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:252
+msgid "1 column, media top, text bottom"
+msgstr "1 columna, tapa de los medios, parte inferior del texto"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:253
+msgid "1 column, media bottom, text top"
+msgstr "1 columna, parte inferior de los medios, tapa del texto"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:254
+msgid "2 column, media left, text right"
+msgstr "2 columna, los medios se fueron, texto a la derecha"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:255
+msgid "2 column, text left, media right"
+msgstr "2 columna, texto dejado, derecho de los medios"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:263
+msgid "Heading"
+msgstr "Encabezado"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:270
+msgid "Description"
+msgstr "Descripción"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:277
+msgid "Button Text"
+msgstr "Texto del botón"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:284
+msgid "Button Link"
+msgstr "Etiqueta del Botón"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:298
+msgid "Text Alignment"
+msgstr "Alineación del texto"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:300
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:301
+msgid "Center"
+msgstr "Centrar"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:302
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/widgets/homepage/class-widget-call-to-action.php:311
+msgid "Media"
+msgstr "Media"
+
+#: inc/widgets/homepage/class-widget-custom-content.php:11
+msgid "Add Custom Content to your homepage."
+msgstr "Añada contenido personalizado a su página de inicio."
+
+#: inc/widgets/homepage/class-widget-custom-content.php:206
+msgid "Add an Overlay"
+msgstr "Agregar una superposición"
+
+#: inc/widgets/homepage/class-widget-custom-content.php:217
+msgid "Overlay Color"
+msgstr "Color de superposición"
+
+#: inc/widgets/homepage/class-widget-custom-content.php:229
+msgid "Overlay Opacity"
+msgstr "Opacidad de la superposición"
+
+#: inc/widgets/homepage/class-widget-featured-category.php:11
+msgid "Add Featured Category to your homepage."
+msgstr "Añada la categoría de destacados a su página principal."
+
+#: inc/widgets/homepage/class-widget-featured-category.php:14
+msgid "Featured Category"
+msgstr "Categoría destacada"
+
+#: inc/widgets/homepage/class-widget-featured-category.php:52
+#: inc/widgets/normal/class-widget-category.php:75
+msgid "No category selected."
+msgstr "Ninguna categoría seleccionada."
+
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:11
+msgid "Add MailChimp for WordPress Singup form to your homepage."
+msgstr ""
+"Agregar Mailchimp para WordPress Singup formulario a su página de inicio."
+
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:14
+msgid "MailChimp Signup Form"
+msgstr "Formulario de inscripción Mailchimp"
+
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:227
+msgid "Choose a form"
+msgstr "Elija un formulario"
+
+#: inc/widgets/homepage/class-widget-mc4wp-signup.php:236
+msgid "Center the form"
+msgstr "Centrar el formulario"
+
+#: inc/widgets/homepage/class-widget-posts.php:16
+msgid "Add posts to your homepage."
+msgstr "Añada mensajes a su página de inicio."
+
+#: inc/widgets/homepage/class-widget-posts.php:261
+msgid "Choose Posts"
+msgstr "Elegir mensajes"
+
+#: inc/widgets/homepage/class-widget-posts.php:264
+#: inc/widgets/homepage/class-widget-products.php:287
+#: inc/widgets/normal/class-widget-post.php:198
+msgid "Latest"
+msgstr "Últimos"
+
+#: inc/widgets/homepage/class-widget-posts.php:265
+#: inc/widgets/homepage/class-widget-products.php:288
+#: inc/widgets/normal/class-widget-post.php:199
+msgid "From a selected category"
+msgstr "De una categoría seleccionada"
+
+#: inc/widgets/homepage/class-widget-posts.php:266
+#: inc/widgets/normal/class-widget-post.php:200
+msgid "Featured posts"
+msgstr "Publicaciones destacadas"
+
+#: inc/widgets/homepage/class-widget-posts.php:267
+#: inc/widgets/normal/class-widget-post.php:201
+msgid "Most viewed"
+msgstr "Más vistos"
+
+#: inc/widgets/homepage/class-widget-posts.php:268
+#: inc/widgets/normal/class-widget-post.php:202
+msgid "Most liked"
+msgstr "Más apreciado"
+
+#: inc/widgets/homepage/class-widget-posts.php:269
+#: inc/widgets/normal/class-widget-post.php:203
+msgid "Most commented"
+msgstr "Más comentados"
+
+#: inc/widgets/homepage/class-widget-posts.php:270
+#: inc/widgets/normal/class-widget-post.php:204
+msgid "From a selected format"
+msgstr "Desde un formato seleccionado"
+
+#: inc/widgets/homepage/class-widget-posts.php:280
+#: inc/widgets/homepage/class-widget-products.php:411
+#: inc/widgets/normal/class-widget-post.php:214
+msgid "Choose a category"
+msgstr "Por favor elige una categoría"
+
+#: inc/widgets/homepage/class-widget-posts.php:327
+msgid "2 Column"
+msgstr "1 Columna"
+
+#: inc/widgets/homepage/class-widget-posts.php:392
+msgid "1+2 Columns"
+msgstr "1 + 2 columnas"
+
+#: inc/widgets/homepage/class-widget-posts.php:393
+msgid "1+4 Columns"
+msgstr "4 columnas"
+
+#: inc/widgets/homepage/class-widget-posts.php:394
+msgid "2+3 Columns"
+msgstr "2 + 3 columnas"
+
+#: inc/widgets/homepage/class-widget-posts.php:395
+msgid "1+2+2 Columns"
+msgstr "1 + 2 + 2 columnas"
+
+#: inc/widgets/homepage/class-widget-posts.php:439
+#: inc/widgets/normal/class-widget-post.php:256
+msgid "Display selected post meta"
+msgstr "Mostrar meta de post seleccionada"
+
+#: inc/widgets/homepage/class-widget-posts.php:481
+msgid "Comment Count"
+msgstr "Cuenta de comentarios"
+
+#: inc/widgets/homepage/class-widget-posts.php:488
+msgid "Show at most x posts per page"
+msgstr "Mostrar en la mayoría de los mensajes x por página"
+
+#: inc/widgets/homepage/class-widget-posts.php:497
+msgid "Display Pagination"
+msgstr "Mostrar paginación"
+
+#: inc/widgets/homepage/class-widget-product-category.php:11
+msgid "Add Product Categories to your homepage."
+msgstr "Añada categorías de productos a su página de inicio."
+
+#: inc/widgets/homepage/class-widget-product-category.php:14
+msgid "Product Categories"
+msgstr "Categorías de Productos"
+
+#: inc/widgets/homepage/class-widget-product-category.php:57
+msgid "No product category selected."
+msgstr "Producto"
+
+#: inc/widgets/homepage/class-widget-products.php:13
+msgid "Add Products to your homepage."
+msgstr "Añadir los productos seleccionados al carro"
+
+#: inc/widgets/homepage/class-widget-products.php:16
+msgid "Products"
+msgstr "Productos por pagina"
+
+#: inc/widgets/homepage/class-widget-products.php:34
+msgid "No products were found matching your selection."
+msgstr "No se encontraron productos que coincidan con su selección."
+
+#: inc/widgets/homepage/class-widget-products.php:284
+msgid "Choose products"
+msgstr "Ver productos"
+
+#: inc/widgets/homepage/class-widget-products.php:289
+msgid "Featured"
+msgstr "Destacados"
+
+#: inc/widgets/homepage/class-widget-products.php:309
+msgid "Carousel"
+msgstr "Carrusel"
+
+#: inc/widgets/homepage/class-widget-products.php:336
+msgid "6 Columns"
+msgstr "6 columnas"
+
+#: inc/widgets/homepage/class-widget-products.php:337
+msgid "7 Columns"
+msgstr "7 columnas"
+
+#: inc/widgets/homepage/class-widget-products.php:338
+msgid "8 Columns"
+msgstr "8 columnas"
+
+#: inc/widgets/homepage/class-widget-products.php:369
+msgid "Show at most x products in the section"
+msgstr "Mostrar en la mayoría de los productos x de la sección"
+
+#: inc/widgets/homepage/class-widget-products.php:403
+msgid ""
+"Please note: For column 6/7/8, products text and labels will be hiddeen when "
+"home page has sidebar."
+msgstr ""
+"Tenga en cuenta: para la columna 6/7/8, los productos de texto y las "
+"etiquetas se hiddeen cuando la Página principal tiene barra lateral."
+
+#: inc/widgets/normal/class-widget-banner.php:11
+msgid "Add an ad banner."
+msgstr "Agregar un Banner publicitario."
+
+#: inc/widgets/normal/class-widget-banner.php:14
+msgid "Fallsky Ad"
+msgstr "Fallsky ad"
+
+#: inc/widgets/normal/class-widget-banner.php:73
+msgid "URL:"
+msgstr "URL"
+
+#: inc/widgets/normal/class-widget-banner.php:80
+msgid "Ad Image:"
+msgstr "Imagen de anuncio:"
+
+#: inc/widgets/normal/class-widget-category.php:11
+msgid "Display your selected categories with background image"
+msgstr "Mostrar las categorías seleccionadas con la imagen de fondo"
+
+#: inc/widgets/normal/class-widget-category.php:14
+msgid "Fallsky Category"
+msgstr "Categoría Fallsky"
+
+#: inc/widgets/normal/class-widget-category.php:89
+msgid "Title"
+msgstr "Título"
+
+#: inc/widgets/normal/class-widget-category.php:110
+msgid "Stripe"
+msgstr "Raya"
+
+#: inc/widgets/normal/class-widget-post.php:11
+msgid "Display your posts."
+msgstr "Muestre sus mensajes."
+
+#: inc/widgets/normal/class-widget-post.php:14
+msgid "Fallsky Posts"
+msgstr "Fallsky posts"
+
+#: inc/widgets/normal/class-widget-post.php:82
+#, php-format
+msgid "%s View"
+msgid_plural "%s Views"
+msgstr[0] "%s View"
+msgstr[1] "%s vistas"
+
+#: inc/widgets/normal/class-widget-post.php:91
+#, php-format
+msgid "%s Like"
+msgid_plural "%s Likes"
+msgstr[0] "%s como"
+msgstr[1] "%s Me gusta"
+
+#: inc/widgets/normal/class-widget-post.php:125 template-parts/loop/none.php:13
+msgid "Nothing Found"
+msgstr "Sin resultados"
+
+#: inc/widgets/normal/class-widget-post.php:189
+#: inc/widgets/normal/class-widget-profile.php:90
+#: inc/widgets/normal/class-widget-social.php:53
+msgid "Title:"
+msgstr "Título:"
+
+#: inc/widgets/normal/class-widget-post.php:195
+msgid "Choose Posts:"
+msgstr "Seleccione posts:"
+
+#: inc/widgets/normal/class-widget-post.php:229
+msgid "Style:"
+msgstr "Estilo:"
+
+#: inc/widgets/normal/class-widget-post.php:232
+msgid "Small Thumbnail"
+msgstr "Miniatura pequeña"
+
+#: inc/widgets/normal/class-widget-post.php:233
+msgid "Large Thumbnail"
+msgstr "Miniatura grande"
+
+#: inc/widgets/normal/class-widget-post.php:234
+msgid "Large First + Small Thumbnail"
+msgstr "Miniatura grande primero + pequeña"
+
+#: inc/widgets/normal/class-widget-post.php:242
+msgid "Show list number"
+msgstr "Mostrar número de lista"
+
+#: inc/widgets/normal/class-widget-post.php:249
+msgid "Number of posts to show"
+msgstr "Número de artículos para mostrar"
+
+#: inc/widgets/normal/class-widget-profile.php:11
+msgid "Add brief information about you and your site."
+msgstr "Añada información breve sobre usted y su sitio."
+
+#: inc/widgets/normal/class-widget-profile.php:14
+msgid "Fallsky Profile"
+msgstr "Perfil de Fallsky"
+
+#: inc/widgets/normal/class-widget-profile.php:97
+msgid "Photo:"
+msgstr "Foto:"
+
+#: inc/widgets/normal/class-widget-profile.php:105
+msgid "Sub Title (optional):"
+msgstr "Sub-título (opcional):"
+
+#: inc/widgets/normal/class-widget-profile.php:112
+msgid "Description:"
+msgstr "Descripción"
+
+#: inc/widgets/normal/class-widget-profile.php:119
+msgid "Signature Image (optional):"
+msgstr "Condominio/Villa/Parcela/Otro (opcional)"
+
+#: inc/widgets/normal/class-widget-profile.php:129
+msgid "Signature Image Max Width:"
+msgstr "Anchura máxima de la imagen de la firma:"
+
+#: inc/widgets/normal/class-widget-profile.php:139
+msgid "Button Text (optional):"
+msgstr "Etiqueta del Botón"
+
+#: inc/widgets/normal/class-widget-profile.php:146
+msgid "Button URL (optional):"
+msgstr "URL del botón (opcional):"
+
+#: inc/widgets/normal/class-widget-social.php:11
+msgid "Display your social menu."
+msgstr "Muestre su menú social."
+
+#: inc/widgets/normal/class-widget-social.php:14
+msgid "Fallsky Social"
+msgstr "Fallsky social"
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr "Buscar por:"
+
+#: template-parts/loop/none.php:8
+msgid "It looks like nothing was found. Maybe try a search?"
+msgstr "Parece que no encontraron nada. ¿Quizás intentar una búsqueda?"
+
+#. Theme Name of the plugin/theme
+msgid "Fallsky"
+msgstr "Fallsky"
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.loftocean.com/fallsky"
+msgstr "http://demo.loftocean.com/fallsky"
+
+#. Description of the plugin/theme
+msgid "Fallsky is a lifestyle WordPress magazine theme."
+msgstr "Fallsky es un tema de estilo de vida de WordPress Magazine."
+
+#. Author of the plugin/theme
+msgid "Loft.Ocean"
+msgstr "Loft. Ocean"
+
+#. Author URI of the plugin/theme
+msgid "http://www.loftocean.com"
+msgstr "http://www.loftocean.com"
+
+#. Template Name of the plugin/theme
+msgid "With Left Sidebar"
+msgstr "Con barra lateral izquierda"
