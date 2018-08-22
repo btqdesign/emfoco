@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Ultimate Addons for Visual Composer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-22 11:53-0500\n"
-"PO-Revision-Date: 2018-08-22 11:58-0500\n"
+"PO-Revision-Date: 2018-08-22 12:05-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_MX\n"
@@ -6691,7 +6691,7 @@ msgstr "Leer Más Texto"
 #: modules/ultimate_icon_timeline.php:1078 modules/ultimate_info_box.php:551
 #, fuzzy
 msgid "Customize the read more text."
-msgstr "Personalice el texto Read more."
+msgstr "Personalice el texto Leer más."
 
 #: modules/ultimate_icon_timeline.php:694
 #, fuzzy
