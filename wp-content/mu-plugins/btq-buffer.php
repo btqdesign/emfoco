@@ -58,6 +58,14 @@ add_filter('final_output', function($output) {
 	$output = str_replace(" type='text/css'", '', $output);
 	$output = str_replace(' type="text/css"', '', $output);
 
+	$output = str_replace('www.emfocoydesarrollo.org/sector/productos-derivados-de-la-colmena/"', 'www.emfocoydesarrollo.org/derivados-de-la-colmena/"', $output);
+	$output = str_replace('www.emfocoydesarrollo.org/sector/semillas/"', 'www.emfocoydesarrollo.org/semillas-2/"', $output);
+	$output = str_replace('www.emfocoydesarrollo.org/sector/madera/"', 'www.emfocoydesarrollo.org/madera-2/"', $output);
+	$output = str_replace('www.emfocoydesarrollo.org/sector/chicle-organico/"', 'www.emfocoydesarrollo.org/chicle-organico/"', $output);
+	$output = str_replace('www.emfocoydesarrollo.org/sector/cafe-organico/"', 'www.emfocoydesarrollo.org/cafe-organico/"', $output);
+
+
+
 	// Optimizacion de cache, elimina query vars de version y ver
 	$patt = array(
 	'/(("|\')https?:\/\/((emfoco\.idevol\.net)|(www\.emfocoydesarrollo\.org))\/[a-zA-Z0-9\._\/-]*\.(css|js))(\?(ver|version)=[a-zA-Z0-9%_.-]{1,8})("|\')/'
