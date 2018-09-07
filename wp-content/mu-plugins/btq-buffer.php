@@ -64,8 +64,6 @@ add_filter('final_output', function($output) {
 	$output = str_replace('www.emfocoydesarrollo.org/sector/chicle-organico/"', 'www.emfocoydesarrollo.org/chicle-organico/"', $output);
 	$output = str_replace('www.emfocoydesarrollo.org/sector/cafe-organico/"', 'www.emfocoydesarrollo.org/cafe-organico/"', $output);
 	
-	$output = str_replace('https://www.emfocoydesarrollo.org/que-es-fip4-comfoco"', 'www.emfocoydesarrollo.org"', $output);
-
 
 
 	// Optimizacion de cache, elimina query vars de version y ver
