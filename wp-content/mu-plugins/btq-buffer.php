@@ -53,6 +53,8 @@ add_filter('final_output', function($output) {
 	$output = str_replace('https://www.sitemaps.org', 'http://www.sitemaps.org', $output);
 	$output = str_replace('https://ogp.me', 'http://ogp.me', $output);
 	
+	$output = str_replace('https://www.expoforestal.gob.mx', 'http://www.expoforestal.gob.mx', $output);
+	
 	$output = str_replace(" type='text/javascript'", '', $output);
 	$output = str_replace(' type="text/javascript"', '', $output);
 	$output = str_replace(" type='text/css'", '', $output);
