@@ -1252,8 +1252,7 @@ body .select2-container--open .select2-dropdown--below {
   font-size: 1.125rem;
   font-weight: 600;
   letter-spacing: 0;
-  text-transform: capitalize; }
-
+}
 /* Product Reviews
    ========================================================================== */
 .woocommerce #reviews h3 {
@@ -1377,8 +1376,7 @@ body .select2-container--open .select2-dropdown--below {
     font-size: 16px;
     font-size: 1rem;
     font-weight: 600;
-    letter-spacing: 0;
-    text-transform: capitalize; }
+    letter-spacing: 0;}
   .woocommerce-page.woocommerce-cart .cart-collaterals .cross-sells ul.products li.product {
     margin-top: 20px; }
 .woocommerce-page.woocommerce-cart .woocommerce-shipping-calculator {
@@ -1509,8 +1507,7 @@ body .select2-container--open .select2-dropdown--below {
   margin-bottom: 30px;
   font-size: 18px;
   font-size: 1.125rem;
-  font-weight: 600;
-  text-transform: capitalize; }
+  font-weight: 600;}
 .woocommerce-checkout .checkout.woocommerce-checkout .form-row {
   margin-bottom: 15px; }
 .woocommerce-checkout .checkout.woocommerce-checkout #customer_details {

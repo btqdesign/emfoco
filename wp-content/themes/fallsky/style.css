@@ -486,8 +486,7 @@ img.alignright {
   font-size: 12px !important;
   font-size: 0.75rem !important;
   letter-spacing: 0.05em;
-  line-height: 20px;
-  text-transform: capitalize; }
+  line-height: 20px;}
   .no-touch .tagcloud a:hover, .tagcloud a:focus {
     text-decoration: underline; }
 
@@ -1806,7 +1805,6 @@ ul.social-nav {
   position: relative;
   display: inline-block;
   color: inherit;
-  text-transform: capitalize;
   opacity: 0.75; }
 .fallsky-fullmenu nav ul li.current-menu-item > a, .fallsky-fullmenu nav ul li.current-menu-ancestor > a, .no-touch .fallsky-fullmenu nav ul li a:hover {
   opacity: 1; }
